@@ -1,0 +1,1327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"
+	schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Regula Benedicti</title>
+				<author>Benedictus Nursianus</author>
+				<editor xml:id="AD">Andrew Dunning</editor>
+			</titleStmt>
+			<publicationStmt>
+				<authority/>
+				<availability>
+					<licence target="http://creativecommons.org/licences/by-sa/4.0/">Provided under a Creative Commons Attribution-ShareAlike 4.0 International Licence.</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>St. Gallen</settlement>
+						<repository>Stiftsbibliothek</repository>
+						<idno>Cod. Sang. 914</idno>
+					</msIdentifier>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div subtype="work" type="textpart">
+					<div n="Prol" subtype="chapter" type="textpart">
+						<pb n="1"/>
+						<head rend="large capitals">
+							<lb/>I<supplied reason="omitted">n</supplied> nomine <expan><abbr>d</abbr><ex>omi</ex><abbr rend="supraline">n</abbr><abbr>i</abbr></expan> nostri <persName><expan><abbr>i<am>ħ</am></abbr><ex>es</ex><abbr>u</abbr></expan></persName> 
+							<lb/><persName><expan><abbr><am>x<g ref="#e665">p</g></am></abbr><ex>christ</ex><abbr>i</abbr></expan></persName> incipit prologus regule 
+							<lb/>patris eximii beati <persName>benedicti</persName>.
+						</head>
+						<p>
+							<lb/><milestone n="1" unit="section"/><subst><del><hi rend="dropcap2 red">O</hi>bsculta<metamark function="alt">:</metamark></del><add place="right">Absculta</add></subst> o fili pręcepta magis
+							<lb break="no"/>tri et inclina aurem cordis tui· et 
+							<lb/>admonitionem pii patris libenter exci
+							<lb break="no"/>pe et <expan>efficacit<ex>er</ex></expan> comple· <milestone n="2" unit="section"/>ut ad eum per 
+							<lb/>oboedientię laborem redeas<g ref="#f161">;</g> a quo per 
+							<lb/>inoboedientię desidiam recesseras; 
+							<lb/><milestone n="3" unit="section"/>Ad te ergo nunc mi<unclear>hi</unclear> sermo dirigitur<g ref="#f161">;</g> 
+							<lb/>quisquis abrenuntians propriis <expan>uolunta
+								<lb break="no"/>tib<am>;</am><ex>us</ex></expan><metamark function="alt">:</metamark> <expan><abbr>d</abbr><ex>omi</ex><abbr rend="supraline">no</abbr></expan> <persName><expan><abbr><am>x<g ref="#e665">p</g></am></abbr><ex>christ</ex><abbr>o</abbr></expan></persName> uero regi militaturus· 
+							<lb/>oboedientię fortissima <expan>at<am>;</am><ex>que</ex></expan> pręcla
+							<lb break="no"/>ra arma sumis; <milestone n="4" unit="section"/>In primis ut quidquid 
+							<lb/>agendum inchoas bonum ab eo perfici in 
+							<pb n="2"/>
+							<lb break="no"/>stantissima oratione deposcas; 
+							<lb/><milestone n="5" unit="section"/>Ut qui nos iam in filiorum dignatus 
+							<lb/>est numero computare· non<metamark function="alt">:</metamark> debet 
+							<lb/>aliquando de malis <expan><abbr>actib<am>;</am></abbr><ex>us</ex></expan> <expan><abbr rend="supraline">n</abbr><ex>ost</ex><abbr rend="supraline">ris</abbr></expan> con
+							<lb break="no"/>tristari<g ref="#f161">;</g> <milestone n="6" unit="section"/>ita enim ei omni tempore 
+							<lb/>de bonis suis in <expan>nob<ex>is</ex></expan> <expan>parend<abbr rend="supraline">u</abbr><ex>m</ex></expan> <expan><abbr rend="supraline">e</abbr><ex>st</ex></expan><g ref="#f161">;</g> ut <expan><abbr rend="supaline">n</abbr><ex>on</ex></expan> 
+							<lb/>solum iratus <expan>pa<abbr rend="supraline">t</abbr><ex>er</ex></expan> suos <expan><abbr rend="supaline">n</abbr><ex>on</ex></expan> aliquando 
+							<lb/>filios exheredet<g ref="#f161">;</g> <milestone n="7" unit="section"/>sed nec ut metuen
+							<lb break="no"/>dus <expan><abbr>d</abbr><ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex><abbr>s</abbr></expan> irritatus<metamark function="alt">:</metamark> <del rend="erased"><gap reason="illegible" quantity="1" unit="character"/></del>malis <expan><abbr rend="supraline">n</abbr><ex>ost</ex><abbr rend="supraline">ris</abbr></expan><g ref="#f161">;</g> ut 
+							<lb/>nequissimos seruos perpetuam tradat 
+							<lb/>ad poenam⸵ qui <expan>e<abbr rend="supraline">u</abbr><ex>m</ex></expan> sequi noluerint 
+							<lb/>ad gloriam; <milestone n="8" unit="section"/>Exsurgamus ergo tan
+							<lb break="no"/>dem aliquando· excitante nos 
+							<lb/>scriptura· ac dicente; Hora est 
+							<lb/>iam nos de somno surgere; <milestone n="9" unit="section"/>et aper
+							<lb break="no"/>tis oculis <expan><abbr rend="supraline">n</abbr><ex>ost</ex><abbr rend="supraline">ris</abbr></expan> ad <expan>d<ex>e</ex><abbr rend="supraline">i</abbr>fic<abbr rend="supraline">u</abbr><ex>m</ex></expan> lumen<metamark function="alt">:</metamark> ad
+							<lb break="no"/>tonitis <expan>aurib<am>;</am><ex>us</ex></expan>· <expan>audiam<ex>us</ex></expan> diuina 
+							<lb/>coti<choice><sic>th</sic><corr>d</corr></choice>ię clamans quid nos<metamark function="alt">:</metamark> admo
+							<pb n="3"/>net uox dicens; <milestone n="10" unit="section"/>Hodie si uocem eius audi
+							<lb break="no"/>eritis nolite obdurare corda uestra; 
+							<lb/><milestone n="11" unit="section"/>Et iterum: Qui habet aures audiendi· au
+							<lb break="no"/>diat quid <expan><abbr rend="supraline">sp</abbr><ex>iritu</ex><abbr rend="supraline">s</abbr></expan> dicat ecclesiis. <milestone n="12" unit="section"/>Et quid 
+							<lb/><expan>di<abbr rend="supraline">c</abbr><ex>it</ex></expan><choice><orig>;</orig><reg>?</reg></choice> Uenite filii audite me timorem 
+							<lb/><expan><abbr>d</abbr><ex>omi</ex><abbr rend="supraline">ni</abbr></expan> docebo uos; <milestone n="13" unit="section"/>Currite dum lumen 
+							<lb/>uitę habe<del rend="erased"><unclear>a</unclear></del>tis<g ref="#f161">;</g> ne tenebrę mortis 
+							<lb/>uos <expan>con<abbr>p<am>&#x35B;</am></abbr><ex>re</ex>hendant</expan>; <milestone n="14" unit="section"/>Et quęrens <expan><abbr>d</abbr><ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex><abbr>s</abbr></expan>· 
+							<lb/>in multitudine<del rend="erased">m</del> populi<g ref="#f161">;</g> cui hęc cla
+							<lb break="no"/>mat operarium su<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan><g ref="#f161">;</g> Iter<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> <expan>dic<ex>it</ex></expan>· <milestone n="15" unit="section"/>Quis est 
+							<lb/>homo qui uult uitam et cupit uide
+							<lb break="no"/>re dies bonos<choice><orig><g ref="#f161">;</g></orig><reg>?</reg></choice> <milestone n="16" unit="section"/>quod si tu audiens res
+							<lb break="no"/>pondeas· <said>ego</said>· <expan>di<abbr rend="supraline">c</abbr><ex>it</ex></expan> tibi <expan><abbr>d</abbr><ex>eu</ex><abbr rend="supraline">s</abbr></expan>; <milestone n="17" unit="section"/>Si uis habere 
+							<lb/>ueram et perpetu<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> uitam; Prohibe 
+							<lb/>linguam tu<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> a malo· et labia tua 
+							<lb/>ne <expan>loquan<am>&#x33E;</am><ex>ur</ex></expan> dolum; Deuerte a malo 
+							<lb/>et fac bon<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan><g ref="#f161">;</g> inquire pacem et seque
+							<lb break="no"/>re e<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan>; <milestone n="18" unit="section"/>Et c<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> hęc feceritis· oculi mei 
+							<pb n="4"/>
+							<lb/>super uos<g ref="#f161">;</g> et aures meę ad <expan><abbr rend="supraline">p</abbr><ex>re</ex></expan>ces <expan>u<ex>est</ex><abbr rend="supraline">ra</abbr>s</expan>· 
+							<lb/>et antequ<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> me inuocetis<g ref="#f161">;</g> dic<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> uobis 
+							<lb/><quote>ecce adsum</quote>; <milestone n="19" unit="section"/>Quid dulcius <expan>no<abbr rend="stroke">b</abbr><ex>is</ex></expan>: <del rend="erased">ab <!-- restore? --></del>h
+							<lb break="no"/>ac uoce <expan><abbr>d</abbr><ex>omi</ex><abbr rend="supraline">ni</abbr></expan> inuitantis nos fratres 
+							<lb/>carissimi; <milestone n="20" unit="section"/>Ecce pietate sua demons
+							<lb break="no"/>trat <expan>no<abbr rend="stroke">b</abbr><ex>is</ex></expan> <expan><abbr>d</abbr><ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex><abbr>s</abbr></expan> ui<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> uitae; <milestone n="21" unit="section"/>Succinctis 
+							<lb/>ergo fide· uel obseruantia <expan>bonor<ex>um</ex></expan> 
+							<lb/>actu<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> l<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan>bis <expan><abbr rend="supraline">n</abbr><ex>ost</ex><abbr rend="supraline">ris</abbr></expan><g ref="#f161">;</g> per ducat<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> euange
+							<lb break="no"/>lii· <expan><am>&#xA751;</am><ex>per</ex>gam<ex>us</ex></expan> itinera eius· ut mere<add place="above">a</add>mur 
+							<lb/>e<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> qui nos uocauit· in regn<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> su<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan><!-- wwait, has that been erased? --> uidere; 
+							<lb/><milestone n="22" unit="section"/>In cuius regni tabernaculo si <expan>uolum<ex>us</ex></expan> 
+							<lb/>habitare⸵ nisi illuc bonis acti<expan><abbr>b<am>;</am></abbr><ex>us</ex></expan>·<!-- assuming the colon is for an erased gloss to the left? --> curri
+							<lb break="no"/>tur· minime peruenit<expan><am>&#x1DD1;</am><ex>ur</ex></expan>; <milestone n="23" unit="section"/>Sed <expan>int<ex>er</ex>rogem<ex>us</ex></expan> 
+							<lb/>c<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> <expan><am>&#xA753;</am><ex>pro</ex></expan>phęta <expan><abbr>d</abbr><ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex><abbr>m</abbr></expan>· dicentes ei; <expan><abbr>D</abbr><ex>omi</ex><abbr rend="supraline">ne</abbr></expan> quis 
+							<lb/>habita<subst><del>u</del><add place="left">b</add></subst>it in ta<subst><del>u</del><add place="left">b</add></subst>ernaculo tuo<g ref="#f161">;</g> aut 
+							<lb/>quis requiescet in monte <expan><abbr>s</abbr><ex>an</ex><abbr rend="overline">c</abbr><ex>t</ex><abbr>o</abbr></expan> tuo<choice><orig>;</orig><reg>?</reg></choice> <milestone n="24" unit="section"/>Post 
+							<lb/>hanc <expan>in<abbr rend="supraline">t</abbr><ex>er</ex>rogation<abbr rend="supraline">e</abbr><ex>m</ex></expan> fratres· audia
+							<lb break="no"/>mus <expan><abbr>d</abbr><ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex><abbr>m</abbr></expan> respondentem· et ostenden
+							<pb n="5" break="no"/>
+							<lb break="no"/>tem nobis uiam ipsius tabernaculi 
+							<lb/><milestone n="25" unit="section"/><add place="overstrike">dicens</add>: Qui ingreditur sine macula 
+							<lb/>et oper<add place="overstrike">a</add>tur iusti<supplied reason="omitted">ti</supplied>am; <milestone n="26" unit="section"/>Qui <add place="overstrike">l</add>oquitur 
+							<lb/>ueritatem in corde suo<g ref="#f161">;</g> qui non egit 
+							<lb/>dolum in lingua sua<g ref="#f161">;</g> <milestone n="27" unit="section"/>qui non fecit proximo 
+							<lb/>suo malum<g ref="#f161">;</g> qui op<add place="above"><expan><am>&#xA753;</am><ex>pro</ex></expan></add><subst><del rend="erased">p</del><add place="mixed">b</add></subst>rium non accepit ad
+							<lb break="no"/>uersus proximum suum; <milestone n="28" unit="section"/>Qui malignum 
+							<lb/>diabolum aliqua suadentem sibi<g ref="#f161">;</g> cum ip
+							<lb break="no"/><add place="overstrike">sa</add> suasione sua a conspecti<expan><abbr>b<am>&#xA76B;</am></abbr><ex>us</ex></expan> cordis sui 
+							<lb/>respuens<g ref="#f161">;</g> deduxit ad nihilum; Et par
+							<lb break="no"/>uulos cogitatos eius tenuit et a<subst><del rend="erased">d</del><add place="above">l</add></subst>lisit 
+							<lb/>ad <persName><expan><abbr><am>x<g ref="#e665">p</g></am></abbr><ex>christu</ex><abbr>m</abbr></expan></persName>; <milestone n="29" unit="section"/>Qui timentes <expan><abbr>d</abbr><ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex><abbr>m</abbr></expan> de bona 
+							<lb/>obseruantia sua non se reddunt ęla
+							<lb break="no"/>tos; Sed ipsa in se bona<g ref="#f161">;</g> non a se posse<g ref="#f161">;</g> 
+							<lb/>sed a <expan><abbr>d</abbr><ex>omi</ex><abbr rend="supraline">no</abbr></expan> fieri existimantes· <milestone n="30" unit="section"/>operant<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> 
+							<lb/>in se <expan><abbr>d</abbr><ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex><abbr>m</abbr></expan> magnificant; Illud c<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> <expan><am>&#xA753;</am><ex>pro</ex></expan>phe
+							<lb break="no"/>ta dicentes; <quote>Non nobis <expan><abbr>d</abbr><ex>omi</ex><abbr rend="supraline">ne</abbr></expan><g ref="#f161">;</g> non <expan>no<abbr rend="stroke">b</abbr><ex>is</ex></expan>
+								<lb/>sed nomini tuo da gloriam;</quote> <milestone n="31" unit="section"/><expan>Si<abbr rend="supraline">c</abbr><ex>ut</ex></expan> nec 
+							<pb n="6"/>
+							<lb/><persName>paulus</persName> apostolus de prędicatione 
+							<lb/>sua sibi aliquid imputauit dicens; 
+							<lb/>Gratia <expan><abbr>d</abbr><ex>e</ex><abbr rend="supraline">i</abbr></expan> sum id quod s<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan><g ref="#f161">;</g> <milestone n="32" unit="section"/>et iter<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> ipse 
+							<lb/><expan>di<abbr rend="supraline">c</abbr><ex>it</ex></expan>· Qui gloriatur<g ref="#f161">;</g> in <expan><abbr>d</abbr><ex>omi</ex><abbr rend="supraline">no</abbr></expan> glorietur; 
+							<lb/><milestone n="33" unit="section"/>Unde et <expan><abbr>d</abbr><ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex><abbr>s</abbr></expan> in euangelio ait; Qui au
+							<lb break="no"/>dit uerba mea <expan><am>∻</am><ex>est</ex></expan><!-- erased? check --> hęc: et facit ea: simi
+							<lb break="no"/>labo eum uiro sapienti qui ędifica
+							<lb break="no"/>uit dom<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> su<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> su<expan><am>&#xA751;</am><ex>per</ex></expan> petram; <milestone n="34" unit="section"/><expan>Uene<abbr rend="supraline">r</abbr><ex>unt</ex></expan> 
+							<lb/>flumina<g ref="#f161">;</g> <expan>flaue<abbr rend="supraline">r</abbr><ex>unt</ex></expan> uenti· et <expan>i<subst><del>n</del><add place="above">m</add></subst>p<subst><del>i</del><add place="inline">e</add></subst>ge<abbr rend="supraline">r</abbr><ex>unt</ex></expan> 
+							<lb/>in domum ill<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan>· et non cecidit<g ref="#f161">;<!-- hybrid --></g> quia 
+							<lb/>fundata erat su<expan><am>&#xA751;</am><ex>per</ex></expan> petr<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan>; <milestone n="35" unit="section"/>Hęc c<expan><abbr rend="supraline">o</abbr><ex>m</ex></expan>
+							<lb break="no"/>plens <expan><abbr>d</abbr><ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex><abbr>s</abbr></expan><g ref="#f161">;</g> expectat nos cottidię. 
+							<lb/>is suis <expan><abbr>s</abbr><ex>an</ex><abbr rend="overline">c</abbr><ex>t</ex><abbr>is</abbr></expan> monitis<g ref="#f161">;</g> factis nos respon
+							<lb break="no"/>dere debere; <milestone n="36" unit="section"/>Ideo <expan>no<abbr rend="stroke">b</abbr><ex>is</ex></expan> <expan><am>&#xA753;</am><ex>pro</ex><abbr rend="supraline">pt</abbr><ex>er</ex></expan> ęmenda
+							<lb break="no"/>tionem malorum huius uitę dies ad 
+							<lb/>indutias relaxant<expan><am>&#x1DD1;</am><ex>ur</ex></expan>; <milestone n="37" unit="section"/>Dicente apostolo: 
+							<lb/>an nescis· quia patientia <expan><abbr>d</abbr><ex>e</ex><abbr rend="supraline">i</abbr></expan> ad pęni
+							<lb break="no"/>tenti<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> te adducit? <milestone n="38" unit="section"/>Nam pius <expan><abbr>d</abbr><ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex><abbr>s</abbr></expan> <expan>di<abbr rend="supraline">c</abbr><ex>it</ex></expan>· 
+							<pb n="7"/>
+							<lb/>Nolo mortem peccator<add place="overstrike">i</add>s sed conuer
+							<lb break="no"/>tatur et uiuat; <milestone n="39" unit="section"/>Cum ergo <expan>interrogas
+								<lb break="no"/>sem<ex>us</ex></expan> <expan><abbr>d</abbr><ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex><abbr>m</abbr></expan> fratres de habitatore 
+							<lb/>ta<subst><del>u</del><add place="inline">b</add></subst>ernaculi eius<g ref="#f161">;</g> <expan>audiuim<ex>us</ex></expan> habitan
+							<lb break="no"/>di pręceptum<g ref="#f161">;</g> sed si <expan>comple<add place="above">a</add>m<ex>us</ex></expan> habita
+							<lb break="no"/>toris officium; <milestone n="40" unit="section"/>Ergo pręparanda 
+							<lb/>sun<add place="overstrike">t</add> corda nostra et corpora <expan>n<ex>ost</ex><abbr rend="supraline">ra</abbr></expan> <expan>s<ex>an</ex>c<ex>t</ex><abbr rend="supraline">ae</abbr></expan> <expan><abbr rend="supraline">p</abbr><ex>rae</ex></expan>
+							<lb break="no"/>ceptorum oboedientię· militanda
+							<lb/><milestone n="41" unit="section"/>et quod minus habet· in nos natura 
+							<lb/>possibile<g ref="#f161">;</g> rogemus <expan><abbr>d</abbr><ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex><abbr>m</abbr></expan> ut gratiae 
+							<lb/>suę iu<subst><del>u</del><add place="inline">b</add></subst>eat <expan>no<abbr rend="stroke">b</abbr><ex>is</ex></expan> adiutorium minis
+							<lb break="no"/>trare. <milestone n="42" unit="section"/>Et si fugientes gehennę 
+							<lb/>poenas· ad uitam uolumus perue
+							<lb break="no"/>nire perpetuam· <milestone n="43" unit="section"/>dum adhuc ua
+							<lb break="no"/>cat et in hoc corpore sumus· et haec 
+							<lb/>omnia per hanc lucis uit<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> uacat implere· 
+							<lb/><milestone n="44" unit="section"/>currend<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> et agend<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> est modo· <expan>q<ex>uo</ex><abbr rend="stroke">d</abbr></expan> 
+							<lb/>in <expan><am>&#xA751;</am><ex>per</ex></expan>petuo nobis expediat. <milestone n="45" unit="section"/>Consti
+							<lb break="no"/>tuenda <expan><abbr rend="supraline">e</abbr><ex>st</ex></expan> ergo nobis dominici scola ser
+							<lb break="no"/>uitii; <milestone n="46" unit="section"/>In qua institutione. ni<unclear>h</unclear>il asper<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan>· 
+							<lb/>nih<unclear>i</unclear>l graue<g ref="#f161">;</g> nos constituturos <expan>spe
+								<lb break="no"/>ram<ex>us</ex></expan>; <milestone n="47" unit="section"/>Sed et si quid paululum restric
+							<lb break="no"/>tius<g ref="#f161">;</g> dictante aequitatis ratione<g ref="#f161">;</g> 
+							<lb/><expan><am>&#xA753;</am><ex>pro</ex><abbr rend="supraline">pt</abbr><ex>er</ex></expan> <expan>ę<abbr rend="supraline">m</abbr><ex>en</ex>dation<abbr rend="supraline">e</abbr><ex>m</ex></expan> uitior<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan><g ref="#f161">;</g> uel conser
+							<lb break="no"/>uation<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> caritatis <expan><am>&#xA753;</am><ex>pro</ex></expan>cesserit; <milestone n="48" unit="section"/>Non ilico 
+							<lb/>pauore ∻re:fugias ui<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> salutis<g ref="#f161">;<!-- hybrid --></g> 
+							<lb/>quę non est nisi angusto initio incipien
+							<lb break="no"/>da. <milestone n="49" unit="section"/>Processu uero conuersationis<g ref="#f161">;</g> 
+							<lb/>et fidei dilatato corde inęnarrabili 
+							<lb/>dilectionis dulcedine curritur uia 
+							<lb/>mandatorum <expan><abbr>d</abbr><ex>e</ex><abbr rend="supraline">i</abbr></expan>; <milestone n="50" unit="section"/>Ut ab ipsius numqu<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> 
+							<lb/>magisterio:· discedentes<g ref="#f161">;</g> in eius doctri
+							<lb break="no"/>nam usque ad mortem in monasterio 
+							<lb/><expan><am>&#xA751;</am><ex>per</ex></expan>seuerantes; Passioni<expan><abbr>b<am>&#xA76B;</am></abbr><ex>us</ex></expan> <persName><expan><abbr><am>x<g ref="#e665">p</g></am></abbr><ex>christ</ex><abbr>i</abbr></expan></persName> <expan><am>&#xA751;</am><ex>per</ex></expan> patien
+							<lb break="no"/>tiam participemur; Ut et regno eius 
+							<lb/>mereamur esse consortes; Amen;
+						</p>
+						<div subtype="explicit" type="textpart">
+							<head><add resp="#sp"><expan>Expli<abbr rend="supraline">c</abbr><ex>it</ex></expan> <expan><am>&#xA753;</am><ex>pro</ex></expan>logus<subst><del>;</del><add place="inline">·</add></subst></add></head>
+						</div>
+					</div>
+					<div n="Cap" subtype="capitula" type="textpart">
+						<head rend="red">
+							<lb/>Incipiunt capitula regulae mo
+							<lb break="no"/>nasteriorum·
+						</head>
+						<list>
+							<lb/><item><num rend="red">I</num> De generibus· <add place="above" resp="#sp">uel </add>uita monachorum</item>
+							<lb/><item><num rend="red">II</num> Qualis debeat esse abbas;</item>
+							<lb/><item><num rend="red">III</num> De adhibendis ad consili<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> fratri<expan><abbr>b<am>&#xA76B;</am></abbr><ex>us</ex></expan></item>
+							<lb/><item><num rend="red">IIII</num> Quę <expan><abbr rend="supraline">s</abbr><ex>unt</ex></expan> instrumenta <expan>bonor<ex>um</ex></expan> <expan>oper<ex>um</ex></expan></item>
+							<lb/><item><num rend="red">V</num> De obedientia <expan>discipulor<ex>um</ex></expan> qualis sit</item>
+							<lb/><item><num rend="red">VI</num> De taciturnitate</item>
+							<lb/><item><num rend="red">VII</num> De humilitate.</item>
+							<lb/><item><num rend="red">VIII</num> De officiis diuinis in noctibus</item>
+							<lb/><item><num rend="red">VIIII</num> Quanti psalmi dicendi <expan><abbr rend="supraline">s</abbr><ex>unt</ex></expan> noct<expan><am>&#x1DD1;</am><ex>ur</ex></expan>nis horis;</item>
+							<lb/><item><num rend="red">X</num> <expan>Quali<abbr rend="supraline">t</abbr><ex>er</ex></expan> aestatis t<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan>pore agat<expan><am>&#x1DD1;</am><ex>ur</ex></expan> noct<expan><am>&#x1DD1;</am><ex>ur</ex></expan>na laus</item>
+							<lb/><item><num rend="red">XI</num> Qualit<expan><am>&#x33E;</am><ex>er</ex></expan> dominicas die<expan><abbr>b<am>&#xA76B;</am></abbr><ex>us</ex></expan> uigilię agantur</item>
+							<lb/><item><num rend="red">XII</num> Qualit<expan><am>&#x33E;</am><ex>er</ex></expan> matutinorum sol<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan>nitas agatur</item>
+							<lb/><item><num rend="red">XIII</num> Priuatis die<expan><abbr>b<am>&#xA76B;</am></abbr><ex>us</ex></expan> matutini agantur</item>
+							<lb/><item><num rend="red">XIIII</num> In natalitiis <expan><abbr>s</abbr><ex>an</ex><abbr rend="overline">c</abbr><ex>t</ex><abbr>or</abbr><ex>um</ex></expan> qualit<expan><am>&#x33E;</am><ex>er</ex></expan> uigilię agantur</item>
+							<lb/><item><num rend="red">XV</num> Alleluia <expan><am>&#xA757;</am><ex>qui</ex><abbr>b<am>&#xA76B;</am></abbr><ex>us</ex></expan> temporibus dicatur</item>
+							<lb/><item><num rend="red">XVI</num> Qualit<expan><am>&#x33E;</am><ex>er</ex></expan> diuina opera <expan><am>&#xA751;</am><ex>per</ex></expan> di<expan><abbr rend="supraline">e</abbr><ex>n</ex></expan> agantur</item>
+							<pb n="10"/>
+							<lb/><item><num rend="red">XVII</num> Quanti psalmi <expan><am>&#xA751;</am><ex>per</ex></expan> easd<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> horas dicendi <expan><abbr rend="supraline">s</abbr><ex>unt</ex></expan></item>
+							<lb/><item><num rend="red">XVIII</num> Quo ordine ipsi psalmi dicendi sunt</item>
+							<lb/><item><num rend="red">XVIIII</num> De disciplina psallendi;</item>
+							<lb/><item><num rend="red">XX</num> De reuerentia orationis;</item>
+							<lb/><item><num rend="red">XXI</num> De cani monasterii quales debeant <expan><abbr rend="supraline">e</abbr><ex>ss</ex><abbr rend="supraline">e</abbr></expan></item>
+							<lb/><item><num rend="red">XXII</num> Quomodo dormiant monachi;</item>
+							<lb/><item><num rend="red">XXIII</num> De exc<expan><abbr rend="supraline">o</abbr><ex>m</ex></expan>municatione culparum</item>
+							<lb/><item><num rend="red">XXIIII</num> Qualis debeat <expan><abbr rend="supraline">e</abbr><ex>ss</ex><abbr rend="supraline">e</abbr></expan> modus excommunicationis;</item>
+							<lb/><item><num rend="red">XXV</num> De grauioribus culpis;</item>
+							<lb/><item><num rend="red">XXVI</num> De his <expan><am>&#xA757;</am><ex>qui</ex></expan> sine iussione iungunt<expan><am>&#x1DD1;</am><ex>ur</ex></expan> se excommunicatis;</item>
+							<lb/><item><num rend="red">XXVII</num> Qualit<expan><am>&#x33E;</am><ex>er</ex></expan> debeat abba sollicitus <expan><abbr rend="supraline">e</abbr><ex>ss</ex><abbr rend="supraline">e</abbr></expan> circa excommunicatos</item>
+							<lb/><item><num rend="red">XXVIII</num> De his <expan><am>&#xA757;</am><ex>qui</ex></expan> sepius correpti ęm<expan><abbr rend="supraline">e</abbr><ex>n</ex></expan>dare noluerint</item>
+							<lb/><item><num rend="red">XXVIIII</num> Si debeant iterum recipi fratres exeuntes de monasterio</item>
+							<lb/><item><num rend="red">XXX</num> Pueri minori ętate qualit<expan><am>&#x33E;</am><ex>er</ex></expan> corripiantur</item>
+							<lb/><item><num rend="red">XXXI</num> Qualis debeat <expan><abbr rend="supraline">e</abbr><ex>ss</ex><abbr rend="supraline">e</abbr><am>.</am></expan> cellerarius; <add place="above" resp="#sp">monasterii</add></item>
+							<lb/><item><num rend="red">XXXII</num> De ferramentis <expan>u<ex>e</ex><abbr rend="stroke">l</abbr></expan> re<expan><abbr>b<am>&#xA76B;</am></abbr><ex>us</ex></expan> monasterii</item>
+							<lb/><item><num rend="red">XXXIII</num> Si quid debeant monachi <expan><am>&#xA753;</am><ex>pro</ex></expan>pri<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> habere</item>
+							<lb/><item><num rend="red">XXXIIII</num> Si <expan>o<abbr rend="supraline">m</abbr><ex>nes</ex></expan> ęqualit<expan><am>&#x33E;</am><ex>er</ex></expan> debeant necessaria accipere;</item>
+							<pb n="11"/>
+							<lb/><item><num rend="red">XXXV</num> De septimanariis coquine;</item>
+							<lb/><item><num rend="red">XXXVI</num> De infirmis fratribus</item>
+							<lb/><item><num rend="red">XXXVII</num> De senibus uel infantibus;</item>
+							<lb/><item><num rend="red">XXXVIII</num> De ebdomadario lectore</item>
+							<lb/><item><num rend="red">XXXVIIII</num> De mensura cibi;</item>
+							<lb/><item><num rend="red">XL</num> De mensura potus;</item>
+							<lb/><item><num rend="red">XLI</num> Quibus horis oportet reficere <expan>f<abbr rend="overline">r</abbr><ex>atre</ex>s</expan></item>
+							<lb/><item><num rend="red">XLII</num> Ut post c<expan><abbr rend="supraline">o</abbr><ex>m</ex></expan>pletorium nemo loquat<expan><am>&#x1DD1;</am><ex>ur</ex></expan></item>
+							<lb/><item><num rend="red">XLIII</num> De his <expan><am>&#xA757;</am><ex>qui</ex></expan> ad opus <expan><abbr>d</abbr><ex>e</ex><abbr rend="supraline">i</abbr></expan> uel ad m<expan><abbr rend="supraline">e</abbr><ex>n</ex></expan>sa<supplied reason="omitted">m</supplied> tarde <expan>occur<abbr rend="supraline">r</abbr><ex>unt</ex></expan></item>
+							<lb/><item><num rend="red">XLIIII</num> De his <expan><am>&#xA757;</am><ex>qui</ex></expan> exc<expan><abbr rend="supraline">o</abbr><ex>m</ex></expan>municant<expan><am>&#x1DD1;</am><ex>ur</ex></expan> quomodo satis</item>
+							<lb/><item><num rend="red">XLV</num> De his <expan><am>&#xA757;</am><ex>qui</ex></expan> fallunt<expan><am>&#x1DD1;</am><ex>ur</ex></expan> in oratorio</item>
+							<lb/><item><num rend="red">XLVI</num> De his <expan><am>&#xA757;</am><ex>qui</ex></expan> in aliis quibuslibet re<expan><abbr>b<am>&#xA76B;</am></abbr><ex>us</ex></expan> <add place="overstrike">d</add>eliquunt</item>
+							<lb/><item><num rend="red">XLVII</num> De significanda hora operis <expan><abbr>d</abbr><ex>e</ex><abbr rend="supraline">i</abbr></expan></item>
+							<lb/><item><num rend="red">XLVIII</num> De opera manuum cottidianum</item>
+							<lb/><item><num rend="red">XLVIIII</num> De quadragesime obseruatione;</item>
+							<lb/><item><num rend="red">L</num> De fratres <expan><am>&#xA757;</am><ex>qui</ex></expan> longe ab <del rend="erased">h</del>oratorio operant<expan><am>&#x1DD1;</am><ex>ur</ex></expan>;</item>
+							<lb/><item><num rend="red">LI</num> De fratres <expan><am>&#xA757;</am><ex>qui</ex></expan> non longe <expan><am>&#xA753;</am><ex>pro</ex></expan>ficiscuntur;</item>
+							<lb/><item><num rend="red">LII</num> De oratorio monasterii;</item>
+							<pb n="12"/>
+							<lb/><item><num rend="red">LIII</num> De hospitibus suscipiendis;</item>
+							<lb/><item><num rend="red">LIIII</num> Ut <expan><abbr rend="supaline">n</abbr><ex>on</ex></expan> debeat monachus litteras <expan><abbr>u</abbr><ex>e</ex><abbr rend="stroke">l</abbr></expan> eulogias suscipere;</item>
+							<lb/><item><num rend="red">LV</num> De uestiariis uel calciariis fratrum</item>
+							<lb/><item><num rend="red">LVI</num> De mensa abbatis</item>
+							<lb/><item><num rend="red">LVII</num> De artificibus monasterii;</item>
+							<lb/><item><num rend="red">LVIII</num> De ordine suscipiendor<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> fratrum</item>
+							<lb/><item><num rend="red">LIIII</num> De filiis nobilium uel pauperum</item>
+							<lb/><item><num rend="red">LX</num> De sacerdoti<expan><abbr>b<am>&#xA76B;</am></abbr><ex>us</ex></expan> <expan><am>&#xA757;</am><ex>qui</ex></expan> in monasterio habitare uoluerint</item>
+							<lb/><item><num rend="red">LXI</num> De monachis peregrinis</item>
+							<lb/><item><num rend="red">LXII</num> De sacerdotibus monasterii</item>
+							<lb/><item><num rend="red">LXIII</num> De ordine congregationis;</item>
+							<lb/><item><num rend="red">LXIIII</num> De abbate ordinando;</item>
+							<lb/><item><num rend="red">LXV</num> De praeposito;</item>
+							<lb/><item><num rend="red">LXVI</num> De hostiariis monasterii;</item>
+							<lb/><item><num rend="red">LXVII</num> De fratribus in uiam directis</item>
+							<lb/><item><num rend="red">LXVIII</num> Si fratri inpossibilia a priore iuueant<expan><am>&#x1DD1;</am><ex>ur</ex></expan></item>
+							<lb/><item><num rend="red">LXIIII</num> Ut in monasterio <expan><abbr rend="supaline">n</abbr><ex>on</ex></expan> praesumat alt<expan><am>&#x33E;</am><ex>er</ex></expan> alium defendere</item>
+							<lb/><item><num rend="red">LXX</num> Ut <expan><abbr rend="supaline">n</abbr><ex>on</ex></expan> <expan><abbr rend="supraline">p</abbr><ex>rae</ex></expan>sumat quisquam alium cedere</item>
+							<pb n="13"/>
+							<lb/><item><num rend="red">LXXI</num> Ut oboedientes sibi sint inuicem;</item>
+							<lb/><item><num rend="red">LXXII</num> De zelo bono <expan>q<ex>uo</ex><abbr rend="stroke">d</abbr></expan> debent monachi habere;</item>
+							<lb/><item><num rend="red">LXXIII</num> De hoc quod non omnis obser
+								<lb break="no"/>uatio iustitię in hac regula sit constituta;</item>	
+						</list>
+						<div subtype="explicit" type="textpart">
+							<head><lb/>Expliciunt capitula;</head>
+						</div>
+					</div>
+					<div n="Inc" subtype="incipit" type="textpart">
+						<head rend="capitals large">
+							<lb/>Incipit textus regule; 
+							<lb/>Regula appelatur ab <subst><del>l</del><add place="inline">h</add></subst>
+							<lb break="no"/>oc quod oboedientum diri
+							<lb break="no"/>gat mores;
+						</head>
+					</div>
+					<div n="1" subtype="chapter" type="textpart">
+						<head rend="capitals large">De generibus monachorum</head>
+						<p>
+							<milestone n="1" unit="section"/>Monachorum quattuor esse 
+							<lb/>genera<g ref="#f161">;</g> manifestum est; <milestone n="2" unit="section"/>Prim<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+							<lb/>coeno<subst><del>u</del><add place="inline">b</add></subst>itarum<g ref="#f161">;</g> hoc <expan><abbr rend="supraline">e</abbr><ex>st</ex></expan> monasteri
+							<lb break="no"/>ale militans sub regula<g ref="#f161">;</g> uel abbate; 
+							<lb/><milestone n="3" unit="section"/>Deinde <add place="overstrike">s</add>ecund<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> genus <expan><abbr rend="supraline">e</abbr><ex>st</ex></expan> anachorita
+							<pb n="14"/>
+							<lb break="no"/>rum<g ref="#f161">;</g> id est heremita<add place="above">rum</add>· horum qui non 
+							<lb/>conuersationis feruore nouicio<g ref="#f161">;</g> sed 
+							<lb/>monasterii probatione diuturna<g ref="#f161">;</g> 
+							<lb/><milestone n="4" unit="section"/>qui didicerunt contra diabolum mul
+							<lb break="no"/>torum solacio iam docti pugnare. <milestone n="5" unit="section"/>et 
+							<lb/>bene <subst><del>ex</del><add place="above" resp="#sp">ins</add></subst>tructi fraterna ex acie<g ref="#f161">;</g> ad 
+							<lb/>singularem pugn<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> heremi securi iam 
+							<lb/>sine consolatione alterius<g ref="#f161">;</g> sola manu 
+							<lb/>uel brachio contra uitia carnis uel 
+							<lb/>cogitationum<g ref="#f161">;</g> <expan><abbr>d</abbr><ex>e</ex><abbr rend="supraline">o</abbr></expan> auxiliante pugnare 
+							<lb/>sufficiunt; <milestone n="6" unit="section"/>Tertium uero monachorum 
+							<lb/>teterrim<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> genus <expan><abbr rend="supraline">e</abbr><ex>st</ex></expan>· sarabaitar<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan><g ref="#f161">;</g> qui nul
+							<lb break="no"/>la regula adprobati experientia ma
+							<lb break="no"/>gistra sicut aur<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> fornacis<g ref="#f161">;</g> sed in plum
+							<lb break="no"/>bi natura molliti <milestone n="7" unit="section"/>adhuc operi<expan><abbr>b<am>&#xA76B;</am></abbr><ex>us</ex></expan> ser
+							<lb break="no"/>uantes saeculo fidem mentiri <expan><abbr>d</abbr><ex>e</ex><abbr rend="supraline">o</abbr></expan> <expan><am>&#xA751;</am><ex>per</ex></expan> ton
+							<lb break="no"/>suram noscuntur<g ref="#f161">;</g> <milestone n="8" unit="section"/>qui bini aut terni· 
+							<lb/>aut certe singuli sine pastore· non domi
+							<pb n="15" break="no"/>
+							<lb break="no"/>nicis<g ref="#f161">;</g> sed suis inclusi o<subst><del>u</del><add place="inline"><subst><del>b</del><add place="inline">u</add></subst></add></subst>ilibus<g ref="#f161">;</g> pro lege eis <expan><abbr rend="supraline">e</abbr><ex>st</ex></expan> 
+							<lb/>desideriorum uoluntas; <milestone n="9" unit="section"/>Cum qui<subst><del>d</del><add place="above" resp="#sp">c</add></subst>quid 
+							<lb/>putauerint uel elegerint<g ref="#f161">;</g> hoc dicunt 
+							<lb/><expan><abbr>s</abbr><ex>an</ex><abbr rend="overline">c</abbr><ex>tu</ex><abbr>m</abbr></expan><g ref="#f161">;</g> et quod noluerint. hoc putant 
+							<lb/>non licere; <milestone n="10" unit="section"/>Quartum uero genus est 
+							<lb/>monachorum<g ref="#f161">;</g> quod nominatur· gy
+							<lb break="no"/>rouagum· qui tota uita sua per diuersas 
+							<lb/>prouin<subst><del>c</del><add place="above" resp="#sp">t</add></subst>ias ternis· aut quaternis die<expan><abbr>b<am>&#xA76B;</am></abbr><ex>us</ex></expan><g ref="#f161">;</g> 
+							<lb/><expan><am>&#xA751;</am><ex>per</ex></expan> diuersorum cellas hospitantur· 
+							<lb/><milestone n="11" unit="section"/>sem<expan><am>&#xA751;</am><ex>per</ex></expan> uagi· et n<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan>qu<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> stabiles· et propri
+							<lb break="no"/>is uoluntati<expan><abbr>b<am>&#xA76B;</am></abbr><ex>us</ex></expan>· et gu<del rend="erased">i</del>lę inlecebris serui
+							<lb break="no"/>entes· et <expan><am>&#xA751;</am><ex>per</ex></expan> omnia deteriores sarabai
+							<lb break="no"/>tis<g ref="#f161">;</g> <milestone n="12" unit="section"/>de quorum omnium horum miser
+							<lb break="no"/>rima conuersatione<g ref="#f161">;</g> melius <expan><abbr rend="supraline">e</abbr><ex>st</ex></expan> silere 
+							<lb/>qu<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> loqui; <milestone n="13" unit="section"/>His ergo omissis· ad coeno<subst><del>u</del><add place="overstrike">b</add></subst>i
+							<lb break="no"/>tarum fortissim<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> genus disponendum 
+							<lb/>adiuuante <expan><abbr>d</abbr><ex>omi</ex><abbr rend="supraline">no</abbr></expan> ueniamus;
+						</p>
+					</div>
+					<div n="2" subtype="chapter" type="textpart">
+						<lb/><head rend="red smallcaps"><num>II</num> Qualis debeat abbas esse.</head>
+						<p>
+							<pb n="16"/><!-- checked to here -->
+							<lb/><milestone n="1" unit="section"/><hi rend="dropcap3 red">A</hi>bbas qui praeesse dignus est 
+							<lb/>monasterio<g ref="#f161">;</g> <expan>s<abbr rend="supraline">e</abbr><ex>m</ex><am>&#xA751;</am><ex>per</ex></expan> meminere 
+							<lb/>debet <expan>q<ex>uo</ex><abbr rend="stroke">d</abbr></expan> dicit<expan><am>&#x1DD1;</am><ex>ur</ex></expan><g ref="#f161">;</g> et nom<expan><abbr rend="supraline">e</abbr><ex>n</ex></expan> maioris 
+							<lb/>factis implere. <milestone n="2" unit="section"/><persName><expan><abbr><am>X<g ref="#e665">p</g></am></abbr><ex>Christ</ex><abbr>i</abbr></expan></persName> enim agere uices in monasterio creditur, quando ipsius uocatur pronomine, <milestone n="3" unit="section"/>dicente apostolo: Accepistis spiritum adoptionis filiorum, in quo clamamus: Abba, Pater.
+							<milestone n="4" unit="section"/>Ideoque abbas nihil extra pręceptum Domini quod sit debet aut docere aut constituere uel iubere, <milestone n="5" unit="section"/>sed iussio eius uel doctrina fermentum diuinę iustitię in discipulorum mentibus conspargatur, <milestone n="6" unit="section"/>memor semper abbas quia doctrinę suę uel discipulorum oboedientię, utrarumque rerum, in tremendo iudicio Dei facienda erit discussio. <milestone n="7" unit="section"/>Sciatque abbas culpę pastoris incumbere quidquid in ouibus paterfamilias utilitatis minus potuerit inuenire. <milestone n="8" unit="section"/>Tantundem iterum erit ut, si inquieto uel inoboedienti gregi pastoris fuerit omnis diligentia adtributa et morbidis earum actibus uniuersa fuerit cura exhibita, <milestone n="9" unit="section"/>pastor eorum in iudicio Domini absolutus dicat cum propheta Domino: iustitiam tuam non abscondi in corde meo, ueritatem tuam et salutare tuum dixi; ipsi autem contemnentes spreuerunt me, <milestone n="10" unit="section"/>et tunc demum inoboedientibus curę suę ouibus poena sit eis pręualens ipsa mors.
+							<milestone n="11" unit="section"/>Ergo, cum aliquis suscipit nomen abbatis, duplici debet doctrina suis pręesse discipulis, <milestone n="12" unit="section"/>id est omnia bona et sancta factis amplius quam uerbis ostendat, ut capacibus discipulis mandata Domini uerbis proponere, duris corde uero et simplicior ibus factis suis diuina pręcepta monstrare.
+							<milestone n="13" unit="section"/>Omnia uero quę discipulis docuerit esse contraria in suis factis indicet non agenda, ne aliis prędicans ipse reprobus inueniatur, <milestone n="14" unit="section"/>ne quando illi dicat Deus peccanti: Quare tu enarras iustitias meas et adsumis testamentum meum per os tuum? Tu uero odisti disciplinam et proiecisti sermones meos post te, <milestone n="15" unit="section"/>et: Qui in fratris tui oculo festucam uidebas, in tuo trabem non uidisti.
+							<milestone n="16" unit="section"/>Non ab eo persona in monasterio discernatur. <milestone n="17" unit="section"/>Non unus plus ametur quam alius, nisi quem in bonis actibus aut oboedientia inuenerit meliorem. <milestone n="18" unit="section"/>Non conuertenti ex seruitio pręponatur ingenuus, nisi alia rationabilis causa exsistat. <milestone n="19" unit="section"/>Quod si ita, iustitia dictante, abbati uisum fuerit, et de cuiuslibet ordine id faciet. Sin alias, propria teneant loca, <milestone n="20" unit="section"/>quia siue seruus siue liber, omnes in Christo unum sumus et sub uno Domino ęqualem seruitutis militiam baiulamus, quia non est apud Deum personarum acceptio. <milestone n="21" unit="section"/>Solummodo in hac parte apud ipsum discernimur, si meliores ab aliis in operibus bonis et humiles inueniamur. <milestone n="22" unit="section"/>Ergo ęqualis sit ab eo omnibus caritas, una prębeatur in omnibus secundum merita disciplina.
+							<milestone n="23" unit="section"/>In doctrina sua namque abbas apostolicam debet illam semper formam seruare in qua dicit: Argue, obsecra, increpa, <milestone n="24" unit="section"/>id est, miscens temporibus tempora, terroribus blandimenta, dirum magistri, pium patris ostendat affectum, <milestone n="25" unit="section"/>id est indisciplinatos et inquietos debet durius arguere, oboedientes autem et mites et patientes ut in melius proficiant obsecrare, neglegentes et contemnentes ut increpat et corripiat admonemus.
+							<milestone n="26" unit="section"/>Neque dissimulet peccata delinquentium; sed et mox ut coeperint oriri radicitus ea ut pręualet amputet, memor periculi Heli sacerdotis de Silo. <milestone n="27" unit="section"/>Et honestiores quidem atque intellegibiles animos prima uel secunda admonitione uerbis corripiat, <milestone n="28" unit="section"/>improbos autem et duros ac superbos uel inoboedientes uerberum uel corporis castigatio in ipso initio peccati coerceat, sciens scriptum: Stultus uerbis non corrigitur, <milestone n="29" unit="section"/>et iterum: Percute filium tuum uirga et liberabis animam eius a morte.
+							
+							<milestone n="30" unit="section"/>Meminere debet semper abbas quod est, meminere quod dicitur, et scire quia cui plus committitur, plus ab eo exigitur. <milestone n="31" unit="section"/>Sciatque quam difficilem et arduam rem suscipit regere animas et multorum seruire moribus, et alium quidem blandimentis, alium uero increpationibus, alium suasionibus; <milestone n="32" unit="section"/>et secundum uniuscuiusque qualitatem uel intellegentiam, ita se omnibus conformet et aptet ut non solum detrimenta gregis sibi commissi non patiatur, uerum in augmentatione boni gregis gaudeat. <milestone n="33" unit="section"/>Ante omnia, ne dissimulans aut paruipendens salutem animarum sibi commissarum, ne plus gerat sollicitudinem de rebus transitoriis et terrenis atque caducis, <milestone n="34" unit="section"/>sed semper cogitet quia animas suscepit regendas, de quibus et rationem redditurus est.
+							<milestone n="35" unit="section"/>Et ne causetur de minori forte substantia, meminerit scriptum: Primum quęrite regnum Dei et iustitiam eius, et hęc omnia adicientur uobis, <milestone n="36" unit="section"/>et iterum: Nihil deest timentibus eum.
+							<milestone n="37" unit="section"/>Sciatque quia qui suscipit animas regendas paret se ad rationem reddendam, <milestone n="38" unit="section"/>et quantum sub cura sua fratrum se habere scierit numerum, agnoscat pro certo quia in die iudicii ipsarum omnium animarum est redditurus Domino rationem, sine dubio addita et suę animę. <milestone n="39" unit="section"/>Et ita, timens semper futuram discussionem pastoris de creditis ouibus, cum de alienis ratiociniis cauet, redditur de suis sollicitus, <milestone n="40" unit="section"/>et cum de monitionibus suis emendationem aliis subministrat ipse efficitur a uit iis emendatus.
+						</p>
+					</div>
+					<div n="3" subtype="chapter" type="textpart">
+						<head rend="red smallcaps"><num>III</num>· <lb/>De adhibendis ad consili<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> fratribus:</head>
+						<p>
+							<lb/><milestone n="1" unit="section"/><hi rend="dropcap3">Q</hi>uotiens aliqua prę
+							<lb break="no"/>cipua agenda sunt in monasterio, conuocet abbas omnem congregationem et dicat ipse unde agitur, <milestone n="2" unit="section"/>et audiens consilium fratrum tractet apud se et quod utilius iu dicauerit faciat. <milestone n="3" unit="section"/>Ideo autem omnes ad consilium uocari diximus quia sępe iuniori Dominus reuelat quod melius est. <milestone n="4" unit="section"/>Sic autem dent fratres consilium cum omni humilitatis subiectione, et non pręsumant procaciter defendere quod eis uisum fuerit, <milestone n="5" unit="section"/>et magis in abbatis pendat arbitrio, ut quod salubrius esse iudicauerit ei cuncti oboediant. <milestone n="6" unit="section"/>Sed sicut discipulos conuenit oboedire magistro, ita et ipsum prouide et iuste condecet cuncta disponere.
+							<milestone n="7" unit="section"/>In omnibus igitur omnes magistram sequantur regulam, neque ab ea temere declinetur a quoquam. <milestone n="8" unit="section"/>Nullus in monasterio proprii sequatur cordis uoluntatem, <milestone n="9" unit="section"/>neque pręsumat quisquam cum abbate suo proterue aut foris monasterium contendere.
+							<milestone n="10" unit="section"/>Quod si pręsumpserit, regulari disciplinę subiaceat. <milestone n="11" unit="section"/>Ipse tamen abbas cum timore Dei et obseruatione regulę omnia faciat, sciens se procul dubio de omnibus iudiciis suis ęquissimo iudici Deo rationem redditurum.
+							<milestone n="12" unit="section"/>Si qua uero minora agenda sunt in monasterii utilitatibus, seni orum tantum utatur consilio, <milestone n="13" unit="section"/>sicut scriptum est: Omnia fac cum consilio et post factum non pęniteberis.
+						</p>
+					</div>
+					<div n="4" subtype="chapter" type="textpart">
+						<head><num>IV</num>. Quę sunt instrumenta bonorum operum</head>
+						<p>
+							<milestone n="1" unit="section"/>In primis Dominum Deum diligere ex toto corde, tota anima, tota uirtute.
+							<milestone n="2" unit="section"/>Deinde proximum tamquam seipsum.
+							<milestone n="3" unit="section"/>Deinde non occidere.
+							<milestone n="4" unit="section"/>Non adulterare.
+							<milestone n="5" unit="section"/>Non facere furtum.
+							<milestone n="6" unit="section"/>Non concupiscere.
+							<milestone n="7" unit="section"/>Non falsum testimonium dicere.
+							<milestone n="8" unit="section"/>Honorare omnes homines,
+							<milestone n="9" unit="section"/>et quod sibi quis fieri non uult, alio ne faciat.
+							<milestone n="10" unit="section"/>Abnegare semetipsum sibi ut sequatur Christum.
+							<milestone n="11" unit="section"/>Corpus castigare.
+							<milestone n="12" unit="section"/>Delicias non amplecti.
+							<milestone n="13" unit="section"/>Ieiunium amare.
+							<milestone n="14" unit="section"/>Pauperes recreare.
+							<milestone n="15" unit="section"/>Nudum uestire,
+							<milestone n="16" unit="section"/>infirmum uisitare.
+							<milestone n="17" unit="section"/>Mortuum sepelire.
+							<milestone n="18" unit="section"/>In tribulatione subuenire.
+							<milestone n="19" unit="section"/>Dolentem consolari.
+							<milestone n="20" unit="section"/>Sęculi actibus se facere alienum.
+							<milestone n="21" unit="section"/>Nihil amori Christi pręponere.
+							<milestone n="22" unit="section"/>Iram non perficere.
+							<milestone n="23" unit="section"/>Iracundię tempus non reseruare.
+							<milestone n="24" unit="section"/>Dolum in corde non tenere.
+							<milestone n="25" unit="section"/>Pacem falsam non dare.
+							<milestone n="26" unit="section"/>Caritatem non derelinquere.
+							<milestone n="27" unit="section"/>Non iurare ne forte periuret.
+							<milestone n="28" unit="section"/>Ueritatem ex corde et ore proferre.
+							<milestone n="29" unit="section"/>Malum pro malo non reddere.
+							<milestone n="30" unit="section"/>Iniuriam non facere, sed et factas patienter sufferre.
+							<milestone n="31" unit="section"/>Inimicos diligere.
+							<milestone n="32" unit="section"/>Maledicentes se non remaledicere, sed magis benedicere.
+							<milestone n="33" unit="section"/>Persecutionem pro iustitia sustinere.
+							<milestone n="34" unit="section"/>Non esse superbum.
+							<milestone n="35" unit="section"/>Non uinolentum.
+							<milestone n="36" unit="section"/>Non multum edacem.
+							<milestone n="37" unit="section"/>Non somnulentum.
+							<milestone n="38" unit="section"/>Non pigrum.
+							<milestone n="39" unit="section"/>Non murmuriosum.
+							<milestone n="40" unit="section"/>Non detractorem.
+							<milestone n="41" unit="section"/>Spem suam Deo committere.
+							<milestone n="42" unit="section"/>Bonum aliquid in se cum uiderit, Deo adplicet, non sibi; <milestone n="43" unit="section"/>malum uero semper a se factum sciat et sibi reputet.
+							<milestone n="44" unit="section"/>Diem iudicii timere.
+							<milestone n="45" unit="section"/>Gehennam expauescere.
+							<milestone n="46" unit="section"/>Uitam ęternam omni concupiscentia spiritali desiderare.
+							<milestone n="47" unit="section"/>Mortem cotidie ante oculos suspectam habere.
+							<milestone n="48" unit="section"/>Actus uitę suę omni hora custodire.
+							<milestone n="49" unit="section"/>In omni loco Deum se respicere pro certo scire.
+							<milestone n="50" unit="section"/>Cogitationes malas cordi suo aduenientes mox ad Christum adlidere et seniori spiritali patefacere.
+							<milestone n="51" unit="section"/>Os suum a malo uel prauo eloquio custodire.
+							<milestone n="52" unit="section"/>Multum loqui non amare.
+							<milestone n="53" unit="section"/>Uerba uana aut risui apta non loqui.
+							<milestone n="54" unit="section"/>Risum multum aut excussum non amare.
+							<milestone n="55" unit="section"/>Lectiones sanctas libenter audire.
+							<milestone n="56" unit="section"/>Orationi frequenter incumbere.
+							<milestone n="57" unit="section"/>Mala sua pręterita cum lacrimis uel gemitu cotidie in oratione Deo confiteri, <milestone n="58" unit="section"/>de ipsis malis de cetero emendare.
+							<milestone n="59" unit="section"/>Desideria carnis non efficere.
+							<milestone n="60" unit="section"/>Uoluntatem propriam odire.
+							<milestone n="61" unit="section"/>Pręceptis abbatis in omnibus oboedire, etiam si ipse aliter _quod absit!_ agat, memores illud dominicum pręceptum: Quę dicunt facite, quę autem faciunt facere nolite.
+							<milestone n="62" unit="section"/>Non uelle dici sanctum antequam sit, sed prius esse quod uerius dicatur.
+							<milestone n="63" unit="section"/>Pręcepta Dei factis cotidie adimplere.
+							<milestone n="64" unit="section"/>Castitatem amare.
+							<milestone n="65" unit="section"/>Nullum odire.
+							<milestone n="66" unit="section"/>Zelum non habere.
+							<milestone n="67" unit="section"/>Inuidiam non exercere.
+							<milestone n="68" unit="section"/>Contentionem non amare.
+							<milestone n="69" unit="section"/>Elationem fugere.
+							<milestone n="70" unit="section"/>Et seniores uenerare.
+							<milestone n="71" unit="section"/>Iuniores diligere.
+							<milestone n="72" unit="section"/>In Christi amore pro ini micis orare.
+							<milestone n="73" unit="section"/>Cum discordante ante solis occasum in pacem redire.
+							<milestone n="74" unit="section"/>Et de Dei misericordia numquam desperare.
+							<milestone n="75" unit="section"/>Ecce hęc sunt instrumenta artis spiritalis.
+							<milestone n="76" unit="section"/>Quę cum fuerint a nobis die noctuque incessabiliter adimpleta et in die iudicii reconsignata, illa merces nobis a Domino recompensabitur quam ipse promisit.
+							<milestone n="77" unit="section"/>Quod oculus non uidit nec auris audiuit, quę pręparauit Deus his qui diligunt illum.
+							<milestone n="78" unit="section"/>Officina uero ubi hęc omnia diligenter operemur claustra sunt monasterii et stabilitas in congregatione.
+						</p>
+					</div>
+					<div n="5" subtype="chapter" type="textpart">
+						<head><num>V</num>. De oboedientia</head>
+						<p>
+							<milestone n="1" unit="section"/>Primus humilitatis gradus est oboedientia sine mora. <milestone n="2" unit="section"/>Hęc conuenit his qui nihil sibi a Christo carius aliquid existimant. <milestone n="3" unit="section"/>Propter seruitium sanctum quod professi sunt seu propter metum gehennę uel gloriam uitę ęternę, <milestone n="4" unit="section"/>mox aliquid imperatum a maiore fuerit, ac si diuinitus imperetur moram pati nesciant in faciendo. <milestone n="5" unit="section"/>De quibus Dominus dicit: Obauditu auris oboediuit mihi. <milestone n="6" unit="section"/>Et item dicit doctoribus: Qui uos audit me audit. <milestone n="7" unit="section"/>Ergo hii tales, relinquentes statim quę sua sunt et uoluntatem propriam deserentes, <milestone n="8" unit="section"/>mox exoccupatis manibus et quod agebant imperfectum relinquentes, uicino oboedientię pede iubentis uocem factis sequuntur, <milestone n="9" unit="section"/>et ueluti uno momento prędicta magistri iussio et perfecta discipuli opera, in uelocitate timoris Dei, ambę res communiter citius explicantur. <milestone n="10" unit="section"/>Quibus ad uitam ęternam gradiendi amor incumbit, <milestone n="11" unit="section"/>ideo angustam uiam arripiunt _unde Dominus dicit: Angusta uia est quę ducit ad uitam_ <milestone n="12" unit="section"/>ut non suo arbitrio uiuentes uel desideriis suis et uoluptatibus oboedientes, sed ambulantes alieno iudicio et imperio, in coenobiis degentes abbatem sibi pręesse desiderant. <milestone n="13" unit="section"/>Sine dubio hii tales illam Domini imitantur sententiam qua dicit: Non ueni facere uoluntatem meam, sed eius qui misit me.
+							<milestone n="14" unit="section"/>Sed hęc ipsa oboedientia tunc acceptabilis erit Deo et dulcis hominibus, si quod iubetur non trepide, non tarde, non tepide, aut cum murmurio uel cum responso nolentis efficiatur, <milestone n="15" unit="section"/>quia oboedientia quę maioribus prębetur Deo exhibetur _ipse enim dixit: Qui uos audit me audit.
+							<milestone n="16" unit="section"/>Et cum bono animo a discipulis pręberi oportet, quia hilarem datorem diligit Deus. <milestone n="17" unit="section"/>Nam, cum malo animo si oboedit discipulus et non solum ore sed etiam in corde si murmurauerit, <milestone n="18" unit="section"/>etiam si impleat iussionem, tamen acceptum iam non erit Deo qui cor eius respicit murmurantem, <milestone n="19" unit="section"/>et pro tali facto nullam consequitur gratiam; immo poenam murmurantium incurrit, si non cum satisfactione emendauerit.
+						</p>
+					</div>
+					<div n="6" subtype="chapter" type="textpart">
+						<head><num>VI</num>. De taciturnitate</head>
+						<p>
+							<milestone n="1" unit="section"/>Faciamus quod ait propheta: Dixi: Custodiam uias meas, ut non delinquam in lingua mea. Posui ori meo custodiam. Obmutui et humiliatus sum et silui a bonis. <milestone n="2" unit="section"/>Hic ostendit propheta, si a bonis eloquiis interdum propter taciturnitatem debet taceri, quanto magis a malis uerbis propter poenam peccati debet cessari. <milestone n="3" unit="section"/>Ergo, quamuis de bonis et sanctis et ędificationum eloquiis, perfectis discipulis propter taciturnitatis grauitatem rara loquendi concedatur licentia, <milestone n="4" unit="section"/>quia scriptum est: In multiloquio non effugies peccatum, <milestone n="5" unit="section"/>et alibi: Mors et uita in manibus linguę. <milestone n="6" unit="section"/>Nam loqui et docere magistrum condecet, tacere et audire discipulum conuenit.
+							<milestone n="7" unit="section"/>Et ideo, si qua requirenda sunt a priore, cum omni humilitate et subiectione reuerentię requirantur. <milestone n="8" unit="section"/>Scurrilitates uero uel uerba otiosa et risum mouentia ęterna clausura in omnibus locis damnamus et ad talia eloquia discipulum aperire os non permittimus.
+						</p>
+					</div>
+					<div n="7" subtype="chapter" type="textpart">
+						<head>VII. De humilitate</head>
+						<p>
+							<milestone n="1" unit="section"/>Clamat nobis scriptura diuina, fratres, dicens: Omnis qui se exaltat humiliabitur et qui se humiliat exaltabitur. <milestone n="2" unit="section"/>Cum hęc ergo di cit, ostendit nobis omnem exaltationem genus esse superbię. <milestone n="3" unit="section"/>Quod se cauere propheta indicat dicens: Domine, non est exaltatum cor meum neque elati sunt oculi mei, neque ambulaui in magnis neque in mirabilibus super me. <milestone n="4" unit="section"/>Sed quid si non humiliter sentiebam, si exaltaui animam meam?_ sicut ablactatum super matrem suam, ita retribues in animam meam.
+							<milestone n="5" unit="section"/>Unde, fratres, si summę humilitatis uolumus culmen adtingere et ad exaltationem illam cęlestem ad quam per pręsentis uitę humilitatem ascenditur uolumus uelociter peruenire, <milestone n="6" unit="section"/>actibus nostris ascendentibus scala illa erigenda est quę in somnio Iacob apparuit, per quam ei descendentes et ascendentes angeli monstrabantur. <milestone n="7" unit="section"/>Non aliud sine dubio descensus ille et ascensus a nobis intellegitur nisi exaltatione descendere et humilitate ascendere. <milestone n="8" unit="section"/>Scala uero ipsa erecta nostra est uita in sęculo, quę humiliato corde a Domino erigatur ad cęlum. <milestone n="9" unit="section"/>Latera enim eius scalę dicimus nostrum esse corpus et animam, in qua latera diuersos gradus humilitatis uel disciplinę euocatio diuina ascendendo inseruit.
+							<milestone n="10" unit="section"/>Primus itaque humilitatis gradus est si, timorem Dei sibi ante oculos semper ponens, obliuionem omnino fugiat <milestone n="11" unit="section"/>et semper sit memor omnia quę pręcepit Deus, ut qualiter et contemnentes Deum gehenna de peccatis incendat et uita ęterna quę timentibus Deum pręparata est animo suo semper euoluat. <milestone n="12" unit="section"/>Et custodiens se omni hora a peccatis et uitiis, id est cogitationum, linguę, manuum, pedum uel uoluntatis proprię sed et desideria carnis, <milestone n="13" unit="section"/>ęstimet se homo de cęlis a Deo semper respici omni hora et facta sua omni loco ab aspectu diuinitatis uideri et ab angelis omni hora renuntiari.
+							<milestone n="14" unit="section"/>Demonstrans nobis hoc propheta, cum in cogitationibus nostris ita Deum semper pręsentem ostendit dicens: Scrutans corda et renes Deus; <milestone n="15" unit="section"/>et item: Dominus nouit cogitationes hominum; <milestone n="16" unit="section"/>et item dicit: Intellexisti cogitationes meas a longe; <milestone n="17" unit="section"/>et: Quia cogitatio hominis confitebitur tibi. <milestone n="18" unit="section"/>Nam ut sollicitus sit circa cogitationes suas peruersas, dicat semper utilis frater in corde suo: Tunc ero inmaculatus coram eo si obseruauero me ab iniquitate mea.
+							<milestone n="19" unit="section"/>Uoluntatem uero propriam ita facere prohibemur cum dicit scriptura nobis: Et a uoluntatibus tuis auertere. <milestone n="20" unit="section"/>Et item rogamus Deum in oratione ut fiat illius uoluntas in nobis. <milestone n="21" unit="section"/>Docemur ergo merito nostram non facere uoluntatem cum cauemus illud quod dicit sancta scriptura: Sunt uię quę putantur ab hominibus rectę, quarum finis usque ad profundum inferni demergit, <milestone n="22" unit="section"/>et cum item pauemus illud quod de ne glegentibus dictum est: Corrupti sunt et abominabiles facti sunt in uoluntatibus suis.
+							<milestone n="23" unit="section"/>In desideriis uero carnis ita nobis Deum credamus semper esse pręsentem cum dicit propheta Domino: Ante te est omne desiderium meum. <milestone n="24" unit="section"/>Cauendum ergo ideo malum desiderium quia mors secus introitum delectationis posita est. <milestone n="25" unit="section"/>Unde scriptura pręcepit dicens: Post concupiscentias tuas non eas.
+							<milestone n="26" unit="section"/>Ergo si oculi Domini speculantur bonos et malos <milestone n="27" unit="section"/>et Dominus de cęlo semper respicit super filios hominum, ut uideat si est intellegens aut requirens Deum, <milestone n="28" unit="section"/>et si ab angelis nobis deputatis cotidie die noctuque Domino factorum nostrorum opera nuntiantur, <milestone n="29" unit="section"/>cauendum est ergo omni hora, fratres, sicut dicit in psalmo propheta, ne nos declinantes in malo et inutiles factos aliqua hora aspiciat Deus <milestone n="30" unit="section"/>et, parcendo nobis in hoc tempore quia pius est et exspectat nos conuerti in melius, ne dicat nobis in futuro: Hęc fecisti et tacui.
+							<milestone n="31" unit="section"/>Secundus humilitatis gradus est si propriam quis non amans uoluntatem desideria sua non delectetur implere, <milestone n="32" unit="section"/>sed uocem illam Domini factis imitetur dicentis: Non ueni facere uoluntatem meam, sed eius qui me misit. <milestone n="33" unit="section"/>Item dicit scriptura: Uoluntas habet poenam et necessitas parit coronam.
+							
+							<milestone n="34" unit="section"/>Tertius humilitatis gradus est ut quis pro Dei amore omni oboedientia se subdat maiori, imitans Dominum, de quo dicit apostolus: Factus oboediens usque ad mortem.
+							<milestone n="35" unit="section"/>Quartus humilitatis gradus est si, in ipsa oboedientia duris et contrariis rebus uel etiam quibuslibet inrogatis iniuriis, tacite conscientia patientiam amplectatur <milestone n="36" unit="section"/>et sustinens non lassescat uel discedat, dicente scriptura: Qui perseuerauerit usque in finem, hic saluus erit; <milestone n="37" unit="section"/>item: Confortetur cor tuum et sustine Dominum. <milestone n="38" unit="section"/>Et ostendens fidelem pro Domino uniuersa etiam contraria sustinere debere, dicit ex persona sufferentium: Propter te morte adficimur tota die, ęstimati sumus ut oues occisionis. <milestone n="39" unit="section"/>Et securi de spe retributionis diuinę subsecuntur gaudentes et dicentes: Sed in his omnibus superamus propter eum qui dilexit nos. <milestone n="40" unit="section"/>Et item alio loco scriptura: Probasti nos, Deus, igne nos examinasti sicut igne examinatur argentum; induxisti nos in laqueum; posuisti tribulationes in dorso nostro. <milestone n="41" unit="section"/>Et ut ostendat sub priore debere nos esse, subsequitur dicens: Imposuisti homines super capita nostra. <milestone n="42" unit="section"/>Sed et pręceptum Domini in aduersis et iniuriis per patientiam adimplentes, qui percussi in maxillam prębent et aliam, auferenti tunicam dimittunt et pallium, angarizati miliario uadunt duo, <milestone n="43" unit="section"/>cum Paulo apostolo falsos fratres sustinent et persecutionem sustinent et maledicentes se benedicent.
+							<milestone n="44" unit="section"/>Quintus humilitatis gradus est si omnes cogitationes malas cordi suo aduenientes uel mala a se absconse commissa per humilem confessionem abbatem non celauerit suum. <milestone n="45" unit="section"/>Hortans nos de hac re scriptura dicens: Reuela ad Dominum uiam tuam et spera in eum. <milestone n="46" unit="section"/>Et item dicit: Confitemini Domino quoniam bonus, quoniam in sęculum misericordia eius. <milestone n="47" unit="section"/>Et item propheta: Delictum meum cognitum tibi feci et iniustitias meas non operui. <milestone n="48" unit="section"/>Dixi: Pronuntiabo aduersum me iniustias meas Domino, et tu remisisti impietatem cordis mei.
+							<milestone n="49" unit="section"/>Sextus humilitatis gradus est si omni uilitate uel extremitate contentus sit monachus, et ad omnia quę sibi iniunguntur uelut operarium malum se iudicet et indignum, <milestone n="50" unit="section"/>dicens sibi cum propheta: Ad nihilum redactus sum et nesciui, ut iumentum factus sum apud te et ego semper tecum.
+							<milestone n="51" unit="section"/>Septimus humilitatis gradus est si omnibus se inferiorem et uiliorem non solum sua lingua pronuntiet, sed etiam intimo -f. [13(b)r]- cordis credat affectu, <milestone n="52" unit="section"/>humilians se et dicens cum propheta: Ego autem sum uermis et non homo, opprobrium hominum et abiectio plebis. <milestone n="53" unit="section"/>Exaltatus sum et humiliatus et confusus. <milestone n="54" unit="section"/>Et item: Bonum mihi quod humiliasti me, ut discam mandata tua.
+							<milestone n="55" unit="section"/>Octauus humilitatis gradus est si nihil agat monachus, nisi quod communis monasterii regula uel maiorum cohortantur exempla.
+							<milestone n="56" unit="section"/>Nonus humilitatis gradus est si linguam ad loquendum prohibeat monachus et, taciturnitatem habens, usque ad interrogationem non loquatur, <milestone n="57" unit="section"/>monstrante scriptura quia in multiloquio non effugitur peccatum, <milestone n="58" unit="section"/>et quia uir linguosus non dirigitur super terram.
+							<milestone n="59" unit="section"/>Decimus humilitatis gradus est si non sit facilis ac promptus in risu, quia scriptum est: Stultus in risu exaltat uocem suam.
+							<milestone n="60" unit="section"/>Undecimus humilitatis gradus est si, cum loquitur monachus, leniter et sine risu, humiliter cum grauitate uel pauca uerba et rationabilia loquatur, et non sit clamosus in uoce, <milestone n="61" unit="section"/>sicut scriptum est: Sapiens uerbis innotescit paucis.
+							-f. [13(b)u]- 
+							<milestone n="62" unit="section"/>Duodecimus humilitatis gradus est si non solum corde monachus sed etiam ipso corpore humilitatem uidentibus se semper indicet, <milestone n="63" unit="section"/>id est in opere Dei, in oratorio, in monasterio, in horto, in uia, in agro uel ubicumque sedens, ambulans uel stans, inclinato sit semper capite, defixis in terram aspectibus, <milestone n="64" unit="section"/>reum se omni hora de peccatis suis ęstimans iam se tremendo iudicio repręsentari ęstimet, <milestone n="65" unit="section"/>dicens sibi in corde semper illud quod publicanus ille euangelicus fixis in terram oculis dixit: Domine, non sum dignus, ego peccator, leuare oculos meos ad cęlos. <milestone n="66" unit="section"/>Et item cum propheta: Incuruatus sum et humiliatus sum usquequaque.
+							<milestone n="67" unit="section"/>Ergo, his omnibus humilitatis gradibus ascensis, monachus mox ad caritatem Dei perueniet illam quę perfecta foris mittit timorem, <milestone n="68" unit="section"/>per quam uniuersa quę prius non sine formidine obseruabat absque ullo labore uelut naturaliter ex consuetudine incipiet custodire, <milestone n="69" unit="section"/>non iam timore gehennę, sed amore Christi et consuetudine ipsa bona et delectatione uirtutum. <milestone n="70" unit="section"/>Quę Dominus iam in operarium suum mundum a uitiis et peccatis Spiritu Sancto dignabitur demonstrare.
+						</p>
+					</div>
+					<div n="8" subtype="chapter" type="textpart">
+						<head>VIII. De officiis diuinis in noctibus</head>
+						<p>
+							<milestone n="1" unit="section"/>Hiemis tempore, id est a kalendas nouembres usque in Pascha, iux ta considerationem rationis, octaua hora noctis surgendum est, <milestone n="2" unit="section"/>ut modice amplius de media nocte pausetur et iam digesti surgant. <milestone n="3" unit="section"/>Quod uero restat post uigilias a fratribus qui psalterii uel lectionum aliquid indigent meditationi inseruiatur.
+							<milestone n="4" unit="section"/>A Pascha autem usque ad supradictas nouembres, sic temperetur hora ut uigiliarum agenda paruissimo interuallo, quo fratres ad necessaria naturę exeant, mox matutini, qui incipiente luce agendi sunt, subsequantur.
+						</p>
+					</div>
+					<div n="9" subtype="chapter" type="textpart">
+						<head>VIIII. Quanti psalmi dicendi sunt nocturnis horis</head>
+						<p>
+							<milestone n="1" unit="section"/>Hiemis tempore suprascripto, in primis uersu tertio dicendum: Domine, labia mea aperies, et os meum adnuntiabit laudem tuam. <milestone n="2" unit="section"/>Cui subiungendus est tertius psalmus et gloria. <milestone n="3" unit="section"/>Post hunc, psalmum nonagesimum quartum cum antefana, aut certe decantandum. <milestone n="4" unit="section"/>Inde sequatur ambrosianum, deinde sex psalmi cum antefanas.
+							<milestone n="5" unit="section"/>Quibus dictis, dicto uersu, benedicat abbas et, sedentibus omnibus in scamnis, legantur uicissim a fratribus in codice super analogium tres lectiones, inter quas et tria responsoria cantentur: <milestone n="6" unit="section"/>duo responsoria sine gloria dicantur; post tertiam uero lectionem, qui cantat dicat gloriam. <milestone n="7" unit="section"/>Quam dum incipit cantor dicere, mox omnes de sedilia sua surgant, ob honorem et reuerentiam sanctę Trinitatis. <milestone n="8" unit="section"/>Codices autem legantur in uigiliis diuinę auctoritatis, tam ueteris testamenti quam noui, sed et expositiones earum, quę a nominatis et orthodoxis catholicis Patribus factę sunt.
+							<milestone n="9" unit="section"/>Post has uero tres lectiones cum responsoria sua, sequantur reliqui sex psalmi, cum alleluia canendi. <milestone n="10" unit="section"/>Post hos, lectio apostoli sequatur, ex corde recitanda, et uersus, et supplicatio litanię, id est Quirie eleison. <milestone n="11" unit="section"/>Et sic finiantur uigilię nocturnę.
+						</p>
+					</div>
+					<div n="10" subtype="chapter" type="textpart">
+						<head>X. Qualiter ęstatis tempore agatur nocturna laus</head>
+						<p>
+							<milestone n="1" unit="section"/>A Pascha autem usque ad kalendas nouembres, omnis ut supra dictum est psalmodię quantitas teneatur, <milestone n="2" unit="section"/>excepto quod lectiones in codice, propter breuitatem noctium, minime legantur, sed pro ipsis tribus lectionibus una de ueteri testamento memoriter dicatur, quam breuis responsorius subsequatur. <milestone n="3" unit="section"/>Et reliqua omnia ut dictum est impleantur, id est ut numquam minus a duodecim psalmorum quantitate ad uigilias nocturnas dicantur, exceptis tertio et nonagesimo quarto psalmo.
+						</p>
+					</div>
+					<div n="11" subtype="chapter" type="textpart">
+						<head>XI. Qualiter diebus dominicis uigilię agantur</head>
+						<p>
+							<milestone n="1" unit="section"/>Dominico die temperius surgatur ad uigilias. <milestone n="2" unit="section"/>In quibus uigiliis teneatur mensura, id est, modulatis ut supra disposuimus sex psalmis et uersu, residentibus cunctis disposite et per ordinem in subselliis, legantur in codice, ut supra diximus, quattuor lectiones cum responsoriis suis. <milestone n="3" unit="section"/>Ubi tantum in quarto responsorio dicatur a cantante gloria; quam dum incipit, mox omnes cum reuerentia surgant.
+							<milestone n="4" unit="section"/>Post quibus lectionibus sequantur ex ordine alii sex psalmi cum antefanas sicut anteriores, et uersu. <milestone n="5" unit="section"/>Post quibus iterum legantur alię quattuor lectiones cum responsoriis suis, ordine quo supra.
+							<milestone n="6" unit="section"/>Post quibus dicantur tria cantica de Prophetarum, quas instituerit abbas; quę cantica cum alleluia psallantur. <milestone n="7" unit="section"/>Dicto etiam uersu et benedicente abbate, legantur alię quattuor lectiones de nouo testamento, ordine quo supra. <milestone n="8" unit="section"/>Post quartum autem responsorium incipiat abbas hymnum Te De um laudamus. <milestone n="9" unit="section"/>Quo perdicto, legat abbas lectionem de Euangelia, cum honore et timore stantibus omnibus. <milestone n="10" unit="section"/>Qua perlecta, respondeant omnes Amen, et subsequatur mox abbas hymnum Te decet laus, et data benedi ctione incipiant matutinos.
+							<milestone n="11" unit="section"/>Qui ordo uigiliarum omni tempore tam ęstatis quam hiemis ęqualiter in die dominico teneatur. <milestone n="12" unit="section"/>Nisi forte quod absit! tardius surgant: aliquid de lectionibus breuiandum est, aut responsoriis. <milestone n="13" unit="section"/>Quod tamen omnino caueatur ne proueniat. Quod si contigerit, digne inde satisfaciat Deo in oratorio per cuius euenerit neglectum.
+						</p>
+					</div>
+					<div n="12" subtype="chapter" type="textpart">
+						<head>XII. Quomodo matutinorum sollemnitas agatur</head>
+						<p>
+							<milestone n="1" unit="section"/>In matutinis dominico die, in primis dicatur sexagesimus sextus psalmus, sine antiphona, in directum. <milestone n="2" unit="section"/>Post quem dicatur quinquagesimus cum alleluia. <milestone n="3" unit="section"/>Post quem dicatur centesimus septimus decimus et sexagesimus secundus. <milestone n="4" unit="section"/>Inde benedictiones et laudes, lectionem de Apocalipsis una ex corde, et responsorium, ambrosianum, uersu, canticum de Euangelia, litania, et completum est.
+						</p>
+					</div>
+					<div n="13" subtype="chapter" type="textpart">
+						<head>XIII. Priuatis diebus qualiter agantur matutini</head>
+						<p>
+							<milestone n="1" unit="section"/>Diebus autem priuatis, matutinorum sollemnitas ita agatur, <milestone n="2" unit="section"/>id est, ut sexagesimus sextus psalmus dicatur sine antefana, subtrahendo modice, sicut dominica, ut omnes occurrant ad quinquagesimum, qui cum antefana dicatur. <milestone n="3" unit="section"/>Post quem alii duo psalmi dicantur secundum consuetudinem, id est: <milestone n="4" unit="section"/>secunda feria, quintum et tricesimum quintum; <milestone n="5" unit="section"/>tertia feria, quadragesimum secundum et quinquagesimum sextum; <milestone n="6" unit="section"/>quarta feria, sexagesimum tertium et sexagesimum quartum; <milestone n="7" unit="section"/>quinta feria, octogesimum septimum et octogesimum nonum; <milestone n="8" unit="section"/>sexta feria, septuagesimum quintum et nonagesimum primum; <milestone n="9" unit="section"/>sabbatorum autem, centesimum quadragesimum secundum et canticum Deuteronomium qui diuidatur in duas glorias. <milestone n="10" unit="section"/>Nam ceteris diebus canticum unumquemque die suo ex prophetis sicut psallit ecclesia Romana dicantur.
+							<milestone n="11" unit="section"/>Post hęc sequantur laudes; deinde lectio una apostoli memoriter recitanda, responsorium, ambrosianum, uersu, canticum de Euangelia, litania et conpletum est.
+							<milestone n="12" unit="section"/>Plane agenda matutina uel uespertina non transeat aliquando, nisi in ultimo per ordinem oratio dominica, omnibus audientibus, dicatur a priore, propter scandalorum spinas quę oriri solent, <milestone n="13" unit="section"/>ut conuenti per ipsius orationis sponsionem qua dicunt: Dimitte nobis sicut et nos dimittimus, purgent se ab huiusmodi uitio. <milestone n="14" unit="section"/>Ceteris uero agendis, ultima pars eius orationis dicatur, ut ab omnibus respondeatur: Sed libera nos a malo.
+						</p>
+					</div>
+					<div n="14" subtype="chapter" type="textpart">
+						<head>XIIII. In nataliciis sanctorum qualiter agantur uigilię</head>
+						<p>
+							<milestone n="1" unit="section"/>In sanctorum uero festiuitatibus, uel omnibus sollemnitatibus, sicut diximus dominico die agendum, ita agatur, <milestone n="2" unit="section"/>excepto quod psalmi aut antefanę uel lectiones ad ipsum diem pertinentes dicantur; modus autem suprascriptus teneatur.
+						</p>
+					</div>
+					<div n="15" subtype="chapter" type="textpart">
+						<head>XV. Alleluia quibus temporibus dicatur</head>
+						<p>
+							<milestone n="1" unit="section"/>A sanctum Pascha usque Pentecosten, sine intermissione dicatur alleluia, tam in psalmis quam in responsoriis. <milestone n="2" unit="section"/>A Pentecosten autem usque caput quadragesimę, omnibus noctibus, cum sex posterioribus psalmis tantum ad nocturnos dicatur. <milestone n="3" unit="section"/>Omni uero dominica extra quadragesima, cantica, matutinos, prima, tertia, sexta nonaque cum alleluia dicatur, uespera uero iam antefana. <milestone n="4" unit="section"/>Responsoria uero numquam dicantur cum alleluia, nisi a Pascha usque Pentecosten.
+						</p>
+					</div>
+					<div n="16" subtype="chapter" type="textpart">
+						<head>XVI. Qualiter diuina opera per diem agantur</head>
+						<p>
+							<milestone n="1" unit="section"/>Ut ait propheta, septies in die laudem dixi tibi. <milestone n="2" unit="section"/>Qui septenarius sacratus numerus a nobis sic implebitur, si matutino, primę, tertię, sextę, nonę, uesperę conpletoriique tempore nostrę seruitutis officia persoluamus, <milestone n="3" unit="section"/>quia de his diurnis horis dixit: Septies in die laudem dixi tibi. <milestone n="4" unit="section"/>Nam de nocturnis uigiliis idem ipse propheta ait: Media nocte surgebam ad confitendum tibi. <milestone n="5" unit="section"/>Ergo his temporibus referamus laudes Creatori nostro super iudicia iustitię suę, id est matutinis, prima, tertia, sexta, nona, uespera, conpletorios, et nocte surgamus ad confitendum ei.
+						</p>
+					</div>
+					<div n="17" subtype="chapter" type="textpart">
+						<head>XVII. Quot psalmi per easdem horas canendi sunt</head>
+						<p>
+							<milestone n="1" unit="section"/>Iam de nocturnis uel matutinis digessimus ordinem psalmodię; nunc de sequentibus horis uideamus.
+							<milestone n="2" unit="section"/>Prima hora dicantur psalmi tres singillatim et non sub una gloria, <milestone n="3" unit="section"/>hymnum eiusdem horę post uersum Deus in adiutorium antequam psalmi incipiantur. <milestone n="4" unit="section"/>Post expletionem uero trium psalmorum recitetur lectio una, uersu et Quirie eleison et missas.
+							<milestone n="5" unit="section"/>Tertia uero, sexta et nona, item eo ordine celebretur oratio, id est uersu, hymnos earundem horarum, ternos psalmos, lectionem et uersu, Quirie eleison et missas. <milestone n="6" unit="section"/>Si maior congregatio fuerit, cum antefanas, si uero minor, in directum psallantur.
+							<milestone n="7" unit="section"/>Uespertina autem synaxis quattuor psalmis cum antefanis terminetur. <milestone n="8" unit="section"/>Post quibus psalmis, lectio recitanda est; inde responsorium, ambrosianum, uersu, canticum de Euangelia, litania, et oratione dominica fiant missę.
+							<milestone n="9" unit="section"/>Conpletorios autem trium psalmorum dictione terminentur. Qui psalmi directanei sine antefana dicendi sunt. <milestone n="10" unit="section"/>Post quos hymnum eiusdem horę, lectionem unam, uersu, Quirie eleison, et benedictione missę fiant.
+						</p>
+					</div>
+					<div n="18" subtype="chapter" type="textpart">
+						<head>XVIII. Quo ordine ipsi psalmi dicendi sunt</head>
+						<p>
+							<milestone n="1" unit="section"/>In primis dicatur uersu Deus in adiutorium meum intende, Domine ad adiuuandum me festina, gloria, inde hymnum uniuscuiusque horę.
+							<milestone n="2" unit="section"/>Deinde, prima hora dominica, dicenda quattuor capitula psalmi centesimi octaui decimi; <milestone n="3" unit="section"/>reliquis uero horis, id est tertia, sexta uel nona, terna capitula suprascripti psalmi centesimi octaui decimi dicantur. <milestone n="4" unit="section"/>Ad primam autem secundę ferię, dicantur tres psalmi, id est primus, secundus et sextus; <milestone n="5" unit="section"/>et ita per singulos dies ad primam usque dominica dicantur per ordinem terni psalmi usque nonum decimum psalmum, ita sane ut nonus psalmus et septimus decimus partiantur in binos. <milestone n="6" unit="section"/>Et sic fit ut ad uigilias dominica semper a uicesimo incipiatur.
+							<milestone n="7" unit="section"/>Ad tertiam uero, sextam nonamque secundę ferię, nouem capitula quę residua sunt de centesimo octauo decimo, ipsa terna per easdem horas dicantur. <milestone n="8" unit="section"/>Expenso ergo psalmo centesimo octauo decimo duobus diebus, id est dominico et secunda feria, <milestone n="9" unit="section"/>tertia feria iam ad tertiam, sextam uel nonam psallantur terni psalmi a centesimo nono decimo usque centesimo uicesimo septimo, id est psalmi nouem. <milestone n="10" unit="section"/>Quique psalmi semper usque dominica per easdem horas itidem repetantur, hymnorum nihilominus, lectionum uel uersuum dispositionem uniformem cunctis diebus seruatam. <milestone n="11" unit="section"/>Et ita scilicet semper dominica a centesimo octauo decimo incipietur.
+							<milestone n="12" unit="section"/>Uespera autem cotidie quattuor psalmorum modulatione canatur. <milestone n="13" unit="section"/>Qui psalmi incipiantur a centesimo nono usque centesimo quadragesimo septimo, <milestone n="14" unit="section"/>exceptis his qui in diuersis horis ex eis sequestrantur, id est a centesimo septimo decimo usque centesimo uicesimo septimo et centesimo tricesimo tertio et centesimo quadragesimo secundo; <milestone n="15" unit="section"/>reliqui omnes in uespera dicendi sunt. <milestone n="16" unit="section"/>Et quia minus ueniunt tres psalmi, ideo diuidendi sunt qui ex numero suprascripto fortiores inueniuntur, id est centesimum tricesimum octauum et centesimum quadragesimum tertium et centesimum quadragesimum quartum; <milestone n="17" unit="section"/>centesimus uero sextus decimus, quia paruus est, cum centesimo quinto decimo coniungatur. <milestone n="18" unit="section"/>Digesto ergo ordine psalmorum uespertinorum, reliqua, id est lectionem, responsum, hymnum, uersum uel canticum, sicut supra taxauimus impleatur.
+							<milestone n="19" unit="section"/>Ad conpletorios uero cotidie idem psalmi repetantur, id est quartum, nonagesimum et centesimum tricesimum tertium.
+							<milestone n="20" unit="section"/>Disposito ordine psalmodię diurnę, reliqui omnes psalmi qui supersunt ęqualiter diuidantur in septem noctium uigilias, <milestone n="21" unit="section"/>partiendo scilicet qui inter eos prolixiores sunt psalmi et duodecim per unamquamque constituens noctem.
+							<milestone n="22" unit="section"/>Hoc pręcipue commonentes ut, si cui forte hęc distributio psalmorum displicuerit, ordinet si melius aliter iudicauerit, <milestone n="23" unit="section"/>dum omni modis id adtendat ut omni ebdomada psalterium ex integro numero centum quinquaginta psalmorum psallantur, et dominico die semper a caput reprehendatur ad uigilias. <milestone n="24" unit="section"/>Quia nimis inertem deuotionis suę seruitium ostendunt monachi qui minus a psalterio cum canticis consuetudinariis per septimanę circulum psallunt, <milestone n="25" unit="section"/>dum quando legamus sanctos Patres nostros uno die hoc strenue implesse, quod nos tepidi utinam septimana integra persoluamus.
+						</p>
+					</div>
+					<div n="19" subtype="chapter" type="textpart">
+						<head>XIIII. De disciplina psallendi</head>
+						<p>
+							<milestone n="1" unit="section"/>Ubique credimus diuinam esse pręsentiam et oculos Domini in omni loco speculari bonos et malos, <milestone n="2" unit="section"/>maxime tamen hoc sine aliqua dubitatione credamus cum ad opus diuinum adsistimus.
+							<milestone n="3" unit="section"/>Ideo semper memores simus quod ait propheta: Seruite Domino in timore, <milestone n="4" unit="section"/>et iterum: Psallite sapienter, <milestone n="5" unit="section"/>et: In conspectu angelorum psallam tibi. <milestone n="6" unit="section"/>Ergo consideremus qualiter oporteat in conspectu diuinitatis et angelorum eius esse, <milestone n="7" unit="section"/>et sic stemus ad psallendum ut mens nostra concordet uoci nostrę.
+						</p>
+					</div>
+					<div n="20" subtype="chapter" type="textpart">
+						<head>XX. De reuerentia orationis</head>
+						<p>
+							<milestone n="1" unit="section"/>Si, cum hominibus potentibus uolumus aliqua suggerere, non pręsumimus nisi cum humilitate et reuerentia, <milestone n="2" unit="section"/>quanto magis Domino Deo uniuersorum cum omni humilitate et puritatis deuotione supplicandum est.
+							<milestone n="3" unit="section"/>Et non in multiloquio, sed in puritate cordis et conpunctione lacrimarum nos exaudiri sciamus. <milestone n="4" unit="section"/>Et ideo breuis debet esse et pura oratio, nisi forte ex affectu inspirationis diuinę gratię protendatur. <milestone n="5" unit="section"/>In conuentu tamen omnino breuietur oratio, et facto signo a priore omnes pariter surgant.
+						</p>
+					</div>
+					<div n="21" subtype="chapter" type="textpart">
+						<head>XXI. De decanis monasterii</head>
+						<p>
+							<milestone n="1" unit="section"/>Si maior fuerit congregatio, eligantur de ipsis fratres boni testimonii et sanctę conuersationis, et constituantur decani, <milestone n="2" unit="section"/>qui sollicitudinem gerant super decanias suas in omnibus secundum mandata Dei et pręcepta abbatis sui. <milestone n="3" unit="section"/>Qui decani tales eligantur in quibus securus abbas partiat onera sua, <milestone n="4" unit="section"/>et non elegantur per ordinem, sed secundum uitę meritum et sapientię doctrinam.
+							<milestone n="5" unit="section"/>Quique decani, si ex eis aliqua forte quis inflatus superbia repertus fuerit reprehensibilis, correptus semel et iterum atque tertio si emendare noluerit, deiciatur, <milestone n="6" unit="section"/>et alter in loco eius qui dignus est subrogetur. <milestone n="7" unit="section"/>Et de pręposito eadem constituimus.
+						</p>
+					</div>
+					<div n="22" subtype="chapter" type="textpart">
+						<head>XXII. Quomodo dormiant monachi</head>
+						<p>
+							<milestone n="1" unit="section"/>Singuli per singula lecta dormiant.
+							<milestone n="2" unit="section"/>Lectisternia pro modo conuersationis secundum dispensationem abbatis sui accipiant.
+							<milestone n="3" unit="section"/>Si potest fieri omnes in uno loco dormiant; sin autem multitudo non sinit, deni aut uiceni cum senioribus qui super eos solliciti sint pausent.
+							<milestone n="4" unit="section"/>Candela iugiter in eadem cella ardeat usque mane.
+							<milestone n="5" unit="section"/>Uestiti dor miant et cincti cingellis aut funibus, ut cultellos suos ad latus suum non habeant dum dormiunt, ne forte per somnum uulnerent dormientem; <milestone n="6" unit="section"/>et ut parati sint monachi semper et, facto signo absque mora surgentes, festinent inuicem se pręuenire ad opus Dei, cum omni tamen grauitate et modestia. <milestone n="7" unit="section"/>Adulescentiores fratres iuxta se non habeant lectos, sed permixti cum senioribus. <milestone n="8" unit="section"/>Surgentes uero ad opus Dei inuicem se moderate cohortentur propter somnulentorum excusationes.
+						</p>
+					</div>
+					<div n="23" subtype="chapter" type="textpart">
+						<head>XXIII. De excommunicatione culparum</head>
+						<p>
+							<milestone n="1" unit="section"/>Si quis frater contumax aut inoboediens aut superbus aut murmurans uel in aliquo contrarius exsistens sanctę regulę et pręceptis seniorum suorum contemptor repertus fuerit, <milestone n="2" unit="section"/>hic secundum Domini nostri pręceptum admoneatur semel et secundo secrete a senioribus suis. <milestone n="3" unit="section"/>Si non emendauerit, obiurgetur publice coram omnibus. <milestone n="4" unit="section"/>Si uero neque sic correxerit, si intellegit qualis poena sit, excommunicationi subiaceat; <milestone n="5" unit="section"/>sin autem inprobus est, uindictę corporali subdatur.
+						</p>
+					</div>
+					<div n="24" subtype="chapter" type="textpart">
+						<head>XXIIII. Qualis debet esse modus excommunicationis</head>
+						<p>
+							<milestone n="1" unit="section"/>Secundum modum culpę, et excommunicationis uel disciplinę mensura debet ex tendi; <milestone n="2" unit="section"/>qui culparum modus in abbatis pendat iudicio.
+							<milestone n="3" unit="section"/>Si quis tamen frater in leuioribus culpis inuenitur, a mensę participatione priuetur. <milestone n="4" unit="section"/>Priuati autem a mensę consortio ista erit ratio ut in oratorio psalmum aut antefanam non inponat, neque lectionem recitet, usque ad satisfactionem. <milestone n="5" unit="section"/>Refectionem autem cibi post fratrum refectionem solus accipiat, <milestone n="6" unit="section"/>ut, si uerbi gratia fratres reficiunt sexta hora, ille frater nona, si fratres nona, ille uespera, <milestone n="7" unit="section"/>usque dum satisfactione congrua ueniam consequatur.
+						</p>
+					</div>
+					<div n="25" subtype="chapter" type="textpart">
+						<head>XXV. De grauioribus culpis</head>
+						<p>
+							<milestone n="1" unit="section"/>Is autem frater qui grauioris culpę noxa tenetur suspendatur a mensa, simul ab oratorio. <milestone n="2" unit="section"/>Nullus ei fratrum in nullo iungatur consortio nec in conloquio. <milestone n="3" unit="section"/>Solus sit ad opus sibi iniunctum, persistens in pęnitentię luctu, sciens illam terribilem apostoli sententiam dicentis: <milestone n="4" unit="section"/>Traditum eiusmodi hominem in interitum carnis, ut spiritus saluus sit in die Domini. <milestone n="5" unit="section"/>Cibi autem refectionem solus percipiat, mensura uel hora qua pręuiderit abbas ei conpetere; <milestone n="6" unit="section"/>nec a quoquam benedicatur transeunte nec cibum quod ei datur.
+						</p>
+					</div>
+					<div n="26" subtype="chapter" type="textpart">
+						<head>XXVI. De his qui sine iussione iungunt se excommunicatis</head>
+						<p>
+							<milestone n="1" unit="section"/>Si quis frater pręsumpserit sine iussione abbatis fratri excommunicato quolibet modo se iungere aut loqui cum eo uel mandatum ei dirigere, <milestone n="2" unit="section"/>similem sortiatur excommunicationis uindictam.
+						</p>
+					</div>
+					<div n="27" subtype="chapter" type="textpart">
+						<head>XXVII. Qualiter debeat abbas sollicitus esse circa excommunicatos</head>
+						<p>
+							<milestone n="1" unit="section"/>Omni sollicitudine curam gerat abbas circa delinquentes fratres, quia non est opus sanis me dicus sed male habentibus. <milestone n="2" unit="section"/>Et ideo uti debet omni modo ut sapiens medicus, immittere senpectas, id est seniores sapientes fratres, <milestone n="3" unit="section"/>qui quasi secrete consolentur fratrem fluctuantem et prouocent ad humilitatis satisfactionem et consolentur eum ne abundantiori tristitia absorbeatur, <milestone n="4" unit="section"/>sed, sicut ait item apostolus, confirmetur in eo caritas et oretur pro eo ab omnibus.
+							<milestone n="5" unit="section"/>Magnopere enim debet sollicitudinem gerere abbas et omni sagacitate et industria currere, ne aliquam de ouibus sibi creditis perdat.
+							<milestone n="6" unit="section"/>Nouerit enim se infirmarum curam suscepisse animarum, non super sanas tyrannidem; <milestone n="7" unit="section"/>et metuat prophetę comminationem per quam dicit Deus: Quod crassum uidebatis adsumebatis et quod debile erat proiciebatis. <milestone n="8" unit="section"/>Et pastoris boni pium imitetur exem plum, qui, relictis nonaginta nouem ouibus in montibus, abiit unam ouem quę errauerat quęrere; <milestone n="9" unit="section"/>cuius infirmitati in tantum conpassus est, ut eam in sacris humeris suis dignaretur inponere et sic reportare ad gregem.
+						</p>
+					</div>
+					<div n="28" subtype="chapter" type="textpart">
+						<head>XXVIII. De his qui sępius correpti emendare noluerint</head>
+						<p>
+							<milestone n="1" unit="section"/>Si quis frater frequenter correptus pro qualibet culpa, si etiam excommunicatus non emendauerit, acrior ei accedat correptio, id est ut uerberum uindicta in eum procedant. <milestone n="2" unit="section"/>Quod si nec ita correxerit, aut forte quod absit in superbia elatus etiam defendere uoluerit opera sua, tunc abbas faciat quod sapiens medicus: <milestone n="3" unit="section"/>si exhibuit fomenta, si unguenta adhortationum, si medicamina scripturarum diuinarum, si ad ultimum ustionem excommunicationis uel plagarum uirgę, <milestone n="4" unit="section"/>et iam si uiderit nihil suam pręualere industriam, adhibeat etiam quod maius est suam et omnium fratrum pro eo orationem, <milestone n="5" unit="section"/>ut Dominus qui omnia potest operetur salutem circa infirmum fratrem. <milestone n="6" unit="section"/>Quod si nec isto modo sanatus fuerit, tunc iam utatur abbas ferro abscisionis, ut ait apostolus: Auferte malum ex uobis, <milestone n="7" unit="section"/>et iterum: Infidelis, si discedit, discedat, <milestone n="8" unit="section"/>ne una ouis morbida omnem gregem contagiet.
+						</p>
+					</div>
+					<div n="29" subtype="chapter" type="textpart">
+						<head>XXIIII. Si debeant fratres exeuntes de monasterio iterum recipi</head>
+						<p>
+							<milestone n="1" unit="section"/>Frater qui proprio uitio egreditur de monasterio, si reuerti uoluerit, spondeat prius omnem emendationem pro quo egressus est, <milestone n="2" unit="section"/>et sic in ultimo gradu recipiatur, ut ex hoc eius humilitas conprobetur. <milestone n="3" unit="section"/>Quod si denuo exierit, usque tertio ita recipiatur, iam postea sciens omnem sibi reuersionis aditum denegari.
+						</p>
+					</div>
+					<div n="30" subtype="chapter" type="textpart">
+						<head>XXX. De pueris minori ętate, qualiter corripiantur</head>
+						<p>
+							<milestone n="1" unit="section"/>Omnis ętas uel intellectus proprias debet habere mensuras.
+							<milestone n="2" unit="section"/>Ideoque, quotiens pueri uel adulescentiores ętate, aut qui minus intellegere possunt quanta poena sit excommunicationis, <milestone n="3" unit="section"/>hii tales dum delinquunt, aut ieiuniis nimiis affligantur aut acris uerberibus coerceantur, ut sanentur.
+						</p>
+					</div>
+					<div n="31" subtype="chapter" type="textpart">
+						<head>XXXI. De cellerario monasterii, qualis sit</head>
+						<p>
+							<milestone n="1" unit="section"/>Cellararius monasterii elegatur de congregatione, sapiens, maturis moribus, sobrius, non multum edax, non elatus, non turbulentus, non iniuriosus, non tardus, non prodigus, <milestone n="2" unit="section"/>sed timens Deum; qui omni congregationi sit sicut pater. <milestone n="3" unit="section"/>Curam gerat de omnibus; <milestone n="4" unit="section"/>sine iussione abbatis nihil faciat. <milestone n="5" unit="section"/>Quę iubentur custodiat; <milestone n="6" unit="section"/>fratres non contristet. <milestone n="7" unit="section"/>Si quis frater ab eo forte aliqua irrationabiliter postulat, non spernendo eum contristet, sed rationabiliter cum humilitate male petenti deneget. <milestone n="8" unit="section"/>Animam suam custodiat, memor semper illud apostolicum quia qui bene ministrauerit gradum bonum sibi adquirit. <milestone n="9" unit="section"/>Infirmorum, infantum, hospitum pauperumque cum omni sollicitudine curam gerat, sciens sine dubio quia pro his omnibus in die iudicii rationem redditurus est. <milestone n="10" unit="section"/>Omnia uasa monasterii cunctamque substantiam ac si altaris uasa sacrata conspiciat. <milestone n="11" unit="section"/>Nihil ducat neglegendum. <milestone n="12" unit="section"/>Neque auaritię studeat, neque prodigus sit et stirpator substantię monasterii, sed omnia mensurate faciat et secundum iussionem abbatis.
+							<milestone n="13" unit="section"/>Humilitatem ante omnia habeat, et cui substantia non est quod tribuatur, sermo responsionis porrigatur bonus, <milestone n="14" unit="section"/>ut scriptum est: Sermo bonus super datum optimum. <milestone n="15" unit="section"/>Omnia quę ei iniunxerit abbas, ipsa habeat sub cura sua; a quibus eum prohibuerit, non pręsumat. <milestone n="16" unit="section"/>Fratribus constitutam annonam sine aliquo tyfo uel mora offerat, ut non scandalizentur, memor diuini eloquii quid mereatur qui scandalizauerit unum de pusillis.
+							<milestone n="17" unit="section"/>Si congregatio maior fuerit, solacia ei dentur, a quibus adiutus et ipse ęquo animo impleat officium sibi commissum. <milestone n="18" unit="section"/>Horis conpetentibus dentur quę danda sunt et petantur quę petenda sunt, <milestone n="19" unit="section"/>ut nemo perturbetur neque contristetur in domo Dei.
+						</p>
+					</div>
+					<div n="32" subtype="chapter" type="textpart">
+						<head>XXXII. De ferramentis uel rebus monasterii</head>
+						<p>
+							<milestone n="1" unit="section"/>Substantia monasterii in ferramentis uel uestibus seu quibuslibet rebus pręuideat abbas fratres de quorum uita et moribus securus sit, <milestone n="2" unit="section"/>et eis singula, ut utile iudicauerit, consignet custodienda atque recolligenda. <milestone n="3" unit="section"/>Ex quibus abbas breuem teneat, ut dum sibi in ipsa adsignata fratres uicissim succedunt, sciat quid dat aut quid recipit.
+							<milestone n="4" unit="section"/>Si quis autem sordide aut neglegenter res monasterii tractauerit, corripiatur; <milestone n="5" unit="section"/>si non emendauerit, disciplinę regulari subiaceat.
+						</p>
+					</div>
+					<div n="33" subtype="chapter" type="textpart">
+						<head>XXXIII. Si quid debeant monachi proprium habere</head>
+						<p>
+							<milestone n="1" unit="section"/>Pręcipue hoc uitium radicitus amputandum est de monasterio, <milestone n="2" unit="section"/>ne quis pręsumat aliquid dare aut accipere sine iussione abbatis, <milestone n="3" unit="section"/>neque aliquid habere proprium, nullam omnino rem, neque codicem, neque tabulas, neque grafium, sed nihil omnino, <milestone n="4" unit="section"/>quippe quibus nec corpora sua nec uoluntates licet habere in propria uoluntate; <milestone n="5" unit="section"/>omnia uero necessaria a patre sperare monasterii, nec quicquam liceat habere quod abbas non dederit aut permiserit. <milestone n="6" unit="section"/>Omniaque omnium sint communia, ut scriptum est, ne quisquam suum aliquid dicat uel pręsumat.
+							<milestone n="7" unit="section"/>Quod si quisquam huic nequissimo uitio deprehensus fuerit delectari, admoneatur semel et iterum; <milestone n="8" unit="section"/>si non emendauerit, correptioni subiaceat.
+						</p>
+					</div>
+					<div n="34" subtype="chapter" type="textpart">
+						<head>XXXIIII. Si omnes ęqualiter debeant necessaria accipere</head>
+						<p>
+							<milestone n="1" unit="section"/>Sicut scriptum est: Diuidebatur singulis prout cuique opus erat.
+							<milestone n="2" unit="section"/>Ubi non dicimus ut personarum quod absit acceptio sit, sed infirmitatum consideratio; <milestone n="3" unit="section"/>ubi qui minus indiget agat Deo gratias et non contristetur, <milestone n="4" unit="section"/>qui uero plus indiget humilietur pro infirmitate, non extollatur pro misericordia; <milestone n="5" unit="section"/>et ita omnia membra erunt in pace. <milestone n="6" unit="section"/>Ante omnia, ne murmurationis malum pro qualicumque causa in aliquo qualicumque uerbo uel significatione appareat; <milestone n="7" unit="section"/>quod si deprehensus fuerit, districtiori disciplinę subdatur.
+						</p>
+					</div>
+					<div n="35" subtype="chapter" type="textpart">
+						<head>XXXV. De septimanariis coquinę</head>
+						<p>
+							<milestone n="1" unit="section"/>Fratres sibi inuicem seruiant, ut nullus excusetur a coquinę officio, nisi aut ęgritudo, aut in causa grauis utilitatis quis occupatus fuerit, <milestone n="2" unit="section"/>quia exinde maior mercis et caritas acquiritur. <milestone n="3" unit="section"/>Imbecillibus autem procurentur solacia, ut non cum tristitia hoc faciant; <milestone n="4" unit="section"/>sed habeant omnes solacia secundum modum congregationis aut positionem loci. <milestone n="5" unit="section"/>Si maior congregatio fu erit, cellararius excusetur a coquina, uel si qui, ut diximus, maioribus utilitatibus occupantur; <milestone n="6" unit="section"/>ceteri sibi sub caritate inuicem seruiant.
+							<milestone n="7" unit="section"/>Egressurus de septimana sabbato munditias faciat. <milestone n="8" unit="section"/>Lintea cum quibus sibi fratres manus aut pedes tergunt lauent. <milestone n="9" unit="section"/>Pedes uero tam ipse qui egreditur quam ille qui intraturus est omnibus lauent. <milestone n="10" unit="section"/>Uasa ministerii sui munda et sana cellarario reconsignet; <milestone n="11" unit="section"/>qui cellararius item intranti consignet, ut sciat quod dat aut quod recipit.
+							<milestone n="12" unit="section"/>Septimanarii autem ante unam horam refectionis accipiant super statutam annonam singulas biberes et panem, <milestone n="13" unit="section"/>ut hora refectionis sine murmuratione et graui labore seruiant fratribus suis. <milestone n="14" unit="section"/>In diebus tamen sollemnibus usque ad missas sustineant.
+							<milestone n="15" unit="section"/>Intrantes et exeuntes ebdomadarii in oratorio mox matutinis finitis dominica omnibus genibus prouoluantur postulantes pro se orari. <milestone n="16" unit="section"/>Egrediens autem de septimana dicat hunc uersum: Benedictus es, Domine Deus, qui adiuuasti me et consolatus es me; <milestone n="17" unit="section"/>quo dicto tertio accepta benedictione egrediens, subsequatur ingrediens et dicat: Deus in adiutorium meum intende, Domine ad adiuuandum me festina, <milestone n="18" unit="section"/>et hoc idem tertio repetatur ab omnibus et accepta benedictione ingrediatur.
+						</p>
+					</div>
+					<div n="36" subtype="chapter" type="textpart">
+						<head>XXXVI. De infirmis fratribus</head>
+						<p>
+							<milestone n="1" unit="section"/>Infirmorum cura ante omnia et super omnia adhibenda est, ut sicut reuera Christo ita eis seruiatur, <milestone n="2" unit="section"/>quia ipse dixit: Infirmus fui et uisitastis me, <milestone n="3" unit="section"/>et: Quod fecistis uni de his minimis mihi fecistis. <milestone n="4" unit="section"/>Sed et ipsi infirmi considerent in honorem Dei sibi seruire, et non superfluitate sua contristent fratres suos seruientes sibi; <milestone n="5" unit="section"/>qui tamen patienter portandi sunt, quia de talibus copiosior mercis acquiritur. <milestone n="6" unit="section"/>Ergo cura maxima sit abbati ne aliquam neglegentiam patiantur.
+							<milestone n="7" unit="section"/>Quibus fratribus infirmis sit cella super se deputata et seruitor timens Deum et diligens ac sollicitus. <milestone n="8" unit="section"/>Balnearum usus infirmis quotiens expedit offeratur sanis autem et maxime iuuenibus tardius concedatur. <milestone n="9" unit="section"/>Sed et carnium esus infirmis omnino debilibus pro reparatione concedatur; at, ubi meli orati fuerunt, a carnibus more solito omnes abstineant.
+							<milestone n="10" unit="section"/>Curam autem maximam habeat abbas ne a cellarariis aut a seruitoribus neglegantur infirmi. Et ipsum respicit quicquid a discipulis delinquitur.
+						</p>
+					</div>
+					<div n="37" subtype="chapter" type="textpart">
+						<head>XXXVII. De senibus uel infantibus</head>
+						<p>
+							<milestone n="1" unit="section"/>Licet ipsa natura humana trahatur ad misericordiam in his ętatibus, senum uidelicet et infantum, tamen et regulę auctoritas eis prospiciat.
+							<milestone n="2" unit="section"/>Consi deretur semper in eis imbecillitas et ullatenus eis districtio regulę teneatur in alimentis, <milestone n="3" unit="section"/>sed sit in eis pia consideratio et pręueniant horas canonicas.
+						</p>
+					</div>
+					<div n="38" subtype="chapter" type="textpart">
+						<head>XXXVIII. De ebdomadario lectore</head>
+						<p>
+							<milestone n="1" unit="section"/>Mensis fratrum lectio deesse non debet, nec fortuito casu qui arripuerit codicem legere ibi, sed lecturus tota ebdomada dominica ingrediatur. <milestone n="2" unit="section"/>Qui ingrediens post missas et communionem petat ab omnibus pro se orari, ut auertat ab ipso Deus spiritum elationis, <milestone n="3" unit="section"/>et dicatur hic uersus in oratorio tertio ab omnibus, ipso tamen incipiente: Domine, labia mea aperies, et os meum adnuntiabit laudem tuam; <milestone n="4" unit="section"/>et sic accepta benedictione ingrediatur ad legendum.
+							<milestone n="5" unit="section"/>Et summum fiat silentium, ut nullius mussitatio uel uox nisi solius legentis ibi audiatur. <milestone n="6" unit="section"/>Quę uero necessaria sunt comedentibus et bibentibus sic sibi uicissim ministrent fratres ut nullus indigeat petere aliquid; <milestone n="7" unit="section"/>si quid tamen opus fuerit, sonitu cuiuscumque signi potius petatur quam uoce. <milestone n="8" unit="section"/>Nec pręsumat ibi aliquis de ipsa lectione aut aliunde quicquam requirere, ne detur occasio; <milestone n="9" unit="section"/>nisi forte prior pro ędificatione uoluerit aliquid breuiter dicere.
+							<milestone n="10" unit="section"/>Frater autem lector ebdomadarius accipiat mixtum priusquam incipiat legere, propter communionem sanctam, et ne forte graue sit ei ieiunium sustinere. <milestone n="11" unit="section"/>Postea autem cum coquinę ebdomadariis et seruitoribus reficiat.
+							<milestone n="12" unit="section"/>Fratres autem non per ordinem legant aut cantent, sed qui ędificant audientes.
+						</p>
+					</div>
+					<div n="39" subtype="chapter" type="textpart">
+						<head>XXXVIIII. De mensura cibus</head>
+						<p>
+							<milestone n="1" unit="section"/>Sufficere credimus ad refectionem cotidianam tam sextę quam nonę, omnibus mensis, cocta duo pulmentaria, propter diuersorum infirmitatibus, <milestone n="2" unit="section"/>ut forte qui ex illo non potuerit edere ex alio reficiatur. <milestone n="3" unit="section"/>Ergo duo pulmentaria cocta fratribus omnibus sufficiant et, si fuerit unde poma aut nascentia leguminum, addatur et tertium. <milestone n="4" unit="section"/>Panis libra una propensa sufficiat in die, siue una sit refectio siue prandii et cenę: <milestone n="5" unit="section"/>quod si cenaturi sunt, de eadem libra tertia pars a cellarario seruetur reddenda cenandis. <milestone n="6" unit="section"/>Quod si labor forte factus fuerit maior, in arbitrio et potestate abbatis erit, si expediat, aliquid augere, <milestone n="7" unit="section"/>remota prę omnibus crapula et ut numquam surripiat monacho indigeries, <milestone n="8" unit="section"/>quia nihil sic contrarium est omni christiano quomodo crapula, <milestone n="9" unit="section"/>sicut ait Dominus noster: Uidete ne grauentur corda uestra crapula.
+							<milestone n="10" unit="section"/>Pueris uero minori ętate non eadem seruetur quantitas, sed minor quam maioribus, seruata in omnibus parcitate. <milestone n="11" unit="section"/>Carnium uero quadrupedum omnimodo ab omnibus abstineatur comestio, pręter omnino debiles ęgrotos.
+						</p>
+					</div>
+					<div n="40" subtype="chapter" type="textpart">
+						<head>XL. De mensura potus</head>
+						<p>
+							<milestone n="1" unit="section"/>Unusquisque proprium habet donum ex Deo, alius sic, alius uero sic; <milestone n="2" unit="section"/>et ideo cum aliqua scrupulositate a nobis mensura uictus aliorum constituitur. <milestone n="3" unit="section"/>Tamen infirmorum contuentes imbecillitatem, credimus eminam uini per singulos sufficere per diem. <milestone n="4" unit="section"/>Quibus autem donat Deus tolerantiam abstinentię, propriam se habituros mercedem sciant.
+							<milestone n="5" unit="section"/>Quod si aut loci necessitas uel labor aut ardor ęstatis amplius poposcerit, in arbitrio prioris consistat, considerans in omnibus ne subrepat satietas aut ebrietas. <milestone n="6" unit="section"/>Licet legamus uinum omnino monachorum non esse, sed quia nostris temporibus id monachis persuaderi non potest, saltem uel hoc consentiamus ut non usque ad satietatem bibamus, sed parcius, <milestone n="7" unit="section"/>quia uinum apostatare facit etiam sapientes.
+							<milestone n="8" unit="section"/>Ubi autem necessitas loci exposcit ut nec suprascripta mensura inueniri possit, sed multo minus aut ex toto nihil, benedicant Deum qui ibi habitant et non murmurent. <milestone n="9" unit="section"/>Hoc ante omnia admonentes ut absque murmurationibus sint.
+						</p>
+					</div>
+					<div n="41" subtype="chapter" type="textpart">
+						<head>XLI. Quibus horis oportet reficere fratres</head>
+						<p>
+							<milestone n="1" unit="section"/>A sancto Pascha usque Pentecosten, ad sextam reficiant fratres et sera cenent.
+							<milestone n="2" unit="section"/>A Pentecosten autem, tota ęstate, si labores agrorum non habent monachi aut nimietas ęstatis non perturbat, quarta et sexta feria ieiunent usque ad nonam; <milestone n="3" unit="section"/>reliquis diebus ad sextam prandeant; <milestone n="4" unit="section"/>quam prandii sextam, si operis in agris habuerint aut ęstatis feruor nimius fuerit, continuanda erit et in abbatis sit prouidentia. <milestone n="5" unit="section"/>Et sic omnia temperet atque disponat qualiter et animę saluentur et quod faciunt fratres absque iusta murmuratione faciant.
+							<milestone n="6" unit="section"/>Ab idus autem septembres usque caput quadragesimę, ad nonam semper reficiant.
+							<milestone n="7" unit="section"/>In quadragesima uero usque in Pascha, ad uesperam reficiant; <milestone n="8" unit="section"/>ipsa tamen uespera sic agatur ut lumen lucernę non indigeant reficientes, sed luce adhuc diei omnia consummentur. <milestone n="9" unit="section"/>Sed et omni tempore, siue cena siue refectionis hora sic temperetur ut luce fiant omnia.
+						</p>
+					</div>
+					<div n="42" subtype="chapter" type="textpart">
+						<head>XLII. Ut post conpletorium nemo loquatur</head>
+						<p>
+							<milestone n="1" unit="section"/>Omni tempore silentium debent studere monachi, maxime tamen nocturnis horis. <milestone n="2" unit="section"/>Et ideo omni tempore, siue ieiunii siue prandii: <milestone n="3" unit="section"/>si tempus fuerit prandii, mox surrexerint a cena, sedeant omnes in unum et legat unus Collationes uel Uitas Patrum aut certe aliud quod ędificet audientes, <milestone n="4" unit="section"/>non autem Eptaticum aut Regum, quia infirmis intellectibus non erit utile illa hora hanc scripturam audire, aliis uero horis legantur.
+							<milestone n="5" unit="section"/>Si autem ieiunii dies fuerit, dicta uespera paruo interuallo mox accedant ad lectionem Collati onum, ut diximus. <milestone n="6" unit="section"/>Et lectis quattuor aut quinque foliis uel quantum hora permittit, <milestone n="7" unit="section"/>omnibus in unum occurrentibus per hanc moram lectionis, si qui forte in adsignato sibi commisso fuit occupatus, <milestone n="8" unit="section"/>omnes ergo in unum positi conpleant et, exeuntes a conpletoriis, nulla sit licentia denuo cuiquam loqui aliquid <milestone n="9" unit="section"/>_quod si inuentus fuerit quisquam pręuaricare hanc taciturnitatis regulam, graui uindictę subiaceat_ <milestone n="10" unit="section"/>excepto si necessitas hospitum superuenerit aut forte abbas alicui aliquid iusserit, <milestone n="11" unit="section"/>quod tamen et ipsud cum summa grauitate et moderatione honestissima fiat.
+						</p>
+					</div>
+					<div n="43" subtype="chapter" type="textpart">
+						<head>XLIII. De his qui ad opus dei uel ad mensam tarde occurrunt</head>
+						<p>
+							<milestone n="1" unit="section"/>Ad horam diuini officii, mox auditus fuerit signus, relictis omnibus quęlibet fuerint in manibus, summa cum festinatione curratur, <milestone n="2" unit="section"/>cum grauitate tamen, ut non scurrilitas inueniat fomitem. <milestone n="3" unit="section"/>Ergo nihil operi Dei pręponatur.
+							<milestone n="4" unit="section"/>Quod si quis in nocturnis uigiliis post gloriam psalmi nonagesimi quarti, quem propter hoc omnino subtrahendo et morose uolumus dici, occurrerit, non stet in ordine suo in choro, <milestone n="5" unit="section"/>sed ultimus omnium stet aut in loco quem talibus neglegentibus seorsum constituerit abbas, ut uideantur ab ipso uel ab omnibus, <milestone n="6" unit="section"/>usque dum conpleto opere Dei publica satisfactione pęniteat . <milestone n="7" unit="section"/>Ideo autem eos in ultimo aut seorsum iudicauimus debere stare ut, uisi ab omnibus, uel pro ipsa uerecundia sua emendent; <milestone n="8" unit="section"/>nam, si foris oratorium remaneant, erit forte talis qui se aut recollocet et dormit, aut certe sedit sibi foris uel fabulis uacat, et datur occasio maligno; <milestone n="9" unit="section"/>sed ingrediantur intus, ut nec totum perdant et de reliquo emendent.
+							<milestone n="10" unit="section"/>Diurnis autem horis, qui ad opus Dei post uersum et gloriam primi psalmi qui post uersum dicitur non occurrerit, lege qua supra diximus in ultimo stent, <milestone n="11" unit="section"/>nec pręsumant sociari choro psallentium usque ad satisfactionem, nisi forte abbas licentiam dederit remissione sua, <milestone n="12" unit="section"/>ita tamen ut satisfaciat reus ex hoc.
+							<milestone n="13" unit="section"/>Ad mensam autem qui ante uersu non occurrerit, ut simul omnes dicant uersu et orent et sub uno omnes accedant ad mensam, <milestone n="14" unit="section"/>qui per neglegentiam suam aut uitio non occurrerit, usque secunda uice pro hoc corripiatur; <milestone n="15" unit="section"/>si denuo non emendauerit, non permittatur ad mensę communis participationem, <milestone n="16" unit="section"/>sed sequest ratus a consortio omnium reficiat solus, sublata ei portione sua uinum, usque ad satisfactionem et emendationem. <milestone n="17" unit="section"/>Similiter autem patiatur qui et ad illum uersum non fuerit pręsens qui post cibum dicitur.
+							<milestone n="18" unit="section"/>Et ne quis pręsumat ante statutam horam uel postea quicquam cibi aut potus pręsumere; <milestone n="19" unit="section"/>sed et cui offertur aliquid a priore et accipere rennuit, hora qua desiderauerit hoc quod prius recusauit aut aliud, omnino nihil percipiat usque ad emendationem congruam.
+						</p>
+					</div>
+					<div n="44" subtype="chapter" type="textpart">
+						<head>XLIIII. De his qui excommunicantur, quomodo satisfaciant</head>
+						<p>
+							<milestone n="1" unit="section"/>Qui pro grauibus culpis ab oratorio et a mensa excommunicantur, hora qua opus Dei in oratorio percelebratur, ante fores oratorii prostratus iaceat nihil dicens, <milestone n="2" unit="section"/>nisi tantum posito in terra capite, stratus pronus omnium de oratorio exeuntium pedibus; <milestone n="3" unit="section"/>et hoc tamdiu faciat usque dum abbas iudicauerit satisfactum esse. <milestone n="4" unit="section"/>Qui dum iussus ab abbate uenerit, uoluat se ipsius abbatis deinde omnium uestigiis ut orent pro ipso, <milestone n="5" unit="section"/>et tunc, si iusserit abbas, recipiatur in choro uel in ordine quo abbas decreuerit; <milestone n="6" unit="section"/>ita sane ut psalmum aut lectionem uel aliud quid non pręsumat in oratorio inponere nisi iterum abbas iubeat; <milestone n="7" unit="section"/>et omnibus horis, dum perconpletur opus Dei, proiciat se in terra in loco quo stat, <milestone n="8" unit="section"/>et sic satisfaciat usque dum ei iubeat iterum abbas ut quiescat iam ab hac satisfactione.
+							<milestone n="9" unit="section"/>Qui uero pro leuibus culpis excommunicantur tantum a mensa, in oratorio satisfaciant usque ad iussionem abbatis; <milestone n="10" unit="section"/>hoc perficiant usque dum benedicat et dicat: Sufficit.
+						</p>
+					</div>
+					<div n="45" subtype="chapter" type="textpart">
+						<head>XLV. De his qui falluntur in oratorio</head>
+						<p>
+							<milestone n="1" unit="section"/>Si quis dum pronuntiat psalmum, responsorium, antefanam uel lectionem fallitus fuerit, nisi satisfactione ibi coram omnibus humiliatus fuerit, maiori uindictę subiaceat, <milestone n="2" unit="section"/>quippe qui noluit humilitate corrigere quod neglegentia deliquit. <milestone n="3" unit="section"/>Infantes autem pro tali culpa uapulent.
+						</p>
+					</div>
+					<div n="46" subtype="chapter" type="textpart">
+						<head>XLVI. De his qui in aliis quibuslibet rebus delinquunt</head>
+						<p>
+							<milestone n="1" unit="section"/>Si quis dum in labore quouis, in coquina, in cellario, in ministerio, in pistrino, in horto, in arte aliqua dum laborat, uel in quocumque loco, aliquid deliquerit, <milestone n="2" unit="section"/>aut fregerit quippiam aut perdiderit, uel aliud quid excesserit ubiubi, <milestone n="3" unit="section"/>et non ueniens continuo ante abbatem uel congregationem ipse ultro satisfecerit et prodiderit delictum suum, <milestone n="4" unit="section"/>dum per alium cognitum fuerit, maiori subiaceat emendationi.
+							<milestone n="5" unit="section"/>Si animę uero peccati causa fuerit latens, tantum abbati aut spiritalibus senioribus patefaciat, <milestone n="6" unit="section"/>qui sciat curare et sua et aliena uulnera, non detegere et publicare.
+						</p>
+					</div>
+					<div n="47" subtype="chapter" type="textpart">
+						<head>XLVII. De significanda hora operis dei</head>
+						<p>
+							<milestone n="1" unit="section"/>Nuntianda hora operis Dei dies noctesque sit cura abbatis: aut ipse nuntiare aut tali sollicito fratri iniungat hanc curam, ut omnia horis conpetentibus compleantur.
+							<milestone n="2" unit="section"/>Psalmos a utem uel antefanas post abbatem ordine suo quibus iussum fuerit inponant. <milestone n="3" unit="section"/>Cantare autem et legere non pręsumat nisi qui potest ipsud officium implere ut ędificentur audientes; <milestone n="4" unit="section"/>quod cum humilitate et grauitate et tremore fiat, et cui iusserit abbas.
+						</p>
+					</div>
+					<div n="48" subtype="chapter" type="textpart">
+						<head>XLVIII. De opera manuum cotidiana</head>
+						<p>
+							<milestone n="1" unit="section"/>Otiositas inimica est animę, et ideo certis temporibus occu pari debent fratres in labore manuum, certis iterum horis in lectione diuina.
+							<milestone n="2" unit="section"/>Ideoque hac dispositione credimus utraque tempore ordinari: <milestone n="3" unit="section"/>id est ut a Pascha usque kalendas octobres a mane exeuntes a prima usque hora pene quarta laborent quod necessarium fuerit; <milestone n="4" unit="section"/>ab hora autem quarta usque hora qua sextam agent lectioni uacent; <milestone n="5" unit="section"/>post sextam autem surgentes a mensa pausent in lecta sua cum omni silentio, aut forte qui uoluerit legere sibi sic legat ut alium non inquietet; <milestone n="6" unit="section"/>et agatur nona temperius mediante octaua hora, et iterum quod faciendum est operentur usque ad uesperam. <milestone n="7" unit="section"/>Si autem necessitas loci aut paupertas exegerit ut ad fruges recolligendas per se occupentur, non contristentur, <milestone n="8" unit="section"/>quia tunc uere monachi sunt si labore manuum suarum uiuunt, sicut et patres nostri et apostoli. <milestone n="9" unit="section"/>Omnia tamen mensurate fiant propter pusillanimes.
+							<milestone n="10" unit="section"/>A kalendas autem Octobres usque caput quadragesimę, usque in hora secunda plena lectioni uacent; <milestone n="11" unit="section"/>hora secunda agatur tertia, et usque nona omnes in opus suum laborent quod eis iniungitur; <milestone n="12" unit="section"/>facto autem primo signo nonę horę, deiungant ab opera sua singuli et sint parati dum secundum signum pulsauerit. <milestone n="13" unit="section"/>Post refectionem autem uacent lectionibus suis aut psalmis.
+							<milestone n="14" unit="section"/>In quadragesimę uero diebus, a mane usque tertia plena uacent lectionibus suis, et usque decima hora plena operentur quod eis iniungitur.
+							<milestone n="15" unit="section"/>In quibus diebus quadragesimę accipiant omnes singulos codices de bibliotheca, quos per ordinem ex integro legant; <milestone n="16" unit="section"/>qui codices in caput quadragesimę dandi sunt.
+							<milestone n="17" unit="section"/>Ante omnia sane deputentur unus aut duo seniores qui circumeant monasterium horis quibus uacant fratres lectioni, <milestone n="18" unit="section"/>et uideant ne forte inueniatur frater acediosus qui uacat otio aut fabulis et non est intentus lectioni, et non solum sibi inutilis est, sed etiam alios distollit: <milestone n="19" unit="section"/>hic talis si quod absit repertus fuerit, corripiatur semel et secundo; <milestone n="20" unit="section"/>si non emendauerit, correptioni regulari subiaceat taliter ut ceteri timeant. <milestone n="21" unit="section"/>Neque frater ad fratrem iungatur horis inconpetentibus.
+							<milestone n="22" unit="section"/>Dominico item die lectioni uacent omnes, excepto his qui uariis officiis deputati sunt.
+							<milestone n="23" unit="section"/>Si quis uero ita neglegens et desidiosus fuerit ut non uelit aut non possit meditare aut legere, iniungatur ei opus quod faciat, ut non uacet.
+							<milestone n="24" unit="section"/>Fratribus infirmis aut delicatis talis opera aut ars iniungatur ut nec oti osi sint nec uiolentia laboris opprimantur aut effugentur. <milestone n="25" unit="section"/>Quorum imbecillitas ab abbate consideranda est.
+						</p>
+					</div>
+					<div n="49" subtype="chapter" type="textpart">
+						<head>XLIX. De quadragesimę obseruatione</head>
+						<p>
+							<milestone n="1" unit="section"/>Licet omni tempore uita monachi quadragesimę debet obseruationem habere, <milestone n="2" unit="section"/>tamen, quia paucorum est ista uirtus, ideo suademus istis diebus quadragesimę omni puritate uitam suam custodire omnes pariter, <milestone n="3" unit="section"/>et neglegentias aliorum temporum his diebus sanctis diluere. <milestone n="4" unit="section"/>Quod tunc digne fit si ab omnibus uitiis temperamus, orationi cum fletibus, lectioni et conpunctioni cordis atque abstinentię operam damus. <milestone n="5" unit="section"/>Ergo his diebus augeamus nobis aliquid solito pensu seruitutis nostrę, orationes peculiares, ciborum et potus abstinentiam, <milestone n="6" unit="section"/>ut unusquisque super mensuram sibi indictam aliquid propria uoluntate cum gaudio Sancti Spiritus offerat Deo, <milestone n="7" unit="section"/>id est subtrahat corpori suo de cibo, de potu, de somno, de loquacitate, de scurrilitate, et cum spiritalis desiderii gaudio sanctum Pascha exspectet.
+							<milestone n="8" unit="section"/>Hoc ipsud tamen quod unusqui sque offerit abbati suo suggerat, et cum eius fiat oratione et uoluntate, <milestone n="9" unit="section"/>quia quod sine permissione patris spiritalis fit, pręsumptioni deputabitur et uanę glorię, non mercedi. <milestone n="10" unit="section"/>Ergo cum uoluntate abbatis omnia agenda sunt.
+						</p>
+					</div>
+					<div n="50" subtype="chapter" type="textpart">
+						<head>L. De fratribus qui longe ab oratorio laborant aut in uia sunt</head>
+						<p>
+							<milestone n="1" unit="section"/>Fratres qui omnino longe sunt in labore et non possunt occurrere hora conpetenti ad oratorium <milestone n="2" unit="section"/>_et abbas hoc perpendet, quia ita est_ <milestone n="3" unit="section"/>agant ibidem opus Dei, ubi operantur, cum tremore diuino flectentes genua.
+							<milestone n="4" unit="section"/>Similiter, qui in itinere directi sunt, non eos prętereant horę constitutę, sed ut possunt agant sibi et seruitutis pensum non neglegant reddere.
+						</p>
+					</div>
+					<div n="51" subtype="chapter" type="textpart">
+						<head>LI. De fratribus qui non longe satis proficiscuntur</head>
+						<p>
+							<milestone n="1" unit="section"/>Frater qui pro quouis responso dirigitur et ea die speratur reuerti ad monasterium, non pręsumat foris manducare, etiam si omnino rogetur a quouis, <milestone n="2" unit="section"/>nisi forte ei ab abbate suo pręcipiatur. <milestone n="3" unit="section"/>Quod si aliter fecerit, excommunicetur.
+						</p>
+					</div>
+					<div n="52" subtype="chapter" type="textpart">
+						<head>LII. De oratorio monasterii</head>
+						<p>
+							<milestone n="1" unit="section"/>Oratorium hoc sit quod dicitur, nec ibi quicquam aliud geratur aut condatur. <milestone n="2" unit="section"/>Expleto opere Dei, omnes cum summo silentio exeant, et habeatur reuerentia Deo, <milestone n="3" unit="section"/>ut frater qui forte sibi peculiariter uult orare non impediatur alterius improbitate. <milestone n="4" unit="section"/>Sed et si aliter uult sibi forte secretius orare, simpliciter intret et oret, non in clamosa uoce, sed in lacrimis et intentione cordis. <milestone n="5" unit="section"/>Ergo qui simile opus non facit, non permittatur explicito opere Dei remorari in oratorio, sicut dictum est, ne alius impedimentum patiatur.
+						</p>
+					</div>
+					<div n="53" subtype="chapter" type="textpart">
+						<head>LIII. De hospitibus suscipiendis</head>
+						<p>
+							<milestone n="1" unit="section"/>Omnes superuenientes hospites tamquam Christus suscipiantur, quia ipse dicturus est: Hospis fui et suscepistis me; <milestone n="2" unit="section"/>et omnibus congruus honor exhibeatur, maxime domesticis fidei et peregrinis.
+							<milestone n="3" unit="section"/>Ut ergo nuntiatus fuerit hospis, occurratur ei a priore uel a fratribus cum omni officio caritatis, <milestone n="4" unit="section"/>et primitus orent pariter, et sic sibi socientur in pace. <milestone n="5" unit="section"/>Quod pacis osculum non prius offeratur nisi o ratione pręmissa, propter illusiones diabolicas.
+							<milestone n="6" unit="section"/>In ipsa autem salutatione omnis exhibeatur humilitas omnibus uenientibus siue discedentibus hospitibus: <milestone n="7" unit="section"/>inclinato capite uel prostrato omni corpore in terra, Christus in eis adoretur qui et suscipitur. <milestone n="8" unit="section"/>Suscepti autem hospites ducantur ad orationem et postea sedeat cum eis prior aut cui iusserit ipse. <milestone n="9" unit="section"/>Legatur coram hospite lex diuina ut ędificetur, et post hęc omnis ei exhibeatur humanitas. <milestone n="10" unit="section"/>Ieiunium a priore frangatur propter hospitem, nisi forte pręcipuus sit dies ieiunii qui non possit uiolari; <milestone n="11" unit="section"/>fratres autem consuetudines ieiuniorum prosequantur. <milestone n="12" unit="section"/>Aquam in manibus abbas hospitibus det; <milestone n="13" unit="section"/>pedes hospitibus omnibus tam abbas quam cuncta congregatio lauet; <milestone n="14" unit="section"/>quibus lotis, hunc uersum dicant: Suscepimus, Deus, misericordiam tuam in medio templi tui.
+							<milestone n="15" unit="section"/>Pauperum et peregrinorum maxime susceptioni cura sollicite exhibeatur, quia in ipsis magis Christus suscipitur; nam diuitum terror ipse sibi exigit honorem.
+							<milestone n="16" unit="section"/>Coquina abbatis et hospitum super se sit, ut, incertis horis superuenientes hospites, qui numquam desunt monasterio, non inquietentur fratres. <milestone n="17" unit="section"/>In qua coquina ad annum ingrediantur duo fratres qui ipsud officium bene impleant. <milestone n="18" unit="section"/>Quibus, ut indigent, solacia amministrentur, ut absque murmuratione seruiant, et iterum, quando occupationem minorem habent, exeant ubi eis imperatur in opera. <milestone n="19" unit="section"/>Et non solum ipsis, sed et in omnibus officiis monasterii ista sit consideratio, <milestone n="20" unit="section"/>ut quando indigent solacia adcommodentur eis, et iterum quando uacant oboediant imperatis.
+							<milestone n="21" unit="section"/>Item et cellam hospitum habeat adsignatam frater cuius animam timor Dei possidet; <milestone n="22" unit="section"/>ubi sint lecti strati sufficienter. Et domus Dei a sapientibus et sapienter administretur.
+							<milestone n="23" unit="section"/>Hospitibus autem cui non pręcipitur ul latenus societur neque conloquatur; <milestone n="24" unit="section"/>sed si obuiauerit aut uiderit, salutatis humiliter, ut diximus, et petita benedictione pertranseat, dicens sibi non licere colloqui cum hospite.
+						</p>
+					</div>
+					<div n="54" subtype="chapter" type="textpart">
+						<head>LIIII. Si debeat monachus litteras uel aliquid suscipere</head>
+						<p>
+							<milestone n="1" unit="section"/>Nullatenus liceat monacho neque a parentibus suis neque a quoquam hominum nec sibi inuicem litteras, eulogias uel quęlibet munuscula accipere aut dare sine pręcepto abbatis. <milestone n="2" unit="section"/>Quod si etiam a parentibus suis ei quicquam directum fuerit non pręsumat suscipere illud, nisi prius indicatum fuerit abbati. <milestone n="3" unit="section"/>Quod si iusserit suscipi, in abbatis sit potestate cui illud iubeat dari, <milestone n="4" unit="section"/>et non contristetur frater cui forte directum fuerat, ut non detur occasio diabolo. <milestone n="5" unit="section"/>Qui autem aliter pręsumpserit, disciplinę regulari subiaceat.
+						</p>
+					</div>
+					<div n="55" subtype="chapter" type="textpart">
+						<head>LV. De uestiario uel calciario fratrum</head>
+						<p>
+							<milestone n="1" unit="section"/>Uestimenta fratribus secundum locorum qualitatem ubi habitant uel ęrum temperiem dentur, <milestone n="2" unit="section"/>quia in frigidis regionibus amplius indigetur, in calidis uero minus. <milestone n="3" unit="section"/>Hęc ergo consideratio penes abbatem est.
+							<milestone n="4" unit="section"/>Nos tamen medio cribus locis sufficere credimus monachis per singulos cucullam et tunicam _<milestone n="5" unit="section"/>cucullam in hieme uellosam, in ęstate puram aut uetustam_ <milestone n="6" unit="section"/>et scapulare propter opera, indumenta pedum pedules et caligas.
+							<milestone n="7" unit="section"/>De quarum rerum omnium colore aut grossitudine non causentur monachi, sed quales inueniri possunt in prouincia qua degunt aut quod uilius comparari possit. <milestone n="8" unit="section"/>Abbas autem de mensura prouideat ut non sint curta ipsa uestimenta utentibus ea, sed mensurata.
+							<milestone n="9" unit="section"/>Accipientes noua, uetera semper reddant in pręsenti reponenda in uestiario propter pauperes. <milestone n="10" unit="section"/>Sufficit enim monacho duas tunicas et duas cucullas habere propter noctes et propter lauare ipsas res; <milestone n="11" unit="section"/>iam quod supra fuerit superfluum est, amputari debet. <milestone n="12" unit="section"/>Et pedules et quodcumque est uetere reddant dum accipiunt nouum.
+							<milestone n="13" unit="section"/>Femoralia hii qui in uia diriguntur de uestario accipiant, quę reuertentes lota ibi restituant. <milestone n="14" unit="section"/>Et cucullę et tunicę sint aliquanto a solito quas habent modice meliores; quas exeuntes in uia accipiant de uestiario et reuertentes restituant.
+							<milestone n="15" unit="section"/>Stramenta autem lectorum sufficiant matta, sagum et lena, et capitale.
+							<milestone n="16" unit="section"/>Quę tamen lecta frequenter ab abbate scrutinanda sunt propter opus peculiare, ne inueniatur; <milestone n="17" unit="section"/>et si cui inuentum fuerit quod ab abbate non accepit, grauissimę disciplinę subiaceat. <milestone n="18" unit="section"/>Et ut hoc uitium peculiaris radicitus amputetur, dentur ab abbate omnia quę sunt necessaria, <milestone n="19" unit="section"/>id est cuculla, tunica, pedules, caligas, bracile, cultellum, graphium, acum, mappula, tabulas, ut omnis auferatur necessitatis excusatio.
+							<milestone n="20" unit="section"/>A quo tamen abbate semper consideretur illa sententia Actuum Apostolorum, quia dabatur singulis prout cuique opus erat. <milestone n="21" unit="section"/>Ita ergo et abbas consideret infirmitates indigentium, non malum uoluntatem inuidentium; <milestone n="22" unit="section"/>in omnibus tamen iudiciis suis Dei retributionem cogitet.
+						</p>
+					</div>
+					<div n="56" subtype="chapter" type="textpart">
+						<head>LVI. De mensa abbatis</head>
+						<p>
+							<milestone n="1" unit="section"/>Mensa abbatis cum hospitibus et peregrinis sit semper. <milestone n="2" unit="section"/>Quotiens tamen minus sunt hospites, quos uult de fratribus uocare in ipsius sit potestate. <milestone n="3" unit="section"/>Seniore tamen uno aut duo semper cum fratribus dimittendum propter disciplinam.
+						</p>
+					</div>
+					<div n="57" subtype="chapter" type="textpart">
+						<head>LVII. De artificibus monasterii</head>
+						<p>
+							<milestone n="1" unit="section"/>Artifices si sunt in monasterio cum omni humilitate faciant ipsas artes, si permiserit abbas. <milestone n="2" unit="section"/>Quod si aliquis ex eis extollitur pro scientia artis suę, eo quod uideatur aliquid conferre monasterio, <milestone n="3" unit="section"/>hic talis erigatur ab ipsa arte et denuo per eam non transeat, nisi forte humiliato ei iterum abbas iubeat.
+							<milestone n="4" unit="section"/>Si quid uero ex operibus artificum uenumdandum est, uideant ipsi per quorum manus transigenda sint ne aliquam fraudem pręsumant.
+							<milestone n="5" unit="section"/>Memorentur semper Ananię et Safirę, ne forte mortem quam illi in corpore pertulerunt, <milestone n="6" unit="section"/>hanc isti uel omnes qui aliquam fraudem de rebus monasterii fecerint in anima patiantur.
+							<milestone n="7" unit="section"/>In ipsis autem pretiis non surripiat auaritię malum, <milestone n="8" unit="section"/>sed semper aliquantulum uilius detur quam ab aliis sęcularibus dari potest, <milestone n="9" unit="section"/>ut in omnibus glorificetur Deus.
+						</p>
+					</div>
+					<div n="58" subtype="chapter" type="textpart">
+						<head>LVIII. De disciplina suscipiendorum fratrum</head>
+						<p>
+							<milestone n="1" unit="section"/>Nouiter ueniens quis ad conuersationem, non ei facilis tribuatur ingressus, <milestone n="2" unit="section"/>sed sic ut ait apostolus: Probate spiritus si ex Deo sunt. <milestone n="3" unit="section"/>Ergo si ueniens perseuerauerit pulsans et illatas sibi iniurias et difficultatem ingressus post quattuor aut quinque dies uisus fuerit patienter portare et persistere petitioni suę, <milestone n="4" unit="section"/>adnuatur ei ingressus et sit in cella hospitum paucis diebus.
+							<milestone n="5" unit="section"/>Postea autem sit in cella nouiciorum ubi meditent et manducent et dormiant. <milestone n="6" unit="section"/>Et senior eis talis deputetur qui aptus sit ad lucrandas animas, qui super eos omnino curiose intendat.
+							<milestone n="7" unit="section"/>Et sollicitudo sit si reuera Deum quęrit, si sollicitus est ad opus Dei, ad oboedientiam, ad opprobria. <milestone n="8" unit="section"/>Prędicentur ei omnia dura et aspera per quę itur ad Deum. <milestone n="9" unit="section"/>Si promiserit de stabilitate sua perseuerantia, post duorum mensuum circulum legatur ei hęc regula per ordinem <milestone n="10" unit="section"/>et dicatur ei: <said>Ecce lex sub qua militare uis; si potes obseruare, ingredere; si uero non potes, liber discede.</said> <milestone n="11" unit="section"/>Si adhuc steterit, tunc ducatur in supradictam cellam nouiciorum et iterum probetur in omni patientia. <milestone n="12" unit="section"/>Et post sex mensuum circuitum legatur ei regula, ut sciat ad quod ingreditur. <milestone n="13" unit="section"/>Et si adhuc stat, post quattuor menses iterum relegatur ei eadem regula. <milestone n="14" unit="section"/>Et si habita secum deliberatione promiserit se omnia custodire et cuncta sibi imperata seruare, tunc suscipiatur in congregatione, <milestone n="15" unit="section"/>sciens et lege regulę constitutum quod ei ex illa die non liceat egredi de monasterio, <milestone n="16" unit="section"/>nec collum excutere de sub iugo regulę quem sub tam morosam deliberationem licuit aut excusare aut suscipere.
+							<milestone n="17" unit="section"/>Suscipiendus autem in oratorio coram omnibus promittat de stabilitate sua et conuersatione morum suorum et oboedientia, <milestone n="18" unit="section"/>coram Deo et sanctis eius, ut si aliquando aliter fecerit, ab eo se damnandum sciat quem irridit. <milestone n="19" unit="section"/>De qua promissione sua faciat petitionem ad nomen sanctorum quorum reliquię ibi sunt et abbatis pręsentis. <milestone n="20" unit="section"/>Quam petitionem manu sua scribat, aut certe, si non scit litteras, alter ab eo rogatus scribat et ille nouicius signum faciat et manu sua eam super altare ponat. <milestone n="21" unit="section"/>Quam dum inpo suerit, incipiat ipse nouicius mox hunc uersum: Suscipe me, Domine, secundum eloquium tuum et uiuam, et ne confundas me ab exspectatione mea. <milestone n="22" unit="section"/>Quem uersum omnis congregatio tertio respondeat, adiungentes gloria Patri. <milestone n="23" unit="section"/>Tunc ille frater nouicius prosternatur singulorum pedibus ut orent pro eo, et iam ex illa die in congregatione reputetur.
+							<milestone n="24" unit="section"/>Res, si quas habet, aut eroget prius pauperibus aut facta sollemniter donatione conferat monasterio, nihil sibi reseruans ex omnibus, <milestone n="25" unit="section"/>quippe qui ex illo die nec proprii corporis potestatem se habiturum scit.
+							<milestone n="26" unit="section"/>Mox ergo in oratorio exuatur rebus propriis quibus uestitus est et induatur rebus monasterii. <milestone n="27" unit="section"/>Illa autem uestimenta quibus exutus est reponantur in uestiario conseruanda, <milestone n="28" unit="section"/>ut si aliquando suadenti diabolo consenserit ut egrediatur de monasterio quod absit tunc exutus rebus monasterii proiciatur. <milestone n="29" unit="section"/>Illam tamen petitionem eius, quam desuper altare abbas tulit, non recipiat, sed in monasterio reseruetur.
+						</p>
+					</div>
+					<div n="59" subtype="chapter" type="textpart">
+						<head>LIX. De filiis nobilium aut pauperum qui offeruntur</head>
+						<p>
+							<milestone n="1" unit="section"/>Si quis forte de nobilibus offerit filium suum Deo in monasterio, si ipse puer minor ętate est, parentes eius faciant petitionem quam supra diximus <milestone n="2" unit="section"/>et cum oblatione ipsam petitionem et manum pueri inuoluant in palla altaris, et sic eum offerant.
+							<milestone n="3" unit="section"/>De rebus autem suis, aut in pręsenti petitione promittant sub iureiurando quia numquam per se, numquam per suffectam personam nec quolibet modo ei aliquando aliquid dant aut tribuunt occasionem habendi; <milestone n="4" unit="section"/>uel certe si hoc facere noluerint et aliquid offerre uolunt in elemosinam monasterio pro mercede sua, <milestone n="5" unit="section"/>faciant ex rebus quas dare uolunt monasterio donationem, reseruato sibi, si ita uoluerint, usufructu. <milestone n="6" unit="section"/>Atque ita omnia obstruantur ut nulla suspicio remaneat puero per quam deceptus perire possit quod absit quod experimento didicimus.
+							<milestone n="7" unit="section"/>Similiter autem et pauperiores faciant. <milestone n="8" unit="section"/>Qui uero ex toto nihil habent, simpliciter petitionem faciant et cum oblatione offerant filium suum coram testibus.
+						</p>
+					</div>
+					<div n="60" subtype="chapter" type="textpart">
+						<head>LX. De sacerdotibus qui forte uoluerint in monasterio habitare</head>
+						<p>
+							<milestone n="1" unit="section"/>Si quis de ordine sacerdotum in monasterio se suscipi rogauerit, non quidem citius ei assentiatur. <milestone n="2" unit="section"/>Tamen, si omnino persteterit in hac supplicatione, sciat se omnem regulę disciplinam seruaturum, <milestone n="3" unit="section"/>nec aliquid ei relaxabitur, ut sit sicut scriptum est: Amice, ad quod uenisti?
+							<milestone n="4" unit="section"/>Concedatur ei tamen post abbatem stare et benedicere aut missas tenere, si tamen iusserit ei abbas; <milestone n="5" unit="section"/>sin alias, ullatenus aliqua pręsumat, sciens se disciplinę regulari subditum, et magis humilitatis exempla omnibus det.
+							<milestone n="6" unit="section"/>Et si forte ordinationis aut alicuius rei causa fuerit in monasterio, <milestone n="7" unit="section"/>illum locum adtendat quando ingressus est in monasterio, non illum qui ei pro reuerentia sacerdotii concessus est.
+							<milestone n="8" unit="section"/>Clericorum autem si quis eodem desiderio monasterio sociari uoluerit, loco mediocri collocentur; <milestone n="9" unit="section"/>et ipsi tamen si promittunt de obseruatione regulę uel propria stabilitate.
+						</p>
+					</div>
+					<div n="61" subtype="chapter" type="textpart">
+						<head>LXI. De monachis peregrinis, qualiter suscipiantur</head>
+						<p>
+							<milestone n="1" unit="section"/>Si quis monachus peregrinus de longinquis prouinciis superuenerit, si pro hospite uoluerit habitare in monasterio <milestone n="2" unit="section"/>et contentus est consuetudinem loci quam inuenerit, et non forte superfluitate sua perturbat monasterium, <milestone n="3" unit="section"/>sed simpliciter contentus est quod inuenerit, suscipiatur quanto tempore cupit. <milestone n="4" unit="section"/>Si qua sane rationabiliter et cum humilitate caritatis reprehendit aut ostendit, tractet abbas prudenter ne forte pro hoc ipsud eum Dominus direxerit.
+							<milestone n="5" unit="section"/>Si uero postea uoluerit stabilitatem suam firmare, non rennuatur talis uoluntas, et maxime quia tempore hospitalitatis potuit eius uita dinosci. <milestone n="6" unit="section"/>Quod si superfluus aut uitiosus inuentus fuerit tempore hospitalitatis, non solum non debet sociari cor pori monasterii, <milestone n="7" unit="section"/>uerum etiam dicatur ei honeste ut discedat, ne eius miseria etiam alii uitientur. <milestone n="8" unit="section"/>Quod si non fuerit talis qui mereatur proici, non solum si petierit suscipiatur congregationi sociandus, <milestone n="9" unit="section"/>uerum etiam suadeatur ut stet, ut eius exemplo alii erudiantur, <milestone n="10" unit="section"/>et quia in omni loco uni Domino seruitur, uni regi militatur. <milestone n="11" unit="section"/>Quem si etiam talem esse perspexerit abbas, liceat eum in superiori aliquantum constituere loco. <milestone n="12" unit="section"/>Non solum autem monachum, sed etiam de suprascriptis gradibus sacerdo tum uel clericorum stabilire potest abbas in maiori quam ingrediuntur loco, si eorum talem perspexerit esse uitam.
+							<milestone n="13" unit="section"/>Caueat autem abbas ne aliquando de alio noto monasterio monachum ad habitandum suscipiat sine consensu abbatis eius aut litteras commendaticias, <milestone n="14" unit="section"/>quia scriptum est: Quod tibi non uis fieri, alio ne feceris.
+						</p>
+					</div>
+					<div n="62" subtype="chapter" type="textpart">
+						<head>LXII. De sacerdotibus monasterii</head>
+						<p>
+							<milestone n="1" unit="section"/>Si quis abbas sibi presbyterum uel diaconem ordinari petierit, de suis elegat qui dignus sit sacerdotio fungi. <milestone n="2" unit="section"/>Ordinat us autem caueat elationem aut superbiam, <milestone n="3" unit="section"/>nec quicquam pręsumat nisi quod ei ab abbate pręcipitur, sciens se multo magis disciplinę regulari subdendum. <milestone n="4" unit="section"/>Nec occasione sacerdotii obliuiscatur regulę oboedientiam et disciplinam, sed magis ac magis in Deum proficiat. <milestone n="5" unit="section"/>Locum uero illum semper adtendat quod ingressus est in monasterio, <milestone n="6" unit="section"/>pręter officium altaris, et si forte electio congregationis et uoluntas abbatis pro uitę merito eum promouere uoluerint. <milestone n="7" unit="section"/>Qui tamen regulam decanis uel prępositis constitutam sibi seruare sciat.
+							<milestone n="8" unit="section"/>Quod si aliter pręsumpserit, non sa cerdos sed rebellio iudicetur.
+							<milestone n="9" unit="section"/>Et sępe admonitus si non correxerit, etiam episcopus adhibeatur in testimonio. <milestone n="10" unit="section"/>Quod si nec sic emendauerit, clarescentibus culpis, proiciatur de monasterio, <milestone n="11" unit="section"/>si tamen talis fuerit eius contumacia ut subdi aut oboedire regulę nolit.
+						</p>
+					</div>
+					<div n="63" subtype="chapter" type="textpart">
+						<head>LXIII. De ordine congregationis</head>
+						<p>
+							<milestone n="1" unit="section"/>Ordines suos in monasterio ita conseruent ut conuersationis tempus ut uitę meritum discernit utque abbas constituerit. <milestone n="2" unit="section"/>Qui abbas non conturbet gregem sibi commissum nec, quasi libera utens potestate, iniuste disponat aliquid, <milestone n="3" unit="section"/>sed cogitet semper quia de omnibus iudiciis et operibus suis redditurus est Deo rationem. <milestone n="4" unit="section"/>Ergo secundum ordines quos constituerit uel quos habuerint ipsi fratres sic accedant ad pacem, ad communionem, ad psalmum imponendum, in choro standum; <milestone n="5" unit="section"/>et in omnibus omnino locis ętas non discernat ordines nec pręiudicet, <milestone n="6" unit="section"/>quia Samuhel et Danihel pueri presbyteros iudicauerunt. <milestone n="7" unit="section"/>Ergo excepto hos quos, ut diximus, altiori consilio abbas prętulerit uel degradauerit certis ex causis, reliqui omnes ut conuertuntur ita sint, <milestone n="8" unit="section"/>ut uerbi gratia qui secunda hora diei uenerit in monasterio iuniorem se nouerit illius esse qui prima hora uenit diei, cuiuslibet ętatis aut dignitatis sit, <milestone n="9" unit="section"/>pueris per omnia ab omnibus disciplina conseruata.
+							<milestone n="10" unit="section"/>Iu niores igitur priores suos honorent, priores minores suos diligant. <milestone n="11" unit="section"/>In ipsa appellatione nominum nulli liceat alium puro appellare nomine,
+							<milestone n="12" unit="section"/>sed priores iuniores suos fratrum nomine, iuniores autem priores suos nonnos uocent, quod intellegitur paterna reuerentia. <milestone n="13" unit="section"/>Abbas autem, quia uices Christi creditur agere, dominus et abbas uocetur, non sua assumptione sed honore et amore Christi; <milestone n="14" unit="section"/>ipse autem cogitet et sic se exhibeat ut dignus sit tali honore.
+							<milestone n="15" unit="section"/>Ubicumque autem sibi obuiant fratres, iunior priorem benedictionem petat. <milestone n="16" unit="section"/>Transeunte maiore minor surgat et det ei locum sedendi, nec pręsumat iunior consedere nisi ei pręcipiat senior suus, <milestone n="17" unit="section"/>ut fiat quod scriptum est: Honore inuicem pręuenientes.
+							<milestone n="18" unit="section"/>Pueri parui uel adulescentes in oratorio uel ad mensas cum disciplina ordines suos consequantur. <milestone n="19" unit="section"/>Foris autem uel ubiubi, et custodiam habeant et disciplinam, usque dum ad intellegibilem ętatem perueniant.
+						</p>
+					</div>
+					<div n="64" subtype="chapter" type="textpart">
+						<head>LXIIII. De ordinando abbate</head>
+						<p>
+							<milestone n="1" unit="section"/>In abbatis ordinatione illa semper consideretur ratio ut hic constituatur quem siue omnis concors congregatio secundum timorem Dei, siue etiam pars quamuis parua congregationis saniore consilio elegerit. <milestone n="2" unit="section"/>Uitę autem merito et sapientię doctrina eligatur qui ordinandus est, etiam si ultimus fuerit in ordine congregationis.
+							<milestone n="3" unit="section"/>Quod si etiam omnis congregatio uitiis suis quod quidem absit consenti entem personam pari consilio elegerit, <milestone n="4" unit="section"/>et uitia ipsa aliquatenus in notitia episcopi ad cuius dioecesim pertinet locus ipse uel ad abbates aut christianos uicinos claruerint, <milestone n="5" unit="section"/>prohibeant prauorum pręualere consensum, sed domui Dei dignum constituant dispensatorem, <milestone n="6" unit="section"/>scientes pro hoc se recepturos mercedem bonam, si illud caste et zelo Dei faciant, sicut e diuerso peccatum si neglegant.
+							<milestone n="7" unit="section"/>Ordinatus autem abbas cogitet semper quale onus suscepit et cui redditurus est rationem uilicationis suę, <milestone n="8" unit="section"/>sciatque sibi oportere prodesse magis quam pręesse. <milestone n="9" unit="section"/>Oportet ergo eum esse doctum lege diuina, ut sciat et sit unde proferat noua et uetera, castum, sobrium, misericordem, <milestone n="10" unit="section"/>et semper superexaltet misericordiam iudicio, ut idem ipse consequatur. <milestone n="11" unit="section"/>Oderit uitia, diligat fratres. <milestone n="12" unit="section"/>In ipsa autem correptione prudenter agat et ne quid nimis, ne dum nimis eradere cupit ęruginem frangatur uas; <milestone n="13" unit="section"/>suamque fragilitatem semper suspectus sit, memineritque calamum quassatum non conterendum.
+							<milestone n="14" unit="section"/>In quibus non dicimus ut permittat nutriri uitia, sed prudenter et cum caritate ea amputet, ut uiderit cuique expedire sicut iam diximus, <milestone n="15" unit="section"/>et studeat plus amari quam timeri.
+							<milestone n="16" unit="section"/>Non sit turbulentus et anxius, non sit nimius et obstinatus, non sit zelotipus et nimis suspiciosus, quia numquam requiescit; <milestone n="17" unit="section"/>in ipsis imperiis suis prouidus et con sideratus, et siue secundum Deum siue secundum sęculum sit opera quam iniungit, discernat et temperet, <milestone n="18" unit="section"/>cogitans discretionem sancti Iacob dicentis: Si greges meos plus in ambulando fecero laborare, morientur cuncti una die. <milestone n="19" unit="section"/>Hęc ergo aliaque testimonia discretionis matris uirtutum sumens, sic omnia temperet ut sit et fortes quod cupiant et infirmi non refugiant.
+							<milestone n="20" unit="section"/>Et pręcipue ut pręsentem regulam in omnibus conseruet, <milestone n="21" unit="section"/>ut dum bene ministrauerit audiat a Domino quod seruus bonus qui erogauit triticum conseruis suis in tempore suo: <milestone n="22" unit="section"/>Amen dico uobis, ait, super omnia bona sua constituit eum.
+						</p>
+					</div>
+					<div n="65" subtype="chapter" type="textpart">
+						<head>LXV. De pręposito monasterii</head>
+						<p>
+							<milestone n="1" unit="section"/>Sępius quidem contigit ut per ordinationem prępositi scandala grauia in monasteriis oriantur, <milestone n="2" unit="section"/>dum sint aliqui maligno spiritu superbię inflati et ęstimantes se secundos esse abbates, adsumentes sibi tyrannidem, scandala nutriunt et dissensiones in congregationes faciunt, <milestone n="3" unit="section"/>et maxime in illis locis ubi ab eodem sacerdote uel ab eis abbatibus qui abbatem ordinant, ab ipsis etiam et prępositus ordinatur. <milestone n="4" unit="section"/>Quod quam sit absurdum facile aduertitur, quia ab ipso initio ordinationis materia ei datur superbiendi, <milestone n="5" unit="section"/>dum ei suggeritur a cogitationibus suis exutum eum esse a potestate abbatis sui, <milestone n="6" unit="section"/>quia ab ipsis es et tu ordinatus a quibus et abbas. <milestone n="7" unit="section"/>Hinc suscitantur inuidię, rixę, detractiones, ęmulationes, dissensiones, exordinationes, <milestone n="8" unit="section"/>ut dum contraria sibi abbas prępositusque sentiunt, et ipsorum necesse est sub hanc dissensionem animas periclitari, <milestone n="9" unit="section"/>et hii qui sub ipsis sunt, dum adulantur partibus, eunt in perditionem. <milestone n="10" unit="section"/>Cuius periculi malum illos respicit in capite qui talius inordinationis se fecerunt auctores.
+							<milestone n="11" unit="section"/>Ideo nos uidimus expedire propter pacis caritatisque custodiam in abbatis pendere arbitrio ordinationem monasterii sui; <milestone n="12" unit="section"/>et si potest fieri per decanos ordinetur, ut ante disposuimus, omnis utilitas monasterii , prout abbas disposuerit, <milestone n="13" unit="section"/>ut, dum pluribus committitur, unus non superbiat. <milestone n="14" unit="section"/>Quod si aut locus expetit aut congregatio petierit rationabiliter cum humilitate et abbas iudicauerit expedire, <milestone n="15" unit="section"/>quemcumque elegerit abbas cum consilio fratrum timentium Deum ordinet ipse sibi prępositum. <milestone n="16" unit="section"/>Qui tamen prępositus illa agat cum reuerentia quę ab abbate suo ei iniuncta fuerint, nihil contra abbatis uoluntatem aut ordinationem faciens, <milestone n="17" unit="section"/>quia quantum pręlatus est ceteris, ita eum oportet sollicitius obseruare pręcepta regulę.
+							<milestone n="18" unit="section"/>Qui prępositus si repertus fuerit uitiosus aut elatione deceptus superbire, aut contemptor sanctę regulę fuerit comprobatus, admoneatur uerbis usque quater; <milestone n="19" unit="section"/>si non emendauerit, adhibeatur ei correptio disciplinę regularis. <milestone n="20" unit="section"/>Quod si neque sic correxerit, tunc deiciatur de ordine prępositurę et alius qui dignus est in loco eius surrogetur. <milestone n="21" unit="section"/>Quod si et postea in congregatione quietus et oboediens non fuerit, etiam de monasterio pellatur. <milestone n="22" unit="section"/>Cogitet tamen abbas se de omnibus iudiciis suis Deo reddere rationem, ne forte inuidię aut zeli flamma urat animam.
+						</p>
+					</div>
+					<div n="66" subtype="chapter" type="textpart">
+						<head>LXVI. De ostiariis monasterii</head>
+						<p>
+							<milestone n="1" unit="section"/>Ad portam monasterii ponatur senex sapiens, qui sciat accipere responsum et reddere, et cuius maturitas eum non sinat uacari. <milestone n="2" unit="section"/>Qui portarius cellam debebit habere iuxta portam, ut uenientes semper pręsentem inueniant a quo responsum accipiant. <milestone n="3" unit="section"/>Et mox ut aliquis pulsauerit aut pauper clamauerit, Deo gratias respondeat aut Benedic, <milestone n="4" unit="section"/>et cum omni mansuetudine timoris Dei reddat responsum festinanter cum feruore caritatis. <milestone n="5" unit="section"/>Qui portarius si indiget solacio iuniorem fratrem accipiat.
+							<milestone n="6" unit="section"/>Monasterium autem, si possit fieri, ita debet constitui ut omnia necessaria, id est aqua, molendinum, hortum, uel artes diuersas intra monasterium exerceantur, <milestone n="7" unit="section"/>ut non sit necessitas monachis uagandi foris, quia omnino non expedit animabus eorum.
+							<milestone n="8" unit="section"/>Hanc autem regulam sępius uolumus in congregatione legi, ne quis fratrum se de ignorantia excuset.
+						</p>
+					</div>
+					<div n="67" subtype="chapter" type="textpart">
+						<head>LXVII. De fratribus in uiam directis</head>
+						<p>
+							<milestone n="1" unit="section"/>Dirigendi fratres in uia omnium fratrum uel abbatis se orationi commendent, <milestone n="2" unit="section"/>et semper ad orationem ultimam operis Dei commemoratio omnium absentum fiat. <milestone n="3" unit="section"/>Reuertentes autem de uia fratres ipso die quo redeunt per omnes canonicas horas, dum expletur opus Dei, prostrati solo oratorii <milestone n="4" unit="section"/>ab omnibus petant orationem propter excessos, ne qui forte surripuerint in uia uisus aut auditus malę rei aut otiosi sermonis. <milestone n="5" unit="section"/>Nec pręsumat quisquam referre alio quęcumque foris monasterium uiderit aut audierit, quia plurima destructio est.
+							<milestone n="6" unit="section"/>Quod si quis pręsumpserit, uindictę regulari subiaceat. <milestone n="7" unit="section"/>Similiter et qui pręsumpserit claustra monasterii egredi uel quocumque ire uel quippiam quamuis paruum sine iussione abbatis facere.
+						</p>
+					</div>
+					<div n="68" subtype="chapter" type="textpart">
+						<head><num>LXVIII</num>. Si fratri impossibilia iniungantur</head>
+						<p>
+							<milestone n="1" unit="section"/>Si cui fratri aliqua forte grauia aut impossibilia iniunguntur, suscipiat quidem iubentis imperium cum omni mansuetudine et oboedientia. <milestone n="2" unit="section"/>Quod si omnino uiri um suarum mensuram uiderit pondus oneris excedere, impossibilitatis suę causas ei qui sibi pręest patienter et opportune suggerat, <milestone n="3" unit="section"/>non superbiendo aut resistendo uel contradicendo. <milestone n="4" unit="section"/>Quod si post suggestionem suam in sua sententia prioris imperium perdurauerit, sciat iunior ita sibi expedire, <milestone n="5" unit="section"/>et ex caritate, confidens de adiutorio Dei, oboediat.
+						</p>
+					</div>
+					<div n="69" subtype="chapter" type="textpart">
+						<head><num>LXIX</num>. Ut in monasterio non pręsumat alter alterum defendere</head>
+						<p>
+							<milestone n="1" unit="section"/>Pręcauendum est ne quauis occasione pręsumat alter alium defendere monachum in monasterio aut quasi tueri, <milestone n="2" unit="section"/>etiam si qualiuis consanguinitatis propinquitate iungantur. <milestone n="3" unit="section"/>Nec quolibet modo id a monachis pręsumatur, quia exinde grauissima occasio scandalorum oriri potest. <milestone n="4" unit="section"/>Quod si quis hęc transgressus fuerit, acrius coerceatur.
+						</p>
+					</div>
+					<div n="70" subtype="chapter" type="textpart">
+						<head><num>LXX</num>. Ut non pręsumat passim aliquis cędere</head>
+						<p>
+							<milestone n="1" unit="section"/>Uitetur in monasterio omnis pręsumptionis occasio; <milestone n="2" unit="section"/>atque constituimus ut nulli liceat quemquam fratrum suorum excommunicare aut cędere, nisi cui potestas ab abbate data fuerit. <milestone n="3" unit="section"/>Peccantes autem coram omnibus arguantur ut ceteri metum habeant. <milestone n="4" unit="section"/>Infantum uero usque quindecim annorum ętates disciplinę diligentia ab omnibus et custodia sit; <milestone n="5" unit="section"/>sed et hoc cum omni mensura et ratione.
+							<milestone n="6" unit="section"/>Nam in fortiori ętate qui pręsumit aliquatenus sine pręcepto abbatis uel in ipsis infantibus sine discretione exarserit, disciplinę regulari subiaceat, <milestone n="7" unit="section"/>quia scriptum est: Quod tibi non uis fieri, alio ne feceris.
+						</p>
+					</div>
+					<div n="71" subtype="chapter" type="textpart">
+						<head><num>LXXI</num>. Ut oboedientes sibi sint inuicem</head>
+						<p>
+							<milestone n="1" unit="section"/>Oboedientię bonum non solum abbati exhibendum est ab omnibus, sed etiam sibi inuicem ita oboediant fratres, <milestone n="2" unit="section"/>scientes per hanc oboedientię uiam se ituros ad Deum. <milestone n="3" unit="section"/>Pręmisso ergo abbatis aut prępositorum qui ab eo constituuntur imperio, cui non permittimus priuata imperia pręponi, <milestone n="4" unit="section"/>de cetero omnes iuniores prioribus suis omni caritate et sollicitudine oboediant. <milestone n="5" unit="section"/>Quod si quis contentiosus reperitur, corripiatur.
+							<milestone n="6" unit="section"/>Si quis autem frater pro quauis minima causa ab abbate uel a quocumque priore suo corripitur quolibet modo, <milestone n="7" unit="section"/>uel si leuiter senserit animos prioris cuiuscumque contra se iratos uel commotos quamuis modice, <milestone n="8" unit="section"/>mox sine mora tamdiu prostratus in terra ante pedes eius iaceat satisfaciens, usque dum benedictione sanetur illa commotio. <milestone n="9" unit="section"/>Quod qui contempserit facere, aut corporali uindictę subiaceat aut, si contumax fuerit, de monasterio expellatur.
+						</p>
+					</div>
+					<div n="72" subtype="chapter" type="textpart">
+						<head><num>LXXII</num>. De zelo bono quod debent monachi habere</head>
+						<p>
+							<milestone n="1" unit="section"/>Sicut est zelus amaritudinis malus qui separat a Deo et ducit ad infernum, <milestone n="2" unit="section"/>ita est zelus bonus qui separat a uitia et ducit ad Deum et ad uitam ęternam. <milestone n="3" unit="section"/>Hunc ergo zelum feruentissimo amore exerceant monachi, <milestone n="4" unit="section"/>id est ut honore se inuicem pręueniant, <milestone n="5" unit="section"/>infirmitates suas siue corporum siue morum patientissime tolerent, <milestone n="6" unit="section"/>oboedientiam sibi certatim impendant; <milestone n="7" unit="section"/>nullus quod sibi utile iudicat sequatur, sed quod magis alio; <milestone n="8" unit="section"/>caritatem fraternitatis caste impendant, <milestone n="9" unit="section"/>amore Deum timeant, <milestone n="10" unit="section"/>abbatem suum sincera et humili caritate diligant, <milestone n="11" unit="section"/>Christo omnino nihil pręponant, <milestone n="12" unit="section"/>qui nos pariter ad uitam ęternam perducat.
+						</p>
+					</div>
+					<div n="73" subtype="chapter" type="textpart">
+						<head>LXXIII. De hoc quod non omnis iustitię obseruatio in hac sit regula constituta</head>
+						<p>
+							<milestone n="1" unit="section"/>Regulam autem hanc descripsimus, ut hanc obseruantes in monasteriis aliquatenus uel honestatem morum aut initium conuersationis nos demonstremus habere. <milestone n="2" unit="section"/>Ceterum ad perfectionem conuersationis qui festinat, sunt doctrinę sanctorum patrum, quarum obseruatio perducat hominem ad celsitudinem perfectionis. <milestone n="3" unit="section"/>Quę enim pagina aut qui sermo diuinę auctoritatis ueteris ac noui testamenti non est rectissima norma uitę humanę? <milestone n="4" unit="section"/>Aut quis liber sanctorum catholicorum patrum hoc non resonat ut recto cursu perueniamus ad creatorem nostrum? <milestone n="5" unit="section"/>Necnon et Collationes Patrum et Instituta et Uitas eorum, sed et Regula sancti patris nostri Basilii, <milestone n="6" unit="section"/>quid aliud sunt nisi bene uiuentium et oboedientium monachorum instrumenta uirtutum? <milestone n="7" unit="section"/>Nobis autem desidiosis et male uiuentibus atque neglegentibus rubor confusionis est.
+							<milestone n="8" unit="section"/>Quisquis ergo ad patriam cęlestem festinas, hanc minimam inchoationis regulam descriptam, adiuuante Christo, perfice, <milestone n="9" unit="section"/>et tunc demum ad maiora quę supra commemorauimus doctrinę uirtutumque culmina, Deo protegente, peruenies. Amen.
+						</p>
+					</div>
+				</div>
+				<div subtype="work" type="textpart">
+					<pb n="173"/>
+					<head>
+						<lb/>Epistula ad<reg> </reg><persName>regem karolum</persName> de<reg> </reg>mo
+						<lb break="no"/>nasterio <persName><expan><abbr>s</abbr><ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex><abbr>i</abbr></expan> benedicti</persName> directa et a<reg> </reg>pa<subst><add place="inline">u</add>
+							<lb break="no"/><del rend="erased"><unclear>n</unclear></del></subst>lo dicta<del rend="expunct">t</del>a
+					</head>
+					<p>
+						<lb/><hi rend="dropcap2">P</hi>ropagatori ac defensori <persName><expan><abbr><am>x</am><am rend="supraline">p</am></abbr><ex>christ</ex><abbr>i</abbr></expan></persName>anae religionis domno carolo 
+						<lb/><expan><am>&#xA751;</am><ex>per</ex></expan> <persName><expan><abbr><am>xp</am></abbr><ex>christ</ex><abbr rend="supraline">i</abbr></expan></persName> potentiam regum sapientissimo ac<reg> </reg>fortissimo· <persName>Theo
+							<lb break="no"/>domar</persName> exiguus et uniuersus beati benedicti patris grex ues
+						<lb break="no"/>tro subditus dominatui aeternam in<reg> </reg><expan><abbr>d</abbr><ex>omi</ex><abbr rend="supraline">no</abbr></expan> salutem; Tam<reg> </reg><expan><am>&#xA751;</am><ex>per</ex></expan> 
+						<lb/>epistulę seriem qu<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan>que et <expan><am>&#xA751;</am><ex>per</ex></expan><reg> </reg><expan><abbr>s</abbr><ex>an</ex><abbr rend="supraline">c</abbr><ex>tu</ex><abbr>m</abbr></expan> ui<expan><abbr rend="crossed">r</abbr><ex>rum</ex></expan> <persName>adalgari<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> <expan><abbr>ep</abbr><ex>iscopu</ex><abbr rend="supraline">m</abbr></expan></persName> 
+						<lb/>uestra<reg> </reg>fa<del rend="erased">m</del>mina<reg> </reg>suscipientes magna<reg> </reg>sumus exultatione 
+						<lb/>gauisi· dum<reg> </reg>uestram sublimitatem domin<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan>que <expan>n<ex>ost</ex><abbr>r</abbr><abbr rend="supraline">a</abbr></expan>m regi
+						<lb break="no"/>nam uestrosque liberos sospites ualentesque <expan><abbr>e</abbr><ex>ss</ex><abbr rend="supraline">e</abbr></expan> cognouimus; 
+						<lb/>Nec minori etiam tripudio exultauimus d<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> uestrar<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> pro
+						<lb break="no"/>telation<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> finium uictoriar<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan>que de<reg> </reg>hostibus triumphos agno
+						<lb break="no"/>uimus; Auxit etiam nostr<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> illa res gaudium quia uestr<expan><abbr rend="supraline"><unclear>a</unclear></abbr><ex>m</ex></expan> 
+						<lb/>excellenti<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> de<reg> </reg>uirtute in<reg> </reg>uirtutem succrescent<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan><reg> </reg><expan><abbr>d</abbr><ex>e</ex><abbr rend="supraline">i</abbr></expan> agr<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+						<lb/>studiose excolere addidicimus‚ ac<reg> </reg>monachor<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> religion<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> ad<reg> </reg>me
+						<lb break="no"/>liorem<reg> </reg><expan><am>&#xA751;</am><ex>per</ex></expan>ducere<reg> </reg>statum· Certum est quia uos hoc factum beati
+						<lb break="no"/>ores efficiet dum tale <expan><abbr>d</abbr><ex>e</ex><abbr rend="supraline">o</abbr></expan> <expan>n<ex>ost</ex><abbr rend="supraline">r</abbr>o</expan> tamque beneplacitum munus of
+						<lb break="no"/>fertis; Qua de<reg> </reg>re quia ad<reg> </reg>beati patris nostri <persName>benedicti</persName> doctrin<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> 
+						<lb/>et luculenta exempla; Aliquos monachor<subst><del>u</del><add place="inline"><expan><abbr rend="supraline">u</abbr><ex>m</ex></expan></add></subst> regionis illius 
+						<lb/>uestrae clementiae informari placuit· iuxta <expan><abbr rend="supraline">p</abbr><ex>re</ex></expan>ceptionem 
+						<lb/>uestram en uobis regulam eiusdem beati patris de ipso codice 
+						<lb/>quem ille suis <expan><abbr>s</abbr><ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex><abbr rend="supraline">i</abbr><abbr>s</abbr></expan> manibus exarauit transscript<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> direxi<expan><abbr rend="crossed">m</abbr><ex>us</ex></expan>; 
+						<pb n="174"/>
+						<lb/>In fine autem sacre eiusdem regule· hymnos<unclear>·</unclear> 
+						<lb/>qui secundum instituta beati patris <expan>n<ex>ost</ex><abbr rend="supraline">r</abbr>i</expan> <expan><am>&#xA751;</am><ex>per</ex></expan> singula officia 
+						<lb/>uel festiuitates cantari debent adnexuimus; Si quem aut<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> 
+						<lb/>mouet quare beatus <persName>benedictus</persName> in aestat<choice><sic>e</sic><corr>i</corr></choice>s tempore 
+						<lb/>cotidianis diebus ad<reg> </reg>nocturnum officium unam tant<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+						<lb/>de<reg> </reg>uet<choice><sic>are</sic><corr>eri</corr></choice> testamento lectionem legi <expan><abbr rend="supraline">p</abbr><ex>re</ex></expan>ceperit· Cognoscat nec
+						<lb break="no"/>dum eo<reg> </reg>tempore in<reg> </reg><orgName>romana<del rend="erased">e</del></orgName> ecclesia sicut nunc leguntur 
+						<lb/>sacras scripturas legi mos fuisse sed post aliquot tem
+						<lb break="no"/>p<choice><sic>ore</sic><corr>us</corr></choice> hoc institutum <expan><abbr rend="supraline">e</abbr><ex>ss</ex><abbr rend="supraline">e</abbr></expan>· siue a<reg> </reg>beato<reg> </reg><persName>papa gregorio</persName>· siue ut 
+						<lb/>ab<reg> </reg>al<subst><del rend="erased">l</del><add place="overstrike">i</add></subst>is adfirmatur ab <persName>honorio</persName>· qua de re <expan>n<ex>ost</ex><abbr rend="supraline">r</abbr>i</expan> maiores institu
+						<lb break="no"/>erunt ut hic in sacro nostro cęnobio quod iuxta <expan><abbr>s</abbr><ex>an</ex><abbr>c</abbr><ex>tu</ex><abbr rend="supraline">m</abbr></expan> illius corpus 
+						<lb/>institutum est; Tres cotidianis diebus aestiuo <add place="above">in </add>tempore ex uete
+						<lb break="no"/>re testamento lectiones in codice legantur; Ne a <expan><abbr>s</abbr><ex>an</ex><abbr>c</abbr><ex>t</ex><abbr rend="supraline">a</abbr></expan> <orgName>romana</orgName> 
+						<lb/>ecclesia discrepare uiderentur; Nec enim credend<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> est hoc bea
+						<lb break="no"/>to patri <persName>benedicto</persName> displicere sed<reg> </reg>potius gratum ei <expan><abbr rend="supraline">e</abbr><ex>ss</ex><abbr rend="supraline">e</abbr></expan>; Si<reg> </reg>quis supra 
+						<lb/>id quod ille in <expan><abbr>d</abbr><ex>e</ex><abbr rend="supraline">i</abbr></expan> laudibus instituit propter <expan><abbr>d</abbr><ex>e</ex><abbr rend="supraline">i</abbr></expan> amor<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> adiciend<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> <expan><abbr rend="supraline">e</abbr><ex>ss</ex><abbr rend="supraline">e</abbr></expan> 
+						<lb/>curauerit; Nam et de psalmo<expan><am>&#xA75D;</am><ex>rum</ex></expan> canendo<expan><am>&#xA75D;</am><ex>rum</ex></expan> <expan><am>&#xA751;</am><ex>per</ex></expan> singulos septimane 
+						<lb/>dies diuisione· Si cui melius uisum fuerit qu<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> ipse beatus pater 
+						<lb/>instituit ab<reg> </reg>ipso habet licentiam ut<reg> </reg>melius estimauerit canere; 
+						<lb/>Nec debent cogi monachi si<reg> </reg>tamen uestro sapientissimo cord<subst><del rend="alt">e</del><add place="above">i</add></subst> ita 
+						<lb/>placet qui nunc <orgName>romano</orgName> more psallunt iuxta institution<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> sacre 
+						<lb/>huius regule psalmos diuidere· sed possunt si uobis ita uidetur solito 
+						<lb/>more canentes artioris uitę normam suscipere; Direximus quo
+						<pb n="175" break="no"/>
+						<lb break="no"/>que pondo quattuor librarum· ad cuius aequalitatem ponderis 
+						<lb/>panis debeat fieri qui in quaternas quadras singula<expan><am>&#xA75D;</am><ex>rum</ex></expan> librarum 
+						<lb/>iuxta sacrę textum regule possit diuidi· quod pondus sicut ab 
+						<lb/>ipso patre est institutum in ho<add place="above">c</add> est loco re<expan><am>&#xA751;</am><ex>per</ex></expan>tum; Misimus eti<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> 
+						<lb/>mensur<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> potus quę prandio et aliam quę cenę tempore debeat fra
+						<lb break="no"/>tribus pręberi quas duas mensuras ęstimauerunt maiores <expan>n<ex>ost</ex><abbr rend="supraline">r</abbr>i</expan> 
+						<lb/>emine mensuram esse. Direximus etiam et mensur<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> unius 
+						<lb/>calicis quam obsequiaturi fratres iuxta sacrę regulę textum 
+						<lb/>solent accipere: Beatus pater noster instituit duo cocta pul
+						<lb break="no"/>mentaria in cotidiana refectione fratribus pręparari· et terti<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+						<lb/>de leguminibus crudis aqua infusis: Nos uero ex institutione maiorum nostrorum tria cocta pulmentaria aliis diebus, quarta feria et sexta feria duo tantum reficiendis fratribus praeparamus; excepto quod plures ex fratribus nostris pane tantum his diebus herbisque hortensibus uescuntur, quorum plerique etiam nec uinum bibunt. Die uero dominico et in festiuitatibus precipuis etiam quartum addimus pulmentum, exceptis secunda quarta et sexta feria. Aliis diebus prandentibus fratribus, cum uinum nobis abundat, singulas fialas miscere facimus.
+						Quod tegumentum ideo sic appellatum est, quia solebat antiquitus de illius animantis pelle fieri, quod melos propter rotunditatem sui corporis appellatur. Quod genus bestiolae a nonnullis taxus uocatur. De quo genere tegumenti nihil beatus Benedictus in sue textu regulae locutus est, ob hoc scilicet, ut conicere possumus, quia diuerso modo hoc uidit a plerisque monachis uti tegumento. Nam Galliarum monachi hoc laxius et prolixius induuntur; Itali uero monachi, sicut uos nostis, breuius huiuscemodi et strictius uestimentum habent; Greci uero propter operimentum capitis modicum quiddam tantum ante pectus et a dorso dependens; transmarini autem monachi huiusmodi operimentum pellicium habent. Ergo quia tantam in hoc monachico indumento beatus Benedictus diuersitatem uidit, unicuique monachorum, quod ex his potius elegere uelit, proprio arbitrio dereliquit. De numero autem et qualitate uestimentorum sic beatus pater noster in sua regula posuit, ut tamen in prouidentia sit abbatis, quomodo debeat pro sua unicuique distribuere necessitate. Sed et ipse pater dixit, quia in temperatis regionibus minus, in frigidis plus uestimenta sit opus haberi. Seniores tamen nostri et preteriti abbates instituerunt fratribus nostris propter diuersos labores tres tunicas habere, duas grossiores in hieme, unam subtiliorem in aestate. Similiter et in loco cocullarum duos quos nos dicimus mantos, qui ex grossiori sago fiunt, et unum in aestate subtiliorem operimentum. Cocullas autem ideo non habemus, quia maioris sunt pretii et quia nobis pater noster alias praecepit talibus uestibus uti, quales possunt in prouincia uilius emi.
+						Habent autem fratres nostri et duplicia femoralia; multi tamen ex eis Deo iuuante in tantum se continent, ut neque femoralia habeant neque amplius quam duplicia secundum regularem textum indumenta. Statuit autem uenerabilis pater, ut scapulare monachi propter opera habeant, quod ob hoc scapulare dicitur, quod scapulas praecipue tegat et caput. Quo uestimento pene omnes in hac terra rustici utuntur. Pro quo tegumento nos ex grossiori, textu ad melotum similitudinem operimentum habemus; nisi quod manicae in hoc usque ad manus pertingentes habentur. Preter haec addimus unicuique, sicut ei opus est. Nam senibus nostris gunnas pellicias tribuimus. Infirmos etiam et in culcitis iacere permittimus et unicuique omnino, sicut sua exposcit necessitas, prebemus. Concessum est etiam fratribus nostris habere manutergia siue ad tonsurae obsequium siue ad codices, quos ad legendum suscipiunt, inuoluendos. Preter regularia quoque ieiunia in uigiliis praecipuarum festiuitatum usque ad uesperam ieiunamus. Et a 
+						<pb n="179"/>
+						<lb/>uespera uigiliarum <expan><am>&#xA751;</am><ex>per</ex></expan> totam noctem et diem festiuitatis us<expan><am>&#xE8BF;</am><ex>que</ex></expan> ad com
+						<lb break="no"/>pletorii officium genua non flectimus; Dominicis quoque diebus et a 
+						<lb/><expan><abbr>d</abbr><ex>omi</ex><abbr>n</abbr><abbr rend="supraline">i</abbr></expan> natiuitate usque ad octauum diem: A<reg> </reg>pascha quoque usque 
+						<lb/>ad<reg> </reg>pentecosten similiter ad<reg> </reg>publicum officium genua non flecti
+						<lb break="no"/>mus;
+					</p>
+					<p>
+						<hi rend="enlarged bold">T</hi>extum quoque promissionis quo ordine solebant an
+						<lb break="no"/>teriores monachi regulam <expan><abbr>s</abbr><ex>an</ex><abbr>c</abbr><ex>t</ex><abbr>a</abbr><abbr rend="supraline">m</abbr></expan> in hoc loco promittere· Ecce 
+						<lb/>intra hanc epistolam in breui paginola exaratum direximus 
+						<lb/>uobis:
+					</p>
+					<div type="textpart">
+						<head rend="uncial">
+							<lb/>Exemplar promissionis sicut solebant antiqui 
+							<lb/>monachi regulam promittere·
+						</head>
+						<p>
+							<lb/><hi rend="dropcap2">I</hi>n nomine <expan><abbr>d</abbr><ex>omi</ex><abbr>n</abbr><abbr rend="supraline">i</abbr></expan> promitto me ego <expan>il<abbr rend="crossed">l</abbr><ex>e</ex></expan> in sacro monasterio beati mar
+							<lb break="no"/>tyris siue confessoris illius secundum instituta beati <persName>benedicti</persName> co
+							<lb break="no"/>ram <expan><abbr>d</abbr><ex>e</ex><abbr rend="supraline">o</abbr></expan> et <expan><abbr>s</abbr><ex>an</ex><abbr>c</abbr><ex>t</ex><abbr rend="supraline">i</abbr><abbr>s</abbr></expan> angelis eius praesente etiam abbate <expan>n<ex>ost</ex><abbr rend="supraline">r</abbr><subst><del rend="alt">o</del><add place="above">i</add></subst><!-- check --></expan> illo om
+							<lb break="no"/>nibus diebus meis in hoc <expan><abbr>s</abbr><ex>an</ex><abbr>c</abbr><ex>t</ex><abbr rend="supraline">o</abbr></expan> monasterio amodo et deinceps per
+							<lb break="no"/>seueraturum et in omni oboedientia quodc<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan>que mihi prę
+							<lb break="no"/>ceptum fuerit oboediturum. 
+						</p>
+						<p>
+							<lb/><hi rend="enlarged">E</hi>go ille talis hanc promissionem a me factam manu propria coram testibus scripsi et roboraui.
+						</p>
+					</div>
+					<div type="textpart">
+						<lg>
+							<milestone n="12" unit="section"/><l met="hexameter"><hi rend="bold">V</hi>ale salus patriae lumenque decusque tuorum:</l> 
+							<l met="pentameter">Maxime regnantum noster et altus amor:</l>
+						</lg>
+					</div>
+				</div>
+				<pb n="180"/><!-- Quite hard to read what was erased here; someone, however, must have researched this? -->
+				<div subtype="work" type="textpart">
+					Anno incarnationis domini nostri Iesu Christi DCCCXVII., imperii vero gloriosissimi principis Hludowici quarto, VI. Idus Iulias, cum in domo Aquisgrani palatii, quae Lateranis dicitur, abbates cum quam pluribus una suis residerent monachis, haec quae subsequuntur capitula communi consilio ac pari voluntate inviolabiliter a regularibus conservari decreverunt.
+					1. Ut abbates, mox ut ad monasteria sua remeaverint, regulam per singula verba discutientes pleniter legant et intelligentes, Domino opitulante, efficaciter cum monachis suis implere studeant.
+					
+					2. Ut monachi omnes qui possunt memoriter discant.
+					
+					3. Ut officium iuxta quod in regula sancti Benedicti continetur celebrent.
+					
+					4. Ut in coquina, in pistrino et in caeteris artium officinis propriis operentur manibus et vestimenta sua oportuno tempore lavent.
+					
+					5. Ut nullo umquam tempore post vigilias causa dormiendi, nisi contigerit eos ante horam constitutam surgere, ad lectos redeant suos.
+					
+					6. Ut in quadragesima, nisi in sabbato sancto, non radantur; alio autem tempore semel per quindecim dies radantur et in octavis paschae.
+					
+					7. Ut balnearum usus in arbitrio prioris consistat.
+					
+					8. Ut volatilia intus forisve, nisi pro infirmitate, nullo tempore comedant.
+					
+					9. Ut nullus episcoporum monachis volatilia comedere praecipiat.
+					
+					10. Ut poma et lactucae, nisi quando alius sumitur cibus, non comedantur.
+					
+					11. Ut certum flebotomiae tempus non observent, sed unicuique secundum quod necessitas expostulat concedatur, et specialis in cibo et in potu tunc consolatio praebeatur.
+					
+					12. Ut, si necessitas poposcerit ob operis laborem, post refectionem vespertinam etiam et in quadragesima, pari modo et quando officium mortuorum celebratur, priusquam lectio completorii legatur, bibant.
+					
+					13. Ut, cum a quocumque priore suo increpatus quis eorum fuerit, "mea culpa" primo dicat, dehinc prosternens se illius pedibus cum cappa, si habuerit, veniam petat; et tunc iubente priore surgat et, unde interrogatus fuerit, rationem humiliter reddat.
+					
+					14. Ut nudi pro qualibet culpa coram fratrum obtutibus non flagellentur.
+					
+					15. Ut soli, videlicet sine alio fratre, in viam non dirigantur.
+					
+					16. Ut sibi compatres commatresve non faciant, neque osculentur feminas.
+					
+					17. Ut, si necessitas fuerit eos occupari in fruges colligendo aut in alia opera, constitutum legendi et meridie pausandi tempus praetermittatur, et operantes non murmurent.
+					
+					18. Ut quarta et sexta feria ieiunantes ante nonam aut post nonam, si necessitas fuerit, iuxta prioris arbitrium levia opera exerceant.
+					
+					19. Ut in quadragesima libris de bibliotheca secundum prioris dispositionem acceptis alios, nisi prior decreverit expedire, non accipiant.
+					20. Ut eis vestimenta nec multum vilia nec multum pretiosa sed mediocria dentur.
+					
+					21. Ut mensura cucullae duobus consistat cubitis.
+					
+					22. Ut si infra positae mensurae quantitatem decreverit abbas causa necessitatis quippiam augeri, in illius maneat potestate.
+					
+					Alioquin hoc omnino provideat, ut camisias duas et tunicas duas et cucullas duas et cappas duas unusquisque monachorum habeat, quibus vero necesse est, addatur et tertia; et pedules quatuor paria et femoralia duo paria, roccum unum, pellicias usque ad talos duas, fasciolas duas, quibus autem necesse est itineris causa, alias duas; manicas quas vulgo wantos appellamus in aestato, et in hieme vero muffulas vervicinas; calciamenta diurna paria duo, subtalares per noctem in aestate duas, in hieme vero soccos; saponem sufficienter et uncturam; pinguedinem ad esum excepto sexta feria et viginti diebus ante nativitatem Domini et septimana illa quae ante quadragesimam vocatur quinquagesima; ubi autem vinum non est, unde emina detur, duplicem eminae mensuram de cervisa bona.
+					
+					Et quaecumque praeter haec regula iubet, singuli eorum, cum necessitas postulaverit, absque dilatione accipiant.
+					
+					23. Ut in quadragesima, sicut et in alio tempore, vicissim sibi pedes lavent et antiphonas huic officio congruentes decantent.
+					
+					In coena vero Domini pedes fratrum, si valet, abbas lavet et osculetur et demum propria manu poculum eis porrigat.
+					
+					24. Ut mandatum post coenam fiat.
+					
+					25. Ut ea quam monachi sui habent mensura sint abbates contenti in manducando, in bibendo, in dormiendo, in vestiendo, in operando, quando in aliis utilitatibus non fuerint occupati.
+					
+					26. Ut villas frequenter, et nisi necessitas coegerit, non circumeant, neque suis illas monachis custodiendas committant; et si eos ire ad eas necessitas fuerit, expleto necessitatis negotio ad sua mox monasteria redeant.
+					27. Ut abbas vel quispiam fratrum ad portam monasterii cum hospitibus non reficiat; in refectorio autem omnem eis humanitatem manducandi ac bibendi exhibeat.
+					
+					Ipse tamen ea cibi potusque mensura contentus sit, quam reliqui fratres accipiunt; si vero propter hospitem voluerit ad solitam mensuram fratribus sibique aliquid augere, in sua maneat potestate.
+					
+					28. Ut servitores non ad unam mensam sed in propriis locis post refectionem fratrum reficiant; quibus eadem lectio quae fratribus recitata est legatur.
+					
+					29. Ut lectori nihil nisi quod regula iubet detur.
+					
+					30. Ut Alleluya in septuagesima dimittatur.
+					
+					31. Ut praepositus intra et extra monasterium post abbatem maiorem reliquis abbati subditis habeat potestatem.
+					
+					32. Ut monachis nonnisi monachus constituatur praepositus.
+					
+					33. Ut de senioribus monasterium circumeuntibus quidam cum fratribus in oboedientiam exeant, quodam in monasterio propter custodiam remaneant.
+					
+					34. Ut novitio non facilis monasterii tribuatur ingressus, et ut in cella hospitum probationis causa hospitibus serviat paucis diebus; res vero, si quas habet, parentibus suis commendet. Expleto autem probationis suae anno, secundum quod regula praecipit inde faciat; ipse vero nec tundatur nec vestimenta sua pristina inmutet, priusquam oboedientiam promittat.
+					
+					35. Ut monachus, professione facta, tribus diebus cuculla coopertum habeat caput.
+					36. Ut puerorum pater aut mater tempore oblationis offerant ad altare et petitionem pro eo coram laicis testibus faciant, quam tempore intelligibili regulam observare promiserit, ipse puer confirmet.
+					
+					37. Ut infantes oblati carnem nonnisi causa infirmitatis manducent.
+					
+					38. Ut quando fratres post sextam dormiunt, si quis eorum voluerit legere, in ecclesia aut in lecto suo legat.
+					
+					39. Ut in quadragesima usque ad nonam operentur fratres, quatenus missa celebrata tempore congruo reficiant.
+					
+					40. Ut domus semota his qui fugere aut pugnis baculisve inter se voluerint confligere aut quibus ex integro factae sunt regulares disciplinae habeatur huiusmodi, qua in hieme ignis possit accendi, et atrium iuxta sit, quo possint quod eis iniungitur operari.
+					
+					41. Ut si quis neglegenter sonitum fecerit aut aliud quid excesserit in refectorio, mox a priore veniam petat.
+					
+					42. Ut nullus plebeius seu clericus secularis in monasterio ad habitandum recipiatur, nisi voluerit fieri monachus.
+					
+					43. Ut nemini liceat sermonem iuramenti aut affirmationis proferre, nisi sicut sancti patres soliti fuerunt loqui.
+					
+					44. Ut abbatibus liceat habere cellas, in quibus aut monachi sint aut canonici; et abbas praevideat, ne minus de monachis ibi habitare permittat quam sex.
+					
+					45. Ut scola in monasterio non habeatur, nisi eorum qui oblati sunt.
+					46. Ut in precipuis sollempnitatibus, id est in natale et in octavis Domini, in epiphania, in pascha quoque et ascensione Domini et in pentecosten et in sanctorum festivitatibus, id est sancti Stephani et in beati Iohannis euangelistae et in natale infantium, in purificatione et assumptione sanctae Mariae, similiter et in beatorum apostolorum festis et in sancti Iohannis baptistae nativitate, in sancti quoque Laurentii atque Martini et in sancti Benedicti, seu in natalitiis cuiuslibet sancti cuius honor in qualicumque parrochia specialiter celebratur, plenarium officium agatur et bis reficiatur.
+					
+					47. Ut in parasceue non aliud nisi panis et aqua sumatur.
+					
+					48. Ut benedictio post completorium a sacerdote dicatur.
+					
+					49. Ut de omnibus in eleemosynam datis, tam ecclesiae quam fratribus, decimae pauperibus dentur.
+					
+					50. Ut praetermissis partitionibus psalterii psalmi speciales pro eleemosynariis et defunctis cantentur.
+					
+					51. Ut in hebdomada pentecosten non flectantur genua et non ieiunetur, nisi statuti fuerint dies ieiunii.
+					
+					52. Ut laici causa manducandi ac bibendi in refectorium non ducantur.
+					
+					53. Ut quoties exposcit necessitas vestimenta et calciamenta et omnia necessaria fratribus dentur.
+					
+					54. Ut qui praeponuntur nonni vocentur: hoc ex paterna reverentia.
+					
+					55. Ut senior decanus reliquis decanis praeponatur, et abbate vel praeposito praesente locum proprium teneat.
+					56. Ut praepositus, decanus, cellararius de eorum ministerio, nisi causa utilitatis aut necessitatis, non removeantur.
+					
+					57. Ut libra panis triginta solidis per duodecim denarios metiatur.
+					
+					58. Ut dormitorium iuxta oratorium constituatur, ubi supervenientes monachi dormiant.
+					
+					59. Ut canonici abbates monachos secum in itinere, nisi ad generalem synodum, non ducant.
+					
+					60. Ut duo tantum signa ad tertiam, sextam nonamque pulsentur.
+					
+					61. Ut monachi cappas dissutas praeter villosas non habeant.
+					
+					62. Ut abbas, praepositus vel decanus, quamvis presbyteri non sint, lectoribus benedictionem tribuant.
+					
+					63. Ut docti fratres eligantur, qui cum supervenientibus monachis loquantur.
+					
+					64. Ut de furto incerto oratio primum et postea excommunicatio a corpore et sanguine Christi fiat, quousque culpabilis confiteatur.
+					
+					65. Ut si frater adversus fratrem pro qualibet culpa testimonium protulerit, fratri perfectiori credatur.
+					66. Ut psalmus invitatorius et "Gloria" pro defunctis non cantetur.
+					
+					67. Ut lector stando benedictionem postulet.
+					
+					68. Ut eulogiae fratribus a presbyteris in refectorio dentur.
+					
+					69. Ut ad capitulum primitus martyrologium legatur et dicatur versus quo silentium solvatur, deinde regula aut homelia quaelibet legatur, novissime "tu autem Domine" dicatur.
+					
+					70. Ut ad capitulum lectio tradatur, similiter ad conlationem, si tempus fuerit oportunum.
+					
+					71. Ut quando fratres aestivo tempore ieiunant, post sextam dormiant.
+					
+					72. Ut is qui noxae tenetur culpa die dominico remissius habeat et veniam non petat.
+					
+					73. Ut pro abbate defuncto anniversarium fiat officium.
+					
+					74. Ut ad missam "Sanctus" stantes et "Pater noster" genua flectentes dicant.
+					
+					75. Ut nullus pro munere recipiatur in monasterio, nisi quem bona voluntas et morum commendat probitas.
+					76. Ut unicuique fratri in cibo et in potu sua mensura separatim detur, et de ipsa mensura sibi data alicui nihil tribuat.
+					
+					[77. Ut fratres aliquid pinguedinis in victu quotidiano habeant, excepta sexta feria et diebus octo ante natale Domini et a quinquagesima usque ad pascha.
+					
+					78. Ut volatilia in natale Domini et in pascha tantum quatuor diebus, si est unde, comedant; si vero non fuerit unde, non requiratur per debitum. Si autem abbas aut monachi abstinere se voluerint, in eorum sit arbitrio.
+					
+					79. Ut muffulae vervecinae fratribus dentur.
+					
+					80. "In doctrina sua abbas apostolicam debet illam semper formulam servare, in qua dicit: "argue, obsecra, increpa," id est indisciplinatos et inquietos debet durius arguere, obedientes autem et mites et patientes, ut in melius proficiant, obsecrare.
+					
+					Negligentes vero et contemnentes ut increpet et corripiat, admonemus, neque dissimulet peccata delinquentium; sed mox ut coeperint oriri, radicitus ea, ut praevalet, amputet, memor periculi Heli sacerdotis de Silo. Improbos autem et duros ac superbos vel inobedientes verberum vel corporis castigatione in ipso initio peccati coerceat, sciens scriptum: "stultus verbis non corrigitur"; et iterum: "percute filium tuum virga, et liberabis animam eius a morte".
+					
+					"In omnibus igitur omnes magistram sequantur regulam, neque ab ea temere declinetur a quoquam.
+					
+					Nullus in monasterio proprii cordis sequatur voluntatem, neque praesumat quisquam cum abbate suo proterve infra monasterium aut foris contendere; quod si praesumpserit, regulari disciplinae subiaceat."
+					
+					"Si quis frequenter correptus pro qualibet culpa, si etiam excommunicatus non emendaverit, scrior ei accedat correctio, id est verberum vindictae in eum procedant".
+					
+					"Similiter et qui praesumpserit claustra monasterii egredi vel quocumque ire vel quippiam, quamvis parvum, sine iussione abbatis facere, vindictae regulari subiaceat."
+					"Peccantes autem coram omnibus arguantur, ut caeteri metum habeant."
+					
+					81. Ut psalmi quinque aestate ante horam primam, tempore vero hiemali post intervallum pro rege et omnibus catholicis et familiaribus et elemosinariis omni die canantur, id est: "Miserere me Deus secundum," "Deus in nomine tuo," "Miserere me Deus, miserere," "Deus misereatur noster," "Deus in adiutorium meum," et pro rege specialiter: "Exaudiat te Dominus."
+					
+					82. Ut pro omnibus defunctis catholicis psalmi quinque canantur, id est "Verba me," "Domine, ne in furore tuo," "Dilexi quoniam credidi," "De profundid," et pro omnibus defunctis seu monachis seu omnibus catholicis fidelibus christianis psalmi quinque canantur id est "Dominus regit me," "Ad te Domine levavi," "Dominus illuminatio mea," "Domine exaudi," II. "Lauda, anima mea, Dominum."
+					
+					83. Ut datam a priore saponis et uncturae mensuram et reliqua quae ibi conveniunt necessaria ad quos habeant lectos.]
+					
+					Anno incarnationis Domini nostri Iesu Christi DCCCXVII. Hludowicus serenissimus augustus, divina ordinante providentia, conventum fecit apud Aquis sedem regiam episcoporum, abbatum seu totius senatus Francorum; ubi inter ceteras dispositiones imperii statuit atque constitutum scribere fecit, quae monasteria in regno vel imperio suo dona et militiam facere possunt, quae sola dona sine militia, quae vero nec dona nec militiam sed solas orationes pro salute imperatoris vel filiorum eius et stabilitate imperii.
+					
+					Haec sunt quae dona et militiam facere debent, numero XIIII. Monasterium sancti Benedicti. Monasterium Ferrarias. Monasterium Nigelli. Monasterium sanctae crucis. Monasterium Corbeia. Monasterium sanctae Marie Suessionis. Monasterium Stabulaus. Monasterium Flaviniacum. Monasterium sancti Eugendi. Monasterium Novalicium. Ultra Rhenum. Monasterium sancti Nazarii. Monasterium Offunwilarii. In Bavaria. Monasterium Mananseo. Monasterium Tegerinseo.
+					
+					Haec sunt quae tantum dona dare debent sine militia, numero XVI. Monasterium sancti Michaelis Maresci primi. Monasterium Balma. Monasterium sancti Sequani. Monasterium Natradis. Ultra Rhenum. Monasterium Suarizaha. Monasterium sancti Bonifacii. Monasterium sancti Wigberti. In Alamannia. Monasterium Elehenwanc. Monasterium Fiuhctinwanc. Monasterium Nazaruda. Monasterium Campita. In Bavaria. Monasterium Altemburc. Monasterium Altahe. Monasterium Cremisa. Monasterium Mathaseo. Monasterium Buria.
+					
+					Haec sunt quae nec dona nec militiam dare debent, sed solas orationes pro salute imperatoris vel filiorum eius et stabilitate imperii, numero XVIII. Monasterium Melaredum. Monasterium Fossatus. Monasterium Luda. Monasterium sancti Gregorii. Monasterium sancti Mauri. Monasterium Eborreheim. Monasterium Clinga. Monasterium Saviniciaco. Monasterium Crudatis. Monasterium Dusera. Monasterium Lorwim. Ultra Rhenum. Monasterium Scewanc. Monasterium Sculturbura. In Bavaria. Monasterium Berch. Monasterium Methema. Monasterium Sconenauva. Monasterium Moseburch. Monasterium Weizzenbrunno. In Aquitania. Monasterium sancti Philiberti. Monasterium sancti Maxentii. Monasterium Carroffinii. Monasterium Brantosmurii. Monasterium sancti Savini. Monasterium sanctae crucis puellarum. Monasterium sanctae Maria in Lemovicas. Monasterium Mastracurii. Monasterium Menadinii. Monasterium Magnilocum. Monasterium Conquas. Monasterium sancti Antonii. Monasterium Musiacum. In Septimania. Monasterium sancti Aegidii in valle Flaviana. Monasterium Psalmodium. Monasterium Anianum. Monasterium sancti Tiberii. Monasterium Villamagna. Monasterium sancti Petri in Lunate. Monasterium Caunas. Monasterium Castrelli malasci. Monasterium sanctae Mariae Capariensis. Monasterium sanctae Mariae ad Orubionem. Monasterium sancti Laurentii. Monasterium sanctae Eugeniae. Monasterium sancti Hilarii. Monasterium Valle Asperii. In Tolosano. Monasterium sancti Papuli. Monasterium Suricinium. Monasterium Asilo. Monasterium Venercha. In Wasconia. Monasterium Cella fraxilii. Monasterium Cimorra. Monasterium Piciano. Monasterium Altum fragitum. Monasterium sancti Savini.
+					
+					Hic praedictis monasteriis praefatus imperator, sicut supradictum est, statutum scribi fecit atque manu sua firmavit et anulo suo imperiali sigillare fecit.
+					
+				</div>
+				<div subtype="work" type="textpart">
+					32, 3 - Ex Regula Fructuosi episcopi ex cap. XVI.
+					1 Monachus paruulorum aut adulescentium consectator uel qui osculo uel qualibet occasione turpi reprehensus fuerit inhiare, 2 comprobata patenter per accusatores uerissimos siue testes causa, publice uerberetur, coronam capitis quam gestabat amittat.
+					
+					3 Decaluatus que turpiter opprobrio pateat omnium que sputamentis oblinitus in facie probra que aeque suscipiat, uinculis que artatus ferreis carcerali sex mensibus angustia maceretur, 4 et triduana per ebdomadas singulas refectione panis exigui ordeacei uespertino tempore subleuetur.
+					
+					5 Post deinde expletis his mensibus, aliis sex mensibus succedentibus sub senioris spiritalis custodia, segregata in corticula degens opere manuum et oratione continua sit contentus.
+					
+					6 Vigiliis et fletibus et humilitate subiectus et paenitentiae lamentis ueniam percipiat, 7 et sub custodia semper et sollicitudine duorum spiritalium fratrum in monasterio ambulet, 8 nulla priuata locutione uel consilio deinceps iuuenibus coniungendus.
+				</div>
+				<div subtype="work" type="textpart">
+					<pb n="202"/>
+					<ab>
+						<hi rend="dropcap7 red knot">P</hi>restantissimo et ineffabili dilectione no
+						<lb break="no"/>minando <persName>Reginberto</persName> <expan><abbr rend="supraline">p</abbr><ex>re</ex></expan>ceptori· 
+						<lb/><persName>Grimaltus</persName> <persName>tatto</persName>que su<expan><abbr rend="supraline">p</abbr><ex>re</ex></expan>mi auditorum <expan>u<ex>est</ex><abbr rend="supraline">r</abbr>o
+							<lb break="no"/>r<abbr rend="supraline">u</abbr><ex>m</ex></expan> discipuli sempiternę felicitatis salutem. 
+						<lb/>Memoria dilectionis uestrae animis nostris sedulo inherens inmemores petitionum uestrarum promissionumque nostrarum esse non permittit. Et utinam tam proficienter quam spontanee piam uoluntatem uestram implere ualuissemus. 
+						<pb n="203"/>
+						<lb/>Ecce uobis regulam beati <persName>Benedicti</persName>, egregii doctoris, quam beniuolus animus uester summo semper optauerat desiderio, direximus, sensibus et sillabis necnon etiam litteris a supra dicto patre ni fallimur ordinatis minime carentem. Quae de illo transscripta est exemplare, quod ex ipso exemplatum est codice, quem beatus pater sacris manibus suis exarare ob multorum sanitatem animarum curauit. Illa ergo uerba, quae supra dictus pater secundum artem, sicut nonulli autumant, in contextum regulae huius non inseruit, de aliis regulis a modernis correctis magistris colleximus, et in campo paginulae e regione cum duobus punctis insere[re] curauimus. Alia etiam quae a <persName>Benedicto</persName> dictata sunt et in neotericis minime inuenta, oboelo et punctis duobus consignauimus. Hoc egimus, desiderantes uos utrumque et secundum traditionem pii patris etiam modernam habere. Eligite uobis, quod desiderabili placuerit animo. 
+						<lb/>Valete in <expan><abbr>d</abbr><ex>omi</ex><abbr rend="supraline">no</abbr></expan>.
+						<lg>
+							<l>Salue flos iuuenum, forma speciosus amoena,</l> 
+							<l>Optatam retinendo uiam uitamque salubrem.</l>
+							<l>Ecce tui humiles famuli tibi munera mittunt,</l> 
+							<l>Quae animus dudum uester optauit habere.</l>
+							<l>Omnipotens genitor, cunctum qui continet orbem,</l> 
+							<l>Te regat et seruet semper ubique sanum.</l>
+						</lg>
+					</ab>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>
