@@ -1,4 +1,3 @@
-regula-benedicti
-================
+# The Rule of St Benedict (et al.)
 
-Rule of St Benedict (et al.)
+In-progress documentary edition of the texts in [St. Gallen, Stiftsbibliothek, Cod. Sang. 914](http://dx.doi.org/10.5076/e-codices-csg-0914), using TEI/EpiDoc. This exercise has been repeated many times before, but the material would be much easier to analyse if encoded in a consistent manner. This also fills the need for a reliable electronic text of the Benedictine Rule.
